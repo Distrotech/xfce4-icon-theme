@@ -148,7 +148,7 @@ done
 
 if test x$NOCONFIGURE = x; then
   echo Running $srcdir/configure $conf_flags "$@" ...
-  $srcdir/configure $conf_flags "$@" \
+  $srcdir/configure $conf_flags --enable-maintainer-mode "$@" \
   && echo Now type \`make\' to compile. || exit 1
 else
   echo Skipping configure process.

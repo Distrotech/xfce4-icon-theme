@@ -1,5 +1,5 @@
 AC_INIT()
-AM_INIT_AUTOMAKE([xfce4-icon-theme], [4.1.0])
+AM_INIT_AUTOMAKE([xfce4-icon-theme], [4.1.1])
 
 
 AC_CONFIG_HEADER([config.h])

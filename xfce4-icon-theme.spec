@@ -1,6 +1,6 @@
 Summary: 	Icons for xfce
 Name: 		xfce4-icon-theme
-Version: 	4.1.0
+Version: 	4.1.1
 Release: 	1
 License:	GPL
 URL: 		http://www.xfce.org/
