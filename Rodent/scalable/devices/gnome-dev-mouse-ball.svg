@@ -7,13 +7,19 @@
    sodipodi:version="0.32"
    width="128pt"
    height="128pt"
-   sodipodi:docbase="/usr/share/icons/Fuzzy/scalable/devices"
+   sodipodi:docbase="/home/francois/Domus/images/dessin/Xfce/icones/essais/updated_icons"
    sodipodi:docname="gnome-dev-mouse-ball.svg"
-   inkscape:version="0.38.1"
+   inkscape:version="0.39"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:cc="http://web.resource.org/cc/"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink">
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   inkscape:export-filename="/home/francois/Domus/images/dessin/Xfce/icones/essais/updated_icons/gnome-dev-mouse-ball.png"
+   inkscape:export-xdpi="27.000000"
+   inkscape:export-ydpi="27.000000">
   <defs
      id="defs752">
     <linearGradient
@@ -142,6 +148,10 @@
      inkscape:window-x="104"
      inkscape:window-y="31" />
   <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-opacity:0.49318179;stroke-width:7.5000000;stroke-linejoin:round;stroke-linecap:round;fill-opacity:1;stroke-dasharray:none;stroke-miterlimit:4.0000000;"
+     d="M 77.739471 28.168699 C 78.279266 25.684698 76.220653 23.924514 74.244754 22.912126 C 72.533593 21.821982 70.449219 20.869223 69.635571 18.896665 C 68.499728 16.957405 67.344290 14.394805 68.778108 12.297715 C 69.716510 10.806017 70.263285 8.7348347 72.007259 8.0495662 C 73.864616 6.9248653 75.888122 6.1609805 78.098806 6.3367956 C 81.078380 6.1017361 84.017645 6.6123051 86.906268 7.2891311 C 89.049878 7.6796849 91.225707 7.8179435 93.298574 8.5483024 C 97.674221 9.6642818 101.77749 11.609640 106.10830 12.849560 C 106.10830 12.944124 106.29743 13.133251 106.39200 13.133250 "
+     id="path942" />
+  <path
      style="font-size:12.000;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:8.7500000;fill-opacity:0.4588;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:0.50000000;"
      d="M 113.3948 36.49064 C 113.3948 53.02607 116.9381 69.56150 116.9381 86.09694 C 116.9381 114.4434 102.7649 149.8764 77.96173 149.8764 C 53.15857 149.8764 38.98535 114.4434 38.98535 86.09693 C 38.98535 69.56149 42.52865 53.02607 42.52865 36.49064 C 70.87511 25.86072 85.04835 25.86072 113.3948 36.49064 z "
      id="path859"
@@ -149,7 +159,17 @@
   <path
      style="font-size:12.000;fill:url(#linearGradient771);fill-rule:evenodd;stroke:#000000;stroke-width:3.7500;fill-opacity:0.4588;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;"
      d="M 113.3948 36.49064 C 113.3948 53.02607 116.9381 69.56150 116.9381 86.09694 C 116.9381 114.4434 102.7649 149.8764 77.96173 149.8764 C 53.15857 149.8764 38.98535 114.4434 38.98535 86.09693 C 38.98535 69.56149 42.52865 53.02607 42.52865 36.49064 C 70.87511 25.86072 85.04835 25.86072 113.3948 36.49064 z "
+     id="path943"
+     sodipodi:nodetypes="cccccc" />
+  <path
+     style="font-size:12.000;fill:url(#linearGradient771);fill-rule:evenodd;stroke:#000000;stroke-width:3.7500;fill-opacity:0.4588;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;"
+     d="M 113.3948 36.49064 C 113.3948 53.02607 116.9381 69.56150 116.9381 86.09694 C 116.9381 114.4434 102.7649 149.8764 77.96173 149.8764 C 53.15857 149.8764 38.98535 114.4434 38.98535 86.09693 C 38.98535 69.56149 42.52865 53.02607 42.52865 36.49064 C 70.87511 25.86072 85.04835 25.86072 113.3948 36.49064 z "
      id="path767"
+     sodipodi:nodetypes="cccccc" />
+  <path
+     style="font-size:12.000;fill:url(#linearGradient771);fill-rule:evenodd;stroke:#000000;stroke-width:3.7500;fill-opacity:0.4588;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;"
+     d="M 113.3948 36.49064 C 113.3948 53.02607 116.9381 69.56150 116.9381 86.09694 C 116.9381 114.4434 102.7649 149.8764 77.96173 149.8764 C 53.15857 149.8764 38.98535 114.4434 38.98535 86.09693 C 38.98535 69.56149 42.52865 53.02607 42.52865 36.49064 C 70.87511 25.86072 85.04835 25.86072 113.3948 36.49064 z "
+     id="path944"
      sodipodi:nodetypes="cccccc" />
   <path
      style="font-size:12.000;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3.7500;stroke-dasharray:none;stroke-linejoin:miter;stroke-linecap:butt;"
@@ -168,4 +188,19 @@
      style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-width:3.7500;stroke-linejoin:round;stroke-linecap:round;fill-opacity:1;stroke-dasharray:none;"
      d="M 77.739471 28.168699 C 78.279266 25.684698 76.220653 23.924514 74.244754 22.912126 C 72.533593 21.821982 70.449219 20.869223 69.635571 18.896665 C 68.499728 16.957405 67.344290 14.394805 68.778108 12.297715 C 69.716510 10.806017 70.263285 8.7348347 72.007259 8.0495662 C 73.864616 6.9248653 75.888122 6.1609805 78.098806 6.3367956 C 81.078380 6.1017361 84.017645 6.6123051 86.906268 7.2891311 C 89.049878 7.6796849 91.225707 7.8179435 93.298574 8.5483024 C 97.674221 9.6642818 101.77749 11.609640 106.10830 12.849560 C 106.10830 12.944124 106.29743 13.133251 106.39200 13.133250 "
      id="path860" />
+  <metadata
+     id="metadata38">
+    <rdf:RDF
+       id="RDF39">
+      <cc:Work
+         rdf:about=""
+         id="Work40">
+        <dc:format
+           id="format41">image/svg+xml</dc:format>
+        <dc:type
+           id="type43"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

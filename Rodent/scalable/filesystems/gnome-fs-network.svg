@@ -8,12 +8,15 @@
    width="128pt"
    height="128pt"
    sodipodi:docname="gnome-fs-network.svg"
-   sodipodi:docbase="/home/francois/Documents/work/artwork/new_theme/rodent/scalable/filesystems"
-   inkscape:version="0.38.1"
+   sodipodi:docbase="/home/francois/Domus/images/dessin/Xfce/icones/essais/new_folders_2"
+   inkscape:version="0.39"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink">
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs561">
     <linearGradient
@@ -92,8 +95,8 @@
      gridspacingx="2.000000mm"
      gridspacingy="2.000000mm"
      inkscape:zoom="4.0934854"
-     inkscape:cx="64.000000"
-     inkscape:cy="24.913496"
+     inkscape:cx="63.999999"
+     inkscape:cy="54.228368"
      inkscape:window-width="846"
      inkscape:window-height="913"
      inkscape:window-x="0"
@@ -128,16 +131,6 @@
      id="path565"
      sodipodi:nodetypes="ccccc" />
   <path
-     style="font-size:12.000;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7.588369;stroke-linecap:round;stroke-linejoin:round;"
-     d="M 9.0973440,65.030241 L 56.448821,11.829891"
-     id="path570"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="font-size:12.000;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7.588369;stroke-linecap:round;stroke-linejoin:round;"
-     d="M 103.80027,11.829891 L 151.15167,65.030241"
-     id="path571"
-     sodipodi:nodetypes="cc" />
-  <path
      style="font-size:12.000;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.011782;"
      d="M 9.0973440,114.65225 L 151.15167,114.65225"
      id="path589" />
@@ -155,16 +148,6 @@
      id="path594"
      sodipodi:nodetypes="ccccc" />
   <path
-     style="font-size:12.000;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7.588369;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1.0000000;"
-     d="M 9.0973440,65.030241 L 56.448821,11.829891"
-     id="path595"
-     sodipodi:nodetypes="cc" />
-  <path
-     style="font-size:12.000;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:7.588369;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1.0000000;"
-     d="M 103.80027,11.829891 L 151.15167,65.030241"
-     id="path596"
-     sodipodi:nodetypes="cc" />
-  <path
      style="font-size:12.000;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.011782;"
      d="M 9.0973440,114.65225 L 151.15167,114.65225"
      id="path597" />
@@ -174,22 +157,37 @@
      id="path598" />
   <path
      sodipodi:type="arc"
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:11.099028;fill:#ffffff;fill-opacity:0.45033112;stroke-dasharray:none;stroke-opacity:1.0000000;"
+     style="fill:#ffffff;fill-opacity:0.45033112;fill-rule:evenodd;stroke:#000000;stroke-width:11.099028;stroke-opacity:1.0000000;"
      id="path832"
      sodipodi:cx="85.039368"
      sodipodi:cy="80.275589"
      sodipodi:rx="63.779526"
      sodipodi:ry="69.094490"
      d="M 148.81889 80.275589 A 63.779526 69.094490 0 1 0 21.259842,80.275589 A 63.779526 69.094490 0 1 0 148.81889 80.275589 z"
-     transform="matrix(0.504005,-0.418847,0.124631,0.299084,26.37917,82.58104)" />
+     transform="matrix(0.504005,-0.418847,0.124631,0.299084,26.37917,75.08104)" />
   <path
      sodipodi:type="arc"
-     style="fill-rule:evenodd;stroke:#000000;stroke-width:11.099032;fill:#ffffff;fill-opacity:0.45033112;stroke-dasharray:none;"
+     style="fill:#ffffff;fill-opacity:0.45033112;fill-rule:evenodd;stroke:#000000;stroke-width:11.099032;"
      id="path862"
      sodipodi:cx="85.039368"
      sodipodi:cy="80.275589"
      sodipodi:rx="63.779526"
      sodipodi:ry="69.094490"
      d="M 148.81889 80.275589 A 63.779526 69.094490 0 1 0 21.259842,80.275589 A 63.779526 69.094490 0 1 0 148.81889 80.275589 z"
-     transform="matrix(0.396860,0.521494,-0.304151,0.111697,69.91143,17.65760)" />
+     transform="matrix(0.396860,0.521494,-0.304151,0.111697,69.91143,10.15760)" />
+  <metadata
+     id="metadata37">
+    <rdf:RDF
+       id="RDF38">
+      <cc:Work
+         rdf:about=""
+         id="Work39">
+        <dc:format
+           id="format40">image/svg+xml</dc:format>
+        <dc:type
+           id="type42"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

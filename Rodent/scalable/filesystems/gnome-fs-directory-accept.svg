@@ -5,15 +5,18 @@
 <svg
    id="svg1"
    sodipodi:version="0.32"
-   inkscape:version="0.38.1"
+   inkscape:version="0.39"
    width="128.00000pt"
    height="128.00000pt"
-   sodipodi:docbase="/usr/share/icons/Fuzzy/scalable/filesystems"
+   sodipodi:docbase="/home/francois/Domus/images/dessin/Xfce/icones/essais/updated_icons/new_folders_2"
    sodipodi:docname="gnome-fs-directory-accept.svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink">
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs3">
     <linearGradient
@@ -90,21 +93,21 @@
          offset="0.0000000"
          id="stop567" />
       <stop
-         style="stop-color:#ffea7d;stop-opacity:1.0000000;"
-         offset="0.25000000"
-         id="stop855" />
+         style="stop-color:#e8c985;stop-opacity:1.0000000;"
+         offset="0.42785275"
+         id="stop2879" />
       <stop
-         style="stop-color:#ffbf00;stop-opacity:1.0000;"
-         offset="1"
+         style="stop-color:#d1940c;stop-opacity:1.0000000;"
+         offset="1.0000000"
          id="stop568" />
     </linearGradient>
     <linearGradient
-       xlink:href="#linearGradient855"
+       xlink:href="#linearGradient566"
        id="linearGradient589"
-       x1="0.44374999"
-       y1="0.046875000"
-       x2="0.44687501"
-       y2="1.2548263"
+       x1="0.44465292"
+       y1="-0.0047619049"
+       x2="0.44465292"
+       y2="0.24285714"
        spreadMethod="reflect" />
     <linearGradient
        xlink:href="#linearGradient867"
@@ -131,7 +134,7 @@
      snaptogrid="false"
      gridspacingx="1.0000000mm"
      gridspacingy="1.0000000mm"
-     inkscape:window-x="0"
+     inkscape:window-x="221"
      inkscape:window-y="31" />
   <path
      style="font-size:12.000;fill:#000002;fill-rule:evenodd;stroke:none;stroke-width:3.8000;stroke-linecap:round;stroke-linejoin:round;fill-opacity:0.2011;stroke-dasharray:none;"
@@ -200,6 +203,11 @@
      id="path594"
      sodipodi:nodetypes="ccccc" />
   <path
+     style="font-size:12.000000;fill:url(#linearGradient589);fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:3.7500000;stroke-linecap:round;stroke-linejoin:round;"
+     d="M 154.28574,43.190250 L 154.28573,68.982197 L 40.645248,96.568404 L 12.231454,75.190250 L 75.911961,75.190250 L 111.59974,43.190250 L 154.28574,43.190250 z "
+     id="path950"
+     sodipodi:nodetypes="ccccccc" />
+  <path
      style="font-size:12.000000;fill:url(#linearGradient859);fill-rule:evenodd;stroke:#000000;stroke-width:2.5000000;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;"
      d="M 3.7113057,57.515135 L 8.1250988,138.16818 L 152.66219,138.16818 L 156.80012,57.790997 L 3.7113057,57.515135 z "
      id="path886"
@@ -216,4 +224,19 @@
      style="font-size:12.000;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.011782;"
      d="M 9.2935815,133.76902 L 151.34791,133.76902"
      id="path598" />
+  <metadata
+     id="metadata46">
+    <rdf:RDF
+       id="RDF47">
+      <cc:Work
+         rdf:about=""
+         id="Work48">
+        <dc:format
+           id="format49">image/svg+xml</dc:format>
+        <dc:type
+           id="type51"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
