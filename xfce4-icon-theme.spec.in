@@ -1,0 +1,38 @@
+Summary: 	Icons for xffm file manager
+Name: 		xffm-icons
+Version: 	@VERSION@
+Release: 	1
+License:	GPL
+URL: 		http://www.xfce.org/
+Source0: 	%{name}-%{version}.tar.gz
+Group: 		Themes
+BuildRoot: 	%{_tmppath}/%{name}-root
+Requires:	xffm
+
+%description
+Icon themes for the xffm file manager. Part of the XFce 4 DEsktop Environment.
+
+%prep
+%setup -q
+
+%build
+%configure
+make
+
+%install
+rm -rf $RPM_BUILD_ROOT
+make install DESTDIR=$RPM_BUILD_ROOT mandir=%{_mandir}
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%post -p /sbin/ldconfig
+
+%postun -p /sbin/ldconfig
+
+%files
+%defattr(-,root,root)
+%doc README ChangeLog NEWS INSTALL COPYING AUTHORS
+%{_datadir}/xffm/
+
+

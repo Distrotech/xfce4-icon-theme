@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   id="svg1"
+   sodipodi:version="0.32"
+   inkscape:version="0.38.1"
+   width="128.00000pt"
+   height="128.00000pt"
+   sodipodi:docbase="/home/francois/waiting/new_theme/New_clock/panel_theme/Clockwork/scalable/emblems"
+   sodipodi:docname="minilock2.svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs
+     id="defs3">
+    <linearGradient
+       id="linearGradient839">
+      <stop
+         style="stop-color:#dddbdb;stop-opacity:1.0000000;"
+         offset="0.0000000"
+         id="stop840" />
+      <stop
+         style="stop-color:#989595;stop-opacity:1.0000000;"
+         offset="0.35151514"
+         id="stop835" />
+      <stop
+         style="stop-color:#767272;stop-opacity:1.0000000;"
+         offset="0.45674011"
+         id="stop836" />
+      <stop
+         style="stop-color:#545050;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop841" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient826">
+      <stop
+         style="stop-color:#fff700;stop-opacity:1.0000000;"
+         offset="0.0000000"
+         id="stop827" />
+      <stop
+         style="stop-color:#ffc900;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop828" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient839"
+       id="linearGradient829"
+       x1="0.88793105"
+       y1="0.54726368"
+       x2="-0.25000000"
+       y2="0.34825870" />
+    <linearGradient
+       xlink:href="#linearGradient839"
+       id="linearGradient838"
+       x1="0.95081967"
+       y1="0.81094527"
+       x2="-0.11403508"
+       y2="0.80597013" />
+    <linearGradient
+       xlink:href="#linearGradient839"
+       id="linearGradient842"
+       x1="-1.5666721e-17"
+       y1="0.50000000"
+       x2="1.0000000"
+       y2="0.50000000" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.2500000"
+     inkscape:cx="64.000000"
+     inkscape:cy="62.875703"
+     inkscape:window-width="959"
+     inkscape:window-height="902"
+     showgrid="true"
+     snaptogrid="true"
+     gridspacingx="1.0000000mm"
+     gridspacingy="1.0000000mm"
+     inkscape:window-x="53"
+     inkscape:window-y="38"
+     showguides="true"
+     snaptoguides="true" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:9.6338511;stroke-linejoin:round;"
+     d="M 36.949173,151.63977 L 55.793624,68.786186 C 55.793624,68.786186 41.578957,62.849067 41.578957,43.117801 C 41.578957,18.453719 60.098100,8.5880864 73.987455,8.5880864 C 87.876811,8.5880864 106.39595,18.453719 106.39595,43.117801 C 106.39595,62.849067 93.342884,68.786186 93.342884,68.786186 L 115.65552,151.63977 L 36.949173,151.63977 z "
+     id="path850"
+     sodipodi:nodetypes="cccccccc" />
+</svg>
