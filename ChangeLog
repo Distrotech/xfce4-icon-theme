@@ -1,3 +1,65 @@
+2004-11-05 00:43  kelnos
+
+	* Makefile.in, aclocal.m4, install-sh, Rodent/Makefile.in,
+	  Rodent/48x48/Makefile.in, Rodent/48x48/apps/Makefile.in,
+	  Rodent/48x48/devices/Makefile.in,
+	  Rodent/48x48/emblems/Makefile.in,
+	  Rodent/48x48/filesystems/Makefile.in,
+	  Rodent/48x48/mimetypes/Makefile.in,
+	  Rodent/48x48/misc/Makefile.in, Rodent/48x48/stock/Makefile.in,
+	  Rodent/scalable/Makefile.in, Rodent/scalable/apps/Makefile.in,
+	  Rodent/scalable/devices/Makefile.in,
+	  Rodent/scalable/emblems/Makefile.in,
+	  Rodent/scalable/filesystems/Makefile.in,
+	  Rodent/scalable/mimetypes/Makefile.in,
+	  Rodent/scalable/misc/Makefile.in,
+	  Rodent/scalable/stock/Makefile.in, mime/Makefile.in: autogen for
+	  francois
+
+2004-11-05 00:16  fleclainche
+
+	* Rodent/: 48x48/mimetypes/gnome-mime-application-x-deb.png,
+	  scalable/mimetypes/gnome-mime-application-x-deb.svg: Fixing
+	  Debian package mimetype svg icon, re-export png version.
+
+	  Could someone please run his autotools for me ? Thanks !
+
+	  About mimetypes icons, I'd like to add benny's fix in order to
+	  follow freedesktop icons names spec, but I have no idea about how
+	  to do that...
+
+2004-11-04 23:58  fleclainche
+
+	* Rodent/scalable/apps/: Makefile.am, xfce4-mixer.svg,
+	  xfce4-panel.svg, xfce4-splash.svg: Adding svg icons only for mcs
+	  plugins which do not provide a svg version already
+
+2004-11-04 23:56  fleclainche
+
+	* Rodent/48x48/apps/: Makefile.am, xfce4-mixer.png,
+	  xfce4-panel.png, xfce4-splash.png: Adding svg (plus png) icons
+	  only for mcs plugins which do not provide a svg version
+
+2004-11-04 23:55  fleclainche
+
+	* Rodent/scalable/misc/: Makefile.am, arrow.svg, backdrop.svg,
+	  calendar.svg, chooser_icon.svg, debian.svg, display.svg,
+	  file-manager.svg, iconbox.svg, keyboard.svg, menueditor.svg,
+	  mouse.svg, panel.svg: Remove several misc/ useless icons, fix
+	  debian.svg
+
+2004-11-04 23:54  fleclainche
+
+	* Rodent/48x48/misc/: Makefile.am, arrow.png, backdrop.png,
+	  calendar.png, chooser_icon.png, debian.png, display.png,
+	  file-manager.png, iconbox.png, keyboard.png, menueditor.png,
+	  mouse.png, panel.png: Remove several useless misc/ icons, fix
+	  debian icon
+
+2004-10-30 21:03  olivier
+
+	* ChangeLog: Global update for 4.1.91 (Xfce 4.2 beta 2)
+
 2004-10-29 23:08  fleclainche
 
 	* Rodent/iconrc: grrr typo.
