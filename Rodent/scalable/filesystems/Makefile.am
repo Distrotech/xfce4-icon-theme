@@ -17,19 +17,19 @@ install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(icondir)
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:blockdevice.svg ; \
-	  ln -s gnome-fs-blockdev.svg mime-inode:blockdevice.svg )
+	  $(LN_S) gnome-fs-blockdev.svg mime-inode:blockdevice.svg )
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:chardevice.svg ; \
-	  ln -s gnome-fs-blockdev.svg mime-inode:chardevice.svg )
+	  $(LN_S) gnome-fs-blockdev.svg mime-inode:chardevice.svg )
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:directory.svg ; \
-	  ln -s gnome-fs-directory.svg mime-inode:directory.svg )
+	  $(LN_S) gnome-fs-directory.svg mime-inode:directory.svg )
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:mount-point.svg ; \
-	  ln -s gnome-fs-directory.svg mime-inode:mount-point.svg )
+	  $(LN_S) gnome-fs-directory.svg mime-inode:mount-point.svg )
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:core.svg ; \
-	  ln -s gnome-fs-file-broken.svg mime-inode:core.svg )
+	  $(LN_S) gnome-fs-file-broken.svg mime-inode:core.svg )
 
 EXTRA_DIST =  $(icon_DATA)
 
