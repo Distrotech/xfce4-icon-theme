@@ -1,3 +1,81 @@
+2004-09-30 19:58  edscott
+
+	* mime/Rodent.mime.xml: tweak
+
+2004-09-29 18:48  edscott
+
+	* Makefile.in, aclocal.m4, configure, install-sh, missing,
+	  Rodent/Makefile.in, Rodent/48x48/Makefile.in,
+	  Rodent/48x48/apps/Makefile.in, Rodent/48x48/devices/Makefile.in,
+	  Rodent/48x48/emblems/Makefile.in,
+	  Rodent/48x48/filesystems/Makefile.in,
+	  Rodent/48x48/mimetypes/Makefile.in,
+	  Rodent/48x48/misc/Makefile.in, Rodent/48x48/stock/Makefile.in,
+	  Rodent/scalable/Makefile.in, Rodent/scalable/apps/Makefile.in,
+	  Rodent/scalable/devices/Makefile.in,
+	  Rodent/scalable/emblems/Makefile.in,
+	  Rodent/scalable/filesystems/Makefile.in,
+	  Rodent/scalable/mimetypes/Makefile.in,
+	  Rodent/scalable/misc/Makefile.in,
+	  Rodent/scalable/stock/Makefile.in, mime/Makefile.am,
+	  mime/Makefile.in, mime/Rodent-svg.mime.xml, mime/Rodent.mime.xml:
+	  removed Rodent.svg.mime.xml since it is no longer used (file
+	  extension is determined by xfce4-icontheme )
+
+2004-09-21 22:22  perldude
+
+	* Makefile.in, aclocal.m4, configure, install-sh, missing,
+	  Rodent/Makefile.in, Rodent/48x48/Makefile.in,
+	  Rodent/48x48/apps/Makefile.in, Rodent/48x48/devices/Makefile.in,
+	  Rodent/48x48/emblems/Makefile.in,
+	  Rodent/48x48/filesystems/Makefile.in,
+	  Rodent/48x48/mimetypes/Makefile.in,
+	  Rodent/48x48/misc/Makefile.in, Rodent/48x48/stock/Makefile.in,
+	  Rodent/scalable/Makefile.in, Rodent/scalable/apps/Makefile.in,
+	  Rodent/scalable/devices/Makefile.in,
+	  Rodent/scalable/emblems/Makefile.in,
+	  Rodent/scalable/filesystems/Makefile.in,
+	  Rodent/scalable/mimetypes/Makefile.in,
+	  Rodent/scalable/misc/Makefile.in,
+	  Rodent/scalable/stock/Makefile.in, mime/Makefile.in: run
+	  autogen.sh
+
+2004-09-21 22:14  fleclainche
+
+	* Rodent/: 48x48/misc/Makefile.am, 48x48/misc/gnome-starthere.png,
+	  scalable/misc/Makefile.am, scalable/misc/gnome-starthere.svg,
+	  scalable/misc/xfsettings.svg: Removing doubles.
+
+2004-09-21 22:04  fleclainche
+
+	* Rodent/48x48/mimetypes/: gnome-mime-text-x-c++.png,
+	  gnome-mime-text-x-c++src.png, gnome-mime-text-x-c-header.png,
+	  gnome-mime-text-x-c.png, gnome-mime-text-x-chdr.png,
+	  gnome-mime-text-x-csrc.png: Colored C* headers and src mime
+	  icons, png.
+
+2004-09-21 22:04  fleclainche
+
+	* Rodent/scalable/mimetypes/: gnome-mime-text-x-c++.svg,
+	  gnome-mime-text-x-c++src.svg, gnome-mime-text-x-c-header.svg,
+	  gnome-mime-text-x-c.svg, gnome-mime-text-x-chdr.svg,
+	  gnome-mime-text-x-csrc.svg: Colored C* headers and src icons,
+	  svg.
+
+2004-09-21 00:23  fleclainche
+
+	* Rodent/scalable/mimetypes/gnome-mime-image-x-xcf.svg: Replace
+	  buggy mime icon, svg.
+
+2004-09-21 00:22  fleclainche
+
+	* Rodent/48x48/mimetypes/gnome-mime-image-x-xcf.png: Replace buggy
+	  mime icon, png.
+
+2004-09-21 00:22  olivier
+
+	* ChangeLog: Update all ChangeLogs
+
 2004-09-20 23:38  fleclainche
 
 	* Rodent/48x48/apps/xfce-system-settings.png: Oups. Really need to
