@@ -23,14 +23,14 @@ style "icon-style" {
   stock["stock-history"] = {{ "stock_history.svg" }}
   stock["epiphany-history"] = {{ "stock_history.svg" }}
 
-  stock["gtk-dialog-info"] =   {{ "stock_dialog-info.svg" }}
-  stock["gtk-dialog-question"] = {{ "stock_dialog-question.svg" }}
-  stock["gtk-dialog-error"] =  {{ "stock_dialog-error.svg" }}
-  stock["gtk-dialog-warning"] =  {{ "stock_dialog-warning.svg" }}
+  stock["gtk-dialog-info"] =   {{ "stock_dialog_info.svg" }}
+  stock["gtk-dialog-question"] = {{ "stock_dialog_question.svg" }}
+  stock["gtk-dialog-error"] =  {{ "stock_dialog_error.svg" }}
+  stock["gtk-dialog-warning"] =  {{ "stock_dialog_warning.svg" }}
 
   stock["gtk-dnd"] = {{ "stock_dnd.svg" }} 
-  stock["gtk-dnd-multiple"] = {{ "stock_dnd-multiple.svg" }} 
-
+  stock["gtk-dnd-multiple"] = {{ "stock_dnd_multiple.svg" }} 
+  
   stock["gtk-add"] =	       {{ "stock_add.svg" }}
   stock["gtk-bold"] =	       {{ "stock_bold.svg" }} 
   stock["gtk-cancel"] =	       {{ "stock_cancel.svg" }}
@@ -57,6 +57,8 @@ style "icon-style" {
   stock["gtk-home"] =		{{ "stock_home.svg" }}
   stock["gtk-index"] =		{{ "stock_index.svg" }}
   stock["gtk-italic"] =		{{ "stock_italic.svg" }}
+  stock["rox-show-hidden"] =  {{ "rox-show-hidden.svg" }}
+  stock["rox-show-details"] =  {{ "rox-show-details.svg" }}
 
   stock["gtk-jump-to"] =	{{ "stock_jump-to.svg" }}
   stock["gtk-justify-center"] =	{{ "stock_justify-center.svg" }}
