@@ -8,8 +8,8 @@
    inkscape:version="0.38.1"
    width="128.00000pt"
    height="128.00000pt"
-   sodipodi:docbase="/home/francois/waiting/new_theme/New_clock/panel_theme/Clockwork/scalable/emblems"
-   sodipodi:docname="minipalet.svg"
+   sodipodi:docbase="/home/francois/Documents/work/artwork/new_theme/Improved/stock"
+   sodipodi:docname="stock_preferences.svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -27,18 +27,22 @@
          offset="0.50000000"
          id="stop835" />
       <stop
-         style="stop-color:#4c4c4c;stop-opacity:1.0000000;"
+         style="stop-color:#7b7979;stop-opacity:1.0000000;"
          offset="1.0000000"
          id="stop834" />
     </linearGradient>
     <linearGradient
        id="linearGradient826">
       <stop
-         style="stop-color:#fff700;stop-opacity:1.0000000;"
+         style="stop-color:#eed680;stop-opacity:1.0000000;"
          offset="0.0000000"
          id="stop827" />
       <stop
-         style="stop-color:#ffc900;stop-opacity:1.0000000;"
+         style="stop-color:#dfb546;stop-opacity:1.0000000;"
+         offset="0.34620437"
+         id="stop840" />
+      <stop
+         style="stop-color:#d1940c;stop-opacity:1.0000000;"
          offset="1.0000000"
          id="stop828" />
     </linearGradient>
@@ -65,7 +69,7 @@
        y2="0.84079599"
        spreadMethod="reflect" />
     <linearGradient
-       xlink:href="#linearGradient832"
+       xlink:href="#linearGradient826"
        id="linearGradient839"
        x1="0.44607842"
        y1="0.46766168"
@@ -109,7 +113,7 @@
      id="path834"
      sodipodi:nodetypes="ccccccccccccc" />
   <path
-     style="fill:url(#linearGradient839);fill-rule:evenodd;stroke:#000000;stroke-width:3.7500000;stroke-dasharray:none;stroke-linejoin:round;"
+     style="fill:url(#linearGradient839);fill-rule:evenodd;stroke:#000000;stroke-width:2.5000000;stroke-dasharray:none;"
      d="M 90.982021,91.555840 L 28.882244,152.68196 C 25.929333,149.76703 17.062161,152.67364 11.156338,146.84378 C 5.2505156,141.01393 8.2118651,132.27746 5.2589531,129.36254 L 67.358730,68.236411 C 73.264554,74.066268 85.076199,85.725980 90.982021,91.555840 z "
      id="path830"
      sodipodi:nodetypes="cccccc" />
