@@ -224,8 +224,8 @@
   <mime-type type="xfce/open_folder_icon" icon="gnome-fs-directory-accept.svg"/>
   <mime-type type="xfce/process_icon" icon="wksp.svg"/>
   <mime-type type="xfce/question_icon" icon="stock_dialog_question.svg"/>
-  <mime-type type="xfce/share_icon" icon="gnome-fs-smb.svg"/>
-  <mime-type type="xfce/share_open_icon" icon="gnome-fs-smb.svg"/>
+  <mime-type type="xfce/share_icon" icon="gnome-fs-network.png"/>
+  <mime-type type="xfce/share_open_icon" icon="gnome-fs-network.png"/>
   <mime-type type="xfce/up_icon" icon="stock_go-up.svg"/>
   <mime-type type="xfce/warning_icon" icon="stock_dialog_warning.svg"/>
   <mime-type type="xfce/waste_basket_empty_icon" icon="gnome-fs-trash-empty.svg"/>
