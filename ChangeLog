@@ -1,3 +1,133 @@
+2004-11-07 22:10  fleclainche
+
+	* Rodent/: 48x48/apps/xfce-mail.png, scalable/apps/xfce-mail.svg:
+	  Update *red* mail icon :P
+
+2004-11-07 09:26  jasper
+
+	* Rodent/: 48x48/stock/Makefile.in, scalable/stock/Makefile.in:
+	  autogen for francois
+
+2004-11-07 09:16  fleclainche
+
+	* Rodent/: 48x48/stock/rox-select.png,
+	  scalable/stock/rox-select.svg: Add rox-select icon.
+
+	  Could someone please run his brand new autotools for me? Thanks.
+	  Should be the last time O:)
+
+2004-11-07 09:12  fleclainche
+
+	* Rodent/: README, iconrc, iconrc-png, 48x48/stock/Makefile.am,
+	  scalable/stock/Makefile.am: Add rox-select icon, update iconrc,
+	  provide an iconrc for png icons, update README
+
+2004-11-06 23:27  fleclainche
+
+	* Rodent/: 48x48/apps/gnome-multimedia.png,
+	  48x48/apps/xfce-multimedia.png,
+	  scalable/apps/gnome-multimedia.svg,
+	  scalable/apps/xfce-multimedia.svg: hm... simple, better
+	  multimedia icon
+
+2004-11-06 22:48  fleclainche
+
+	* Rodent/: 48x48/apps/file-manager.png,
+	  48x48/apps/xfce-filemanager.png,
+	  48x48/devices/gnome-dev-keyboard.png,
+	  48x48/devices/gnome-dev-mouse-ball.png,
+	  48x48/devices/gnome-dev-mouse-optical.png,
+	  48x48/devices/gnome-dev-network.png,
+	  48x48/devices/gnome-dev-symlink.png,
+	  48x48/devices/network_fs.png,
+	  48x48/filesystems/gnome-fs-blockdev.png,
+	  48x48/filesystems/gnome-fs-directory-accept.png,
+	  48x48/filesystems/gnome-fs-directory-visiting.png,
+	  48x48/filesystems/gnome-fs-directory.png,
+	  48x48/filesystems/gnome-fs-ftp.png,
+	  48x48/filesystems/gnome-fs-home.png,
+	  48x48/filesystems/gnome-fs-network.png,
+	  48x48/filesystems/gnome-fs-nfs.png,
+	  48x48/filesystems/gnome-fs-share.png,
+	  48x48/filesystems/gnome-fs-smb.png,
+	  48x48/filesystems/gnome-fs-ssh.png,
+	  48x48/filesystems/network_fs.png,
+	  48x48/mimetypes/gnome-mime-x-directory-nfs-server.png,
+	  48x48/mimetypes/gnome-mime-x-directory-smb-server.png,
+	  48x48/mimetypes/gnome-mime-x-directory-smb-share.png,
+	  48x48/mimetypes/gnome-mime-x-directory-smb-workgroup.png,
+	  48x48/stock/stock_network.png, scalable/apps/file-manager.svg,
+	  scalable/apps/xfce-filemanager.svg,
+	  scalable/devices/gnome-dev-keyboard.svg,
+	  scalable/devices/gnome-dev-mouse-ball.svg,
+	  scalable/devices/gnome-dev-mouse-optical.svg,
+	  scalable/devices/gnome-dev-network.svg,
+	  scalable/devices/gnome-dev-symlink.svg,
+	  scalable/devices/network_fs.svg,
+	  scalable/filesystems/gnome-fs-blockdev.svg,
+	  scalable/filesystems/gnome-fs-directory-accept.svg,
+	  scalable/filesystems/gnome-fs-directory-visiting.svg,
+	  scalable/filesystems/gnome-fs-directory.svg,
+	  scalable/filesystems/gnome-fs-ftp.svg,
+	  scalable/filesystems/gnome-fs-home.svg,
+	  scalable/filesystems/gnome-fs-network.svg,
+	  scalable/filesystems/gnome-fs-nfs.svg,
+	  scalable/filesystems/gnome-fs-share.svg,
+	  scalable/filesystems/gnome-fs-smb.svg,
+	  scalable/filesystems/gnome-fs-ssh.svg,
+	  scalable/mimetypes/gnome-mime-x-directory-nfs-server.svg,
+	  scalable/mimetypes/gnome-mime-x-directory-smb-server.svg,
+	  scalable/mimetypes/gnome-mime-x-directory-smb-share.svg,
+	  scalable/mimetypes/gnome-mime-x-directory-smb-workgroup.svg,
+	  scalable/stock/stock_network.svg: Finally committing file-manager
+	  related icons. They fit better with what users expect.  Moreover,
+	  I think they look way better. If you disagree, I'll reverse the
+	  changes.
+
+2004-11-06 19:22  fleclainche
+
+	* Rodent/48x48/apps/: gnome-audio.png, gnome-lockscreen.png,
+	  gnome-multimedia.png, gnome-shutdown.png, gnome-terminal.png,
+	  keyboard.png, xfce-multimedia.png, xfce-sound.png,
+	  xfce-system-lock.png, xfce-terminal.png, xfce-unknown.png,
+	  xfce4-mixer.png: Committing several improved icons.
+
+2004-11-06 19:22  fleclainche
+
+	* Rodent/scalable/apps/: gnome-audio.svg, gnome-lockscreen.svg,
+	  gnome-multimedia.svg, gnome-shutdown.svg, gnome-terminal.svg,
+	  keyboard.svg, xfce-multimedia.svg, xfce-sound.svg,
+	  xfce-system-lock.svg, xfce-terminal.svg, xfce-unknown.svg,
+	  xfce4-mixer.svg: Comitting several improved (well, I hope) icons
+
+2004-11-06 18:32  edscott
+
+	* Rodent/: 48x48/emblems/Makefile.am, 48x48/emblems/Makefile.in,
+	  48x48/emblems/gtk-paste.png, scalable/emblems/Makefile.am,
+	  scalable/emblems/Makefile.in, scalable/emblems/gtk-paste.svg:
+	  remove misplaced icon already at stock_paste.{png|svg}
+
+2004-11-06 17:24  olivier
+
+	* ChangeLog, Makefile.in, aclocal.m4, configure, configure.ac,
+	  install-sh, missing, Rodent/Makefile.in,
+	  Rodent/48x48/Makefile.in, Rodent/48x48/apps/Makefile.in,
+	  Rodent/48x48/devices/Makefile.in,
+	  Rodent/48x48/emblems/Makefile.in,
+	  Rodent/48x48/filesystems/Makefile.in,
+	  Rodent/48x48/mimetypes/Makefile.in,
+	  Rodent/48x48/misc/Makefile.in, Rodent/48x48/stock/Makefile.in,
+	  Rodent/scalable/Makefile.in, Rodent/scalable/apps/Makefile.in,
+	  Rodent/scalable/devices/Makefile.in,
+	  Rodent/scalable/emblems/Makefile.in,
+	  Rodent/scalable/filesystems/Makefile.in,
+	  Rodent/scalable/mimetypes/Makefile.in,
+	  Rodent/scalable/misc/Makefile.in,
+	  Rodent/scalable/stock/Makefile.in, mime/Makefile.in: Update
+	  automake/autoconf/libtool/gettext versions to generate the
+	  configure scripts and Makefiles, Update versions of all packages
+	  to 4.1.99.1 (ie 4.2 RC1), Update ChangeLogs.
+
 2004-11-05 00:43  kelnos
 
 	* Makefile.in, aclocal.m4, install-sh, Rodent/Makefile.in,
