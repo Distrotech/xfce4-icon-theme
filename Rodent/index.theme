@@ -79,4 +79,13 @@ Size=48
 Context=Misc
 Type=Scalable
 
+[48x48/stock]
+Size=125
+Context=Misc
+Type=Scalable
+
+[scalable/stock]
+Size=137
+Context=Misc
+Type=Scalable
 
