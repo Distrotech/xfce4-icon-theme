@@ -1532,7 +1532,7 @@ fi
 
 # Define the identity of the package.
  PACKAGE=xfce4-icon-theme
- VERSION=4.1.99.3
+ VERSION=4.2.0
 
 
 cat >>confdefs.h <<_ACEOF
