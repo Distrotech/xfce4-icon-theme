@@ -1,3 +1,48 @@
+2004-10-29 23:08  fleclainche
+
+	* Rodent/iconrc: grrr typo.
+
+2004-10-29 22:56  fleclainche
+
+	* Rodent/: README, iconrc: Finally found the time to check the
+	  iconrc file against the Gtk documentation official list of stock
+	  icons. Updated README.
+
+2004-10-28 23:59  fleclainche
+
+	* Rodent/iconrc:
+	  Fixing some stock icon names for sure.  Trying to fix some
+	  others.  Gtk apps icon management is a pain. Or my brain is
+	  unsuitable.
+
+2004-10-24 19:45  olivier
+
+	* Rodent/: 48x48/apps/Makefile.in, scalable/apps/Makefile.in:
+	  Autogen for Francois
+
+2004-10-24 19:17  fleclainche
+
+	* Rodent/iconrc: Updated iconrc, so rox-show-hidden and
+	  rox-show-details icons are used without the need of user
+	  modification.
+
+2004-10-24 19:16  fleclainche
+
+	* Rodent/scalable/apps/: Makefile.am, gnome-info.svg: Adding
+	  gnome-info icon which was missing. Updated Makefile.am.  btw, I
+	  wonder if there is a clean way to avoid doubles.
+
+	  Could someone please run autotools for me? TIA.
+
+2004-10-24 19:14  fleclainche
+
+	* Rodent/48x48/apps/: Makefile.am, gnome-info.png: Adding
+	  gnome-info icon which was missing. Updated Makefile.am.
+
+2004-10-23 16:45  olivier
+
+	* ChangeLog: Update ChangeLog
+
 2004-10-22 22:38  olivier
 
 	* ChangeLog, configure, configure.ac: Updated versions and change
