@@ -8,8 +8,8 @@ NOTES
 This is my first icon theme. I made it mainly for fun.
 It's still a work in progress.
 
-I'm not an artist, so many icons do not show nice 3D effects.
-But I think they are clean and obvious, and that was my main goal.
+Icons do not show nice 3D effects. But I think they are clean and 
+obvious, and that was my main goal.
 
 I did my best to follow the Gnome Human Interface Guidelines :
 http://developer.gnome.org/projects/gup/hig/
@@ -30,8 +30,10 @@ INSTALL
 STOCK ICONS
 
 If you wanna use the "stock" icons of this theme:
-- copy the iconrc file from the current directory to your
-  $DATADIR/themes/favorite_theme/gtk-2.0/ directory
+- copy the iconrc file provided with this theme from the current 
+  directory to your $DATADIR/themes/favorite_theme/gtk-2.0/ directory
+- if necessary, change the path to the stock icons at the begining of 
+  the iconrc file
 - add a 'include "iconrc"' line at the begining of your
   /usr/share/themes/favorite_theme/gtk-2.0/gtkrc file
 - select your favorite theme
@@ -40,5 +42,7 @@ TODO
 
 - draw the small number of missing icons
 - clean current svg icons (arrgh!) to make the tarball smaller
-- fix size-related problems of the index.theme file and probable other bugs
-
+- fix size-related problems of the index.theme file and probable other 
+  bugs
+- check that all SVG versions for the Xfce MCS manager plugins are 
+  included
