@@ -227,7 +227,7 @@
   <mime-type type="xfce/closed_folder" icon="dir-closed.png"/>
   <mime-type type="xfce/disk" icon="f-disk.png"/>
   <mime-type type="xfce/dvd" icon="f-dvd.png"/>
-  <mime-type type="xfce/error" icon="gtk-dialog-error"/>
+  <mime-type type="xfce/error" icon="emblem-ohno.png"/>
   <mime-type type="xfce/executable" icon="gnome-fs-executable.png"/>
   <mime-type type="xfce/find_result" icon="gnome-searchtool.png"/>
   <mime-type type="xfce/floppy" icon="f-floppy.png"/>
@@ -238,12 +238,12 @@
   <mime-type type="xfce/go-jump" icon="go-jump.png"/>
   <mime-type type="xfce/go-start" icon="go-start.png"/>
   <mime-type type="xfce/go-up" icon="go-up.png"/>
-  <mime-type type="xfce/info" icon="gtk-dialog-info"/>
+  <mime-type type="xfce/info" icon="xfce-system-info.png"/>
   <mime-type type="xfce/ipc" icon="wksp.png"/>
   <mime-type type="xfce/link" icon="go-forward.png"/>
   <mime-type type="xfce/netws" icon="root_terminal.png"/>
   <mime-type type="xfce/nfs" icon="gnome-fs-nfs.png"/>
-  <mime-type type="xfce/no-access" icon="d-no-access.png"/>
+  <mime-type type="xfce/no-access" icon="emblem-nowrite.png"/>
   <mime-type type="xfce/open_folder" icon="gnome-fs-directory-visiting.png"/>
   <mime-type type="xfce/p-edit" icon="p-edit.xpm"/>
   <mime-type type="xfce/p-file1" icon="p-file1.xpm"/>
@@ -262,24 +262,25 @@
   <mime-type type="xfce/p-terminal" icon="p-terminal.png"/>
   <mime-type type="xfce/p-unknown" icon="p-unknown.xpm"/>
   <mime-type type="xfce/process" icon="wksp.png"/>
-  <mime-type type="xfce/question" icon="gtk-dialog-question"/>
+  <mime-type type="xfce/question" icon="emblem-symbolic-link.png"/>
   <mime-type type="xfce/share" icon="gnome-fs-network.png"/>
   <mime-type type="xfce/share_open" icon="gnome-fs-network.png"/>
   <mime-type type="xfce/t-exec" icon="t-exec.png"/>
   <mime-type type="xfce/t-find" icon="t-find.png"/>
   <mime-type type="xfce/t-new-directory" icon="t-new-directory.png"/>
   <mime-type type="xfce/t-new-file" icon="t-new-file.png"/>
+  <mime-type type="xfce/t-preferences" icon="emblem-distinguished.png"/>
   <mime-type type="xfce/t-quit" icon="t-quit.png"/>
   <mime-type type="xfce/t-reload" icon="t-reload.png"/>
   <mime-type type="xfce/t-terminal" icon="t-terminal.png"/>
-  <mime-type type="xfce/t-xfce-setting-show" icon="t-xfce-setting-show.png"/>
+  <mime-type type="xfce/t-xfce-setting-show" icon="xfce-utils.png"/>
   <mime-type type="xfce/t-xfdiff" icon="t-xfdiff.png"/>
   <mime-type type="xfce/t-xfmime-edit" icon="t-xfmime-edit.png"/>
   <mime-type type="xfce/t-zoom-in" icon="t-zoom-in.png"/>
   <mime-type type="xfce/t-zoom-out" icon="t-zoom-out.png"/>
   <mime-type type="xfce/t-zoom-view" icon="t-zoom-view.png"/>
   <mime-type type="xfce/unknown" icon="stock_unknown.png"/>
-  <mime-type type="xfce/warning" icon="gtk-dialog-warning"/>
+  <mime-type type="xfce/warning" icon="emblem-danger.png"/>
   <mime-type type="xfce/waste_basket_empty" icon="d-waste_basket_empty.png"/>
   <mime-type type="xfce/waste_basket_full" icon="d-waste_basket_full.png"/>
   <mime-type type="xfce/xfdiff" icon="xfdiff.png"/>
