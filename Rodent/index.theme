@@ -10,14 +10,14 @@ Directories=scalable/apps,scalable/devices,scalable/emblems,scalable/filesystems
 
 [scalable/apps]
 MinSize=1
-Size=128
+Size=-1
 MaxSize=128
 Context=Applications
 Type=scalable
 
 [scalable/devices]
 MinSize=1
-Size=128
+Size=-1
 MaxSize=128
 Context=Devices
 Type=scalable
@@ -30,21 +30,21 @@ Type=Scalable
 
 [scalable/filesystems]
 MinSize=1
-Size=128
+Size=-1
 MaxSize=128
 Context=FileSystems
 Type=Scalable
 
 [scalable/mimetypes]
 MinSize=1
-Size=128
+Size=-1
 MaxSize=128
 Context=MimeTypes
 Type=Scalable
 
 [scalable/misc]
 MinSize=1
-Size=128
+Size=-1
 MaxSize=128
 Context=Misc
 Type=Scalable
@@ -80,13 +80,13 @@ Context=Misc
 Type=Scalable
 
 [48x48/stock]
-Size=125
+Size=48
 Context=Misc
 Type=Scalable
 
 [scalable/stock]
 MinSize=1
-Size=128
+Size=-1
 MaxSize=128
 Context=Misc
 Type=Scalable
