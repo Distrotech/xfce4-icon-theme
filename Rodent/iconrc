@@ -118,6 +118,7 @@ stock["epiphany-history"] = {{ "stock_history.svg" }}
 stock["gtk-stock-dialog-warning"] = {{ "stock_dialog_warning.svg" }}
 stock["rox-show-hidden"] =  {{ "rox-show-hidden.svg" }}
 stock["rox-show-details"] =  {{ "rox-show-details.svg" }}
+stock["rox-select"] = {{ "rox-select.svg" }}
 stock["gtk-stock-ok"] =       {{ "stock_ok.svg" }}
 stock["gtk-stock-revert"] =   {{ "stock_undo.svg" }}
 stock["gtk-stock-stop"] =     {{ "stock_stop.svg" }}

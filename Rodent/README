@@ -5,8 +5,7 @@ This icon theme is released under the terms of the GNU GPL v2 or later.
 
 NOTES
 
-This is my first icon theme. I made it mainly for fun.
-It's still a work in progress.
+This is my first icon theme. It's still a work in progress.
 
 Icons do not show nice 3D effects. But I think they are clean and 
 obvious, and that was my main goal.
@@ -17,32 +16,16 @@ http://developer.gnome.org/projects/gup/hig/
 Are included:
 - about 500 icons in SVG format
 - all the corresponding copies in PNG format
-- almost all icons for a unified Gnome interface (excepted afaict the settings 
-  manager, for the time being)
-- icons for the Xfce panel version >= 4.1.6 (http://xfce.org)
-
-INSTALL
-
-- In order to use this icon theme, uncompress the tarball in 
-  your ~/.icons or /usr/share/icons directory. But note that 
-  this way, "stock" icons won't be used by gtk apps.
+- almost all icons for a unified Xfce4/Gtk2 interface
 
 STOCK ICONS
 
 If you wanna use the "stock" icons of this theme:
-- copy the iconrc file provided with this theme from the current 
-  directory to your $DATADIR/themes/favorite_theme/gtk-2.0/ directory
+- copy the iconrc (or the iconrc-png if you don't have svg support) 
+  file provided with this theme from the current directory to your 
+  $DATADIR/themes/favorite_theme/gtk-2.0/iconrc
 - if necessary, change the path to the stock icons at the begining of 
   the iconrc file
 - add a 'include "iconrc"' line at the begining of your
   /usr/share/themes/favorite_theme/gtk-2.0/gtkrc file
 - select your favorite theme
-
-TODO
-
-- draw the small number of missing icons
-- clean current svg icons (arrgh!) to make the tarball smaller
-- fix size-related problems of the index.theme file and probable other 
-  bugs
-- check that all SVG versions for the Xfce MCS manager plugins are 
-  included
