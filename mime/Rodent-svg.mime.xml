@@ -155,7 +155,7 @@
   <mime-type type="image/x-xcf" icon="gnome-mime-image-x-xcf.svg"/>
   <mime-type type="image/x-xfig" icon="gnome-mime-image-x-xfig.svg"/>
   <mime-type type="image/x-xpixmap" icon="gnome-mime-image-x-xpixmap.svg"/>
-  <mime-type type="inode/default" icon="wksp.svg"/>
+  <mime-type type="inode/default" icon="f-memory.svg"/>
   <mime-type type="inode/blockdevice" icon="gnome-fs-blockdev.svg"/>
   <mime-type type="inode/chardevice" icon="gnome-dev-keyboard.svg"/>
   <mime-type type="inode/directory" icon="gnome-fs-directory.svg"/>
