@@ -20,10 +20,6 @@ Are included:
 - almost all icons for a unified Gnome interface (excepted afaict the settings 
   manager, for the time being)
 - icons for the Xfce panel version >= 4.1.6 (http://xfce.org)
-- a complete alternative theme for Xffm >= 4.1.4 (http://xfce.org)
-- alternative icons for the Xfce MCS settings manager, if you are mad enough to
-  play with Xfce components at build time. For that, you are on your own. These 
-  icons are in the ./48x48/misc/ sub-directory.
 
 INSTALL
 
@@ -34,30 +30,15 @@ INSTALL
 STOCK ICONS
 
 If you wanna use the "stock" icons of this theme:
-- Uncompress the tarball in your $DATADIR/icons directory
-  (usually /usr/share/icons/)
 - copy the iconrc file from the current directory to your
   $DATADIR/themes/favorite_theme/gtk-2.0/ directory
 - add a 'include "iconrc"' line at the begining of your
   /usr/share/themes/favorite_theme/gtk-2.0/gtkrc file
 - select your favorite theme
 
-If it fails, check the icons permissions.
-
-XFFM ICONS
-
-If this package is installed, this will be the default theme, unless
-another is already selected. To use this theme, select it from 
-main_menu->options->themes (Rodent or Rodent-svg)
-
-
-All "fixed" icons will be replaced. Other icons used by xffm are gtk stock icons.
-Your current Gtk theme has to use Rodent stock icons (see above) for a unified 
-look.
-
 TODO
 
 - draw the small number of missing icons
 - clean current svg icons (arrgh!) to make the tarball smaller
 - fix size-related problems of the index.theme file and probable other bugs
-- understand how stock icons work to avoid the above workaround ?
+
