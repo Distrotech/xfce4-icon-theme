@@ -85,7 +85,9 @@ Context=Misc
 Type=Scalable
 
 [scalable/stock]
-Size=137
+MinSize=1
+Size=128
+MaxSize=128
 Context=Misc
 Type=Scalable
 
