@@ -9,3 +9,9 @@ rpm: dist
 	rpmbuild -ta $(PACKAGE)-$(VERSION).tar.gz
 	@rm -f $(PACKAGE)-$(VERSION).tar.gz
 
+install-data-local:
+	$(mkinstalldirs) $(DESTDIR)$(datadir)/icons
+	( cd $(DESTDIR)$(datadir)/icons; \
+	  rm -f Rodent-svg; ln -s Rodent Rodent-svg; \
+	)
+

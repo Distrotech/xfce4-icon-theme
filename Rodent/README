@@ -46,10 +46,10 @@ If it fails, check the icons permissions.
 
 XFFM ICONS
 
-To use (permanently) the included xffm theme, copy all icons from the 
-./48x48/misc/xffm/ directory to your $DATADIR/icons/Xfce/48x48/stock/ 
-directory. You *should* *backup* this directory *before*, or you *will* 
-have to *reinstall* xffm to get the previous icons back.
+If this package is installed, this will be the default theme, unless
+another is already selected. To use this theme, select it from 
+main_menu->options->themes (Rodent or Rodent-svg)
+
 
 All "fixed" icons will be replaced. Other icons used by xffm are gtk stock icons.
 Your current Gtk theme has to use Rodent stock icons (see above) for a unified 
