@@ -5,14 +5,17 @@
 <svg
    id="svg1"
    sodipodi:version="0.32"
-   inkscape:version="0.38.1"
+   inkscape:version="0.39"
    width="128.00000pt"
    height="128.00000pt"
-   sodipodi:docbase="/home/francois/waiting/new_theme/New_clock/panel_theme/Clockwork/scalable/emblems"
-   sodipodi:docname="minilock2.svg"
+   sodipodi:docbase="/usr/share/icons/Rodent/scalable/apps"
+   sodipodi:docname="xfce-system-lock.svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:cc="http://web.resource.org/cc/"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs
      id="defs3">
@@ -67,6 +70,10 @@
        y1="0.50000000"
        x2="1.0000000"
        y2="0.50000000" />
+    <sodipodi:namedview
+       id="namedview921" />
+    <defs
+       id="defs616" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -75,22 +82,55 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="6.2500000"
-     inkscape:cx="64.000000"
-     inkscape:cy="62.875703"
+     inkscape:zoom="4.4194174"
+     inkscape:cx="53.500638"
+     inkscape:cy="64.121741"
      inkscape:window-width="959"
      inkscape:window-height="902"
      showgrid="true"
      snaptogrid="true"
      gridspacingx="1.0000000mm"
      gridspacingy="1.0000000mm"
-     inkscape:window-x="53"
-     inkscape:window-y="38"
+     inkscape:window-x="71"
+     inkscape:window-y="46"
      showguides="true"
      snaptoguides="true" />
+  <metadata
+     id="metadata16">
+    <rdf:RDF
+       id="RDF17">
+      <cc:Work
+         rdf:about=""
+         id="Work18">
+        <dc:format
+           id="format19">image/svg+xml</dc:format>
+        <dc:type
+           id="type21"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     width="85.181213"
+     height="113.53229"
+     ry="192.98784"
+     x="36.377693"
+     y="11.636993"
+     style="font-size:12.000000;fill:#808080;fill-opacity:0.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:21.228745;"
+     id="rect630"
+     rx="192.98784" />
+  <rect
+     width="105.49328"
+     height="89.769791"
+     ry="32.729443"
+     x="26.667158"
+     y="64.837257"
+     style="font-size:12.000000;fill:#bab5ab;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:10.000000;stroke-miterlimit:4.0000000;stroke-dasharray:none;"
+     id="rect629"
+     rx="2.7481141" />
   <path
-     style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:9.6338511;stroke-linejoin:round;"
-     d="M 36.949173,151.63977 L 55.793624,68.786186 C 55.793624,68.786186 41.578957,62.849067 41.578957,43.117801 C 41.578957,18.453719 60.098100,8.5880864 73.987455,8.5880864 C 87.876811,8.5880864 106.39595,18.453719 106.39595,43.117801 C 106.39595,62.849067 93.342884,68.786186 93.342884,68.786186 L 115.65552,151.63977 L 36.949173,151.63977 z "
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:8.0381689;stroke-linejoin:round;stroke-miterlimit:4.0000000;"
+     d="M 57.034462,140.96479 L 71.730115,106.45545 C 71.730115,106.45545 59.806376,102.32072 59.806376,93.733146 C 59.806376,82.998685 70.894045,78.704901 79.209797,78.704901 C 87.525547,78.704901 98.613215,82.998685 98.613215,93.733146 C 98.613215,102.32072 86.531639,106.45545 86.531639,106.45545 L 104.15706,140.96479 L 57.034462,140.96479 z "
      id="path850"
      sodipodi:nodetypes="cccccccc" />
 </svg>
