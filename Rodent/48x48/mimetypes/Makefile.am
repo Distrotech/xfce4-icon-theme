@@ -59,5 +59,18 @@ gnome-mime-application-x-gzip.png                    gnome-mime-image-x-portable
 gnome-mime-application-x-kde-app-info.png            gnome-mime-image-x-portable-pixmap.png         x-gdesklets-display.png\
 gnome-mime-application-x-killustrator.png            gnome-mime-image-x-psd.png
 
+install-data-local:
+	$(mkinstalldirs) $(DESTDIR)$(icondir)
+	( cd $(DESTDIR)$(icondir) ; \
+	  icons="$(icon_DATA)" ; \
+	  for file in $$icons; do \
+	    if echo $$file | grep '^gnome-mime-[^-]*-' > /dev/null; then \
+	      ln -sf $$file `echo $$file | sed -e 's/^gnome-mime-\([^-]*\)-/mime-\1:/'` ; \
+	    elif echo $$file | grep '^gnome-mime-' > /dev/null; then \
+	      ln -sf $$file `echo $$file | sed -e 's/^gnome-//'` ; \
+	    fi \
+	  done \
+	)
+
 EXTRA_DIST =  $(icon_DATA)
 

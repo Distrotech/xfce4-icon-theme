@@ -87,5 +87,18 @@ gnome-mime-audio.svg                                 stock_run.svg\
 gnome-mime-audio-x-aiff.svg                          x-gdesklets-display.svg\
 gnome-mime-audio-x-it.svg
 
+install-data-local:
+	$(mkinstalldirs) $(DESTDIR)$(icondir)
+	( cd $(DESTDIR)$(icondir) ; \
+	  icons="$(icon_DATA)" ; \
+	  for file in $$icons; do \
+	    if echo $$file | grep '^gnome-mime-[^-]*-' > /dev/null; then \
+	      ln -sf $$file `echo $$file | sed -e 's/^gnome-mime-\([^-]*\)-/mime-\1:/'` ; \
+	    elif echo $$file | grep '^gnome-mime-' > /dev/null; then \
+	      ln -sf $$file `echo $$file | sed -e 's/^gnome-//'` ; \
+	    fi \
+	  done \
+	)
+
 EXTRA_DIST =  $(icon_DATA)
 

@@ -13,5 +13,15 @@ gnome-fs-file-broken.png         gnome-fs-trash-full.png\
 gnome-fs-ftp.png                 network_fs.png\
 gnome-fs-home.png                open_folder.png
 
+install-data-local:
+	$(mkinstalldirs) $(DESTDIR)$(icondir)
+	( cd $(DESTDIR)$(icondir) ; \
+	  ln -sf gnome-fs-blockdev.png mime-inode:blockdevice.png ; \
+	  ln -sf gnome-fs-blockdev.png mime-inode:chardevice.png ; \
+	  ln -sf gnome-fs-directory.png mime-inode:directory.png ; \
+	  ln -sf gnome-fs-directory.png mime-inode:mount-point.png ; \
+	  ln -sf gnome-fs-file-broken.png mime-inode:core.png \
+	)
+	
 EXTRA_DIST =  $(icon_DATA)
 

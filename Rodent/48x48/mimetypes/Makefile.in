@@ -305,7 +305,7 @@ info: info-am
 
 info-am:
 
-install-data-am: install-iconDATA
+install-data-am: install-data-local install-iconDATA
 
 install-exec-am:
 
@@ -335,13 +335,27 @@ uninstall-am: uninstall-iconDATA uninstall-info-am
 
 .PHONY: all all-am check check-am clean clean-generic distclean \
 	distclean-generic distdir dvi dvi-am html html-am info info-am \
-	install install-am install-data install-data-am install-exec \
-	install-exec-am install-iconDATA install-info install-info-am \
-	install-man install-strip installcheck installcheck-am \
-	installdirs maintainer-clean maintainer-clean-generic \
-	mostlyclean mostlyclean-generic pdf pdf-am ps ps-am uninstall \
-	uninstall-am uninstall-iconDATA uninstall-info-am
+	install install-am install-data install-data-am \
+	install-data-local install-exec install-exec-am \
+	install-iconDATA install-info install-info-am install-man \
+	install-strip installcheck installcheck-am installdirs \
+	maintainer-clean maintainer-clean-generic mostlyclean \
+	mostlyclean-generic pdf pdf-am ps ps-am uninstall uninstall-am \
+	uninstall-iconDATA uninstall-info-am
 
+
+install-data-local:
+	$(mkinstalldirs) $(DESTDIR)$(icondir)
+	( cd $(DESTDIR)$(icondir) ; \
+	  icons="$(icon_DATA)" ; \
+	  for file in $$icons; do \
+	    if echo $$file | grep '^gnome-mime-[^-]*-' > /dev/null; then \
+	      ln -sf $$file `echo $$file | sed -e 's/^gnome-mime-\([^-]*\)-/mime-\1:/'` ; \
+	    elif echo $$file | grep '^gnome-mime-' > /dev/null; then \
+	      ln -sf $$file `echo $$file | sed -e 's/^gnome-//'` ; \
+	    fi \
+	  done \
+	)
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
 .NOEXPORT:
