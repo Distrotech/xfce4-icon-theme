@@ -1,5 +1,5 @@
-Summary: 	Icons for xffm file manager
-Name: 		xffm-icons
+Summary: 	Icons for xfce
+Name: 		xfce4-icon-theme
 Version: 	@VERSION@
 Release: 	1
 License:	GPL
@@ -7,10 +7,10 @@ URL: 		http://www.xfce.org/
 Source0: 	%{name}-%{version}.tar.gz
 Group: 		Themes
 BuildRoot: 	%{_tmppath}/%{name}-root
-Requires:	xffm
+Requires:	xfce4-icon-theme
 
 %description
-Icon themes for the xffm file manager. Part of the XFce 4 DEsktop Environment.
+Icon theme for XFce 4 DEsktop Environment.
 
 %prep
 %setup -q
@@ -33,6 +33,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %doc README ChangeLog NEWS INSTALL COPYING AUTHORS
-%{_datadir}/xffm/
+%{_datadir}/xfce4/xfce4-icon-theme/
 
 
