@@ -5,15 +5,18 @@
 <svg
    id="svg1"
    sodipodi:version="0.32"
-   inkscape:version="0.38.1"
+   inkscape:version="0.39"
    width="128.00000pt"
    height="128.00000pt"
-   sodipodi:docbase="/usr/share/icons/Fuzzy/scalable/mimetypes"
+   sodipodi:docbase="/home/francois/Xfce/clean_CVS/xfce4/xfce4-icon-theme/Rodent/scalable/mimetypes"
    sodipodi:docname="gnome-mime-text-x-c-header.svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink">
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs3">
     <linearGradient
@@ -121,7 +124,7 @@
      gridspacingx="1.0000000mm"
      gridspacingy="1.0000000mm"
      inkscape:window-x="0"
-     inkscape:window-y="31" />
+     inkscape:window-y="40" />
   <rect
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:11.250000;stroke-dasharray:none;stroke-opacity:0.50000000;stroke-linejoin:round;"
      id="rect834"
@@ -131,7 +134,7 @@
      y="7.6377953"
      ry="22.892691" />
   <rect
-     style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:6.2500000;stroke-dasharray:none;"
+     style="fill:#eed680;fill-rule:evenodd;stroke:#000000;stroke-width:6.2500000;stroke-dasharray:none;fill-opacity:1.0000000;"
      id="rect828"
      width="128.25158"
      height="145.27559"
@@ -169,4 +172,19 @@
      style="font-size:40.000000;stroke-width:1.0000000pt;font-family:Trek;"
      d="M 111.91191,117.80548 L 111.91191,135.36548 L 106.07191,135.36548 L 106.07191,104.24548 L 111.91191,104.24548 L 111.91191,113.12548 L 119.87191,113.12548 C 121.15191,113.12548 122.31191,113.28548 123.35191,113.60548 C 124.31191,113.84548 125.20525,114.41881 126.03191,115.32548 C 126.72525,116.07215 127.20525,116.77881 127.47191,117.44548 L 127.79191,118.52548 L 127.91191,119.92548 L 127.91191,135.36548 L 122.07191,135.36548 L 122.07191,121.04548 C 122.07191,120.08548 121.77858,119.31215 121.19191,118.72548 C 120.63191,118.11215 119.81858,117.80548 118.75191,117.80548 L 111.91191,117.80548 z M 102.99191,104.24548 L 102.99191,109.60548 L 91.471914,109.60548 C 88.911914,109.60548 86.991914,110.45881 85.711914,112.16548 C 84.431914,113.87215 83.791914,116.41881 83.791914,119.80548 C 83.791914,123.21881 84.391914,125.77881 85.591914,127.48548 C 86.791914,129.19215 88.751914,130.04548 91.471914,130.04548 L 102.99191,130.04548 L 102.99191,135.36548 L 89.471914,135.36548 C 85.258581,135.36548 82.018581,134.03215 79.751914,131.36548 C 77.511914,128.67215 76.391914,124.81881 76.391914,119.80548 C 76.391914,114.73881 77.511914,110.88548 79.751914,108.24548 C 81.991914,105.57881 85.231914,104.24548 89.471914,104.24548 L 102.99191,104.24548 z "
      id="path888" />
+  <metadata
+     id="metadata32">
+    <rdf:RDF
+       id="RDF33">
+      <cc:Work
+         rdf:about=""
+         id="Work34">
+        <dc:format
+           id="format35">image/svg+xml</dc:format>
+        <dc:type
+           id="type37"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

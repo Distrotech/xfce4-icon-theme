@@ -5,15 +5,18 @@
 <svg
    id="svg1"
    sodipodi:version="0.32"
-   inkscape:version="0.38.1"
+   inkscape:version="0.39"
    width="128.00000pt"
    height="128.00000pt"
-   sodipodi:docbase="/usr/share/icons/Fuzzy/scalable/mimetypes"
+   sodipodi:docbase="/home/francois/Xfce/clean_CVS/xfce4/xfce4-icon-theme/Rodent/scalable/mimetypes"
    sodipodi:docname="gnome-mime-text-x-c++src.svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink">
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs3">
     <linearGradient
@@ -121,7 +124,7 @@
      gridspacingx="1.0000000mm"
      gridspacingy="1.0000000mm"
      inkscape:window-x="0"
-     inkscape:window-y="31" />
+     inkscape:window-y="40" />
   <rect
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:11.250000;stroke-dasharray:none;stroke-opacity:0.50000000;stroke-linejoin:round;"
      id="rect834"
@@ -131,7 +134,7 @@
      y="7.6377953"
      ry="22.892691" />
   <rect
-     style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:6.2500000;stroke-dasharray:none;"
+     style="fill:#c5d2c8;fill-rule:evenodd;stroke:#000000;stroke-width:6.2500000;stroke-dasharray:none;fill-opacity:1.0000000;"
      id="rect828"
      width="128.25158"
      height="145.27559"
@@ -169,4 +172,19 @@
      style="font-size:40.000000;stroke-width:1.0000000pt;font-family:Trek;"
      d="M 109.69288,127.72915 L 109.69288,138.84915 L 102.97288,138.84915 L 102.97288,107.72915 L 121.65288,107.72915 C 124.53288,107.72915 126.81288,108.58248 128.49288,110.28915 C 130.17288,111.96915 131.01288,114.44915 131.01288,117.72915 C 131.01288,120.98248 130.17288,123.46248 128.49288,125.16915 C 126.81288,126.87582 124.53288,127.72915 121.65288,127.72915 L 109.69288,127.72915 z M 109.69288,113.08915 L 109.69288,122.40915 L 118.61288,122.40915 C 120.07954,122.40915 121.27954,122.03582 122.21288,121.28915 C 123.14621,120.51582 123.61288,119.32915 123.61288,117.72915 C 123.61288,116.15582 123.14621,114.99582 122.21288,114.24915 C 121.30621,113.47582 120.10621,113.08915 118.61288,113.08915 L 109.69288,113.08915 z M 78.452876,127.72915 L 78.452876,138.84915 L 71.732876,138.84915 L 71.732876,107.72915 L 90.412876,107.72915 C 93.292876,107.72915 95.572876,108.58248 97.252876,110.28915 C 98.932876,111.96915 99.772876,114.44915 99.772876,117.72915 C 99.772876,120.98248 98.932876,123.46248 97.252876,125.16915 C 95.572876,126.87582 93.292876,127.72915 90.412876,127.72915 L 78.452876,127.72915 z M 78.452876,113.08915 L 78.452876,122.40915 L 87.372876,122.40915 C 88.839542,122.40915 90.039542,122.03582 90.972876,121.28915 C 91.906209,120.51582 92.372876,119.32915 92.372876,117.72915 C 92.372876,116.15582 91.906209,114.99582 90.972876,114.24915 C 90.066209,113.47582 88.866209,113.08915 87.372876,113.08915 L 78.452876,113.08915 z M 68.652876,107.72915 L 68.652876,113.08915 L 57.132876,113.08915 C 54.572876,113.08915 52.652876,113.94248 51.372876,115.64915 C 50.092876,117.35582 49.452876,119.90248 49.452876,123.28915 C 49.452876,126.70248 50.052876,129.26248 51.252876,130.96915 C 52.452876,132.67582 54.412876,133.52915 57.132876,133.52915 L 68.652876,133.52915 L 68.652876,138.84915 L 55.132876,138.84915 C 50.919542,138.84915 47.679542,137.51582 45.412876,134.84915 C 43.172876,132.15582 42.052876,128.30248 42.052876,123.28915 C 42.052876,118.22248 43.172876,114.36915 45.412876,111.72915 C 47.652876,109.06248 50.892876,107.72915 55.132876,107.72915 L 68.652876,107.72915 z "
      id="path855" />
+  <metadata
+     id="metadata32">
+    <rdf:RDF
+       id="RDF33">
+      <cc:Work
+         rdf:about=""
+         id="Work34">
+        <dc:format
+           id="format35">image/svg+xml</dc:format>
+        <dc:type
+           id="type37"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>

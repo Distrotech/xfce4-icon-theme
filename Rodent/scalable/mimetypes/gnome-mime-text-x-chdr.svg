@@ -5,15 +5,18 @@
 <svg
    id="svg1"
    sodipodi:version="0.32"
-   inkscape:version="0.38.1"
+   inkscape:version="0.39"
    width="128.00000pt"
    height="128.00000pt"
-   sodipodi:docbase="/usr/share/icons/Fuzzy/scalable/mimetypes"
+   sodipodi:docbase="/home/francois/Xfce/clean_CVS/xfce4/xfce4-icon-theme/Rodent/scalable/mimetypes"
    sodipodi:docname="gnome-mime-text-x-chdr.svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink">
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs3">
     <linearGradient
@@ -114,14 +117,14 @@
      inkscape:zoom="5.0234375"
      inkscape:cx="63.093052"
      inkscape:cy="65.393468"
-     inkscape:window-width="751"
-     inkscape:window-height="909"
+     inkscape:window-width="742"
+     inkscape:window-height="876"
      showgrid="true"
      snaptogrid="true"
      gridspacingx="1.0000000mm"
      gridspacingy="1.0000000mm"
-     inkscape:window-x="0"
-     inkscape:window-y="31" />
+     inkscape:window-x="213"
+     inkscape:window-y="119" />
   <rect
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:11.250000;stroke-dasharray:none;stroke-opacity:0.50000000;stroke-linejoin:round;"
      id="rect834"
@@ -131,7 +134,7 @@
      y="7.6377968"
      ry="22.892691" />
   <rect
-     style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:6.2500000;stroke-dasharray:none;"
+     style="fill:#eed680;fill-rule:evenodd;stroke:#000000;stroke-width:6.2500000;stroke-dasharray:none;fill-opacity:1.0000000;"
      id="rect828"
      width="128.25158"
      height="145.27559"
@@ -169,4 +172,19 @@
      style="font-size:40.000000;stroke-width:1.0000000pt;font-family:Trek;"
      d="M 101.77294,135.36548 L 101.77294,104.24548 L 108.49293,104.24548 L 108.49293,117.24548 L 121.17293,117.24548 L 121.17293,104.24548 L 127.81293,104.24548 L 127.81293,135.36548 L 121.17293,135.36548 L 121.17293,122.36548 L 108.49293,122.36548 L 108.49293,135.36548 L 101.77294,135.36548 z "
      id="path884" />
+  <metadata
+     id="metadata32">
+    <rdf:RDF
+       id="RDF33">
+      <cc:Work
+         rdf:about=""
+         id="Work34">
+        <dc:format
+           id="format35">image/svg+xml</dc:format>
+        <dc:type
+           id="type37"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
