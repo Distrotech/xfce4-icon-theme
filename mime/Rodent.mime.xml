@@ -244,7 +244,7 @@
   <mime-type type="xfce/netws" icon="root_terminal.png"/>
   <mime-type type="xfce/nfs" icon="gnome-fs-nfs.png"/>
   <mime-type type="xfce/no-access" icon="emblem-nowrite.png"/>
-  <mime-type type="xfce/open_folder" icon="gnome-fs-directory-visiting.png"/>
+  <mime-type type="xfce/open_folder" icon="open_folder.png"/>
   <mime-type type="xfce/p-edit" icon="p-edit.xpm"/>
   <mime-type type="xfce/p-file1" icon="p-file1.xpm"/>
   <mime-type type="xfce/p-file2" icon="p-file2.xpm"/>
