@@ -1,3 +1,12 @@
+2005-01-05 23:16  benny
+
+	* ChangeLog: Final updates
+
+2005-01-02 13:51  olivier
+
+	* ChangeLog, Makefile.in, configure, configure.ac: Update version
+	  and changelog
+
 2004-12-25 21:33  kelnos
 
 	* Makefile.am: fix distcheck-bz2

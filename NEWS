@@ -1,0 +1,4 @@
+4.2.0
+-----
+* New module in Xfce 4.2: Freedesktop.org icon theme with special icons for
+  Xfce; it includes both PNG and SVG icons.
