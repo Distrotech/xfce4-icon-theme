@@ -5,14 +5,17 @@
 <svg
    id="svg1"
    sodipodi:version="0.32"
-   inkscape:version="0.38.1"
+   inkscape:version="0.39"
    width="128.00000pt"
    height="128.00000pt"
-   sodipodi:docbase="/usr/share/icons/Fuzzy/scalable/emblems"
-   sodipodi:docname="gnome-mailcheck.svg"
+   sodipodi:docbase="/home/francois"
+   sodipodi:docname="xfce-mail.svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:cc="http://web.resource.org/cc/"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs
      id="defs3">
@@ -30,11 +33,11 @@
     <linearGradient
        id="linearGradient837">
       <stop
-         style="stop-color:#ffbe00;stop-opacity:1.0000000;"
+         style="stop-color:#df421e;stop-opacity:1.0000000;"
          offset="0.0000000"
          id="stop838" />
       <stop
-         style="stop-color:#fff200;stop-opacity:1.0000000;"
+         style="stop-color:#e0b6af;stop-opacity:1.0000000;"
          offset="1.0000000"
          id="stop839" />
     </linearGradient>
@@ -61,11 +64,11 @@
          id="stop832" />
     </linearGradient>
     <linearGradient
-       xlink:href="#linearGradient840"
+       xlink:href="#linearGradient837"
        id="linearGradient833"
        x1="0.88387096"
        y1="0.88059700"
-       x2="2.6596832e-18"
+       x2="8.0908587e-18"
        y2="0.14925373" />
   </defs>
   <sodipodi:namedview
@@ -77,15 +80,15 @@
      inkscape:pageshadow="2"
      inkscape:zoom="6.1875000"
      inkscape:cx="66.087064"
-     inkscape:cy="63.515152"
+     inkscape:cy="69.979798"
      inkscape:window-width="948"
      inkscape:window-height="894"
      showgrid="true"
      snaptogrid="false"
      gridspacingx="1.0000000mm"
      gridspacingy="1.0000000mm"
-     inkscape:window-x="42"
-     inkscape:window-y="38" />
+     inkscape:window-x="211"
+     inkscape:window-y="43" />
   <rect
      style="fill-rule:evenodd;stroke:none;stroke-width:3.7500000;fill:#000000;fill-opacity:0.40000001;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;stroke-opacity:1.0000000;"
      id="rect829"
@@ -115,4 +118,19 @@
      style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.1964408;"
      d="M 108.20375,71.540553 L 149.60609,101.60701"
      id="path828" />
+  <metadata
+     id="metadata22">
+    <rdf:RDF
+       id="RDF23">
+      <cc:Work
+         rdf:about=""
+         id="Work24">
+        <dc:format
+           id="format25">image/svg+xml</dc:format>
+        <dc:type
+           id="type27"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
 </svg>
