@@ -1,5 +1,5 @@
 # change the following path to fit your install
-pixmap_path "/usr/local/share/icons/Rodent/scalable/stock"
+pixmap_path "/usr/share/icons/Rodent/scalable/stock"
 
 style "icon-style" {
 
@@ -39,7 +39,7 @@ stock["gtk-go-back"] = {{ "stock_go-back.svg" }}
 stock["gtk-go-down"] = {{ "stock_go-down.svg" }}
 stock["gtk-go-forward"] = {{ "stock_go-forward.svg" }}
 stock["gtk-go-up"] = {{ "stock_go-up.svg" }}
-stock["gtk-harddisk"] = {{ "stock_harddisk" }}
+stock["gtk-harddisk"] = {{ "stock_harddisk.svg" }}
 stock["gtk-help"] = {{ "stock_help.svg" }}
 stock["gtk-home"] = {{ "stock_home.svg" }}
 stock["gtk-indent"] = {{ "stock_indent.svg" }}
@@ -54,7 +54,7 @@ stock["gtk-media-forward"] = {{"media-forward.svg"}}
 stock["gtk-media-next"] = {{"media-next.svg"}}
 stock["gtk-media-pause"] = {{"media-pause.svg"}}
 stock["gtk-media-play"] = {{"media-play.svg"}}
-stock["gtk-media-previous"] = {{"media-previous.svg"}}
+stock["gtk-media-previous"] = {{"media-prev.svg"}}
 stock["gtk-media-record"] = {{"media-record.svg"}}
 stock["gtk-media-rewind"] = {{"media-backward.svg"}}
 stock["gtk-media-stop"] = {{"media-stop.svg"}}
