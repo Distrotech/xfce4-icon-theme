@@ -1,3 +1,29 @@
+2004-10-17 21:11  edscott
+
+	* Rodent/index.theme: specify size for sizeless icons to avoid
+	  gnome from crashing...
+
+2004-10-16 16:22  edscott
+
+	* Rodent/index.theme: correct broken size field for many
+	  directories.
+
+2004-10-03 01:39  olivier
+
+	* xfce4-icon-theme.spec.in: Wrong path in spec file Wrong package
+	  depedency No need for running ldconfig in post and postun Fix
+	  Xfce spelling
+
+2004-10-02 18:09  olivier
+
+	* xfce4-icon-theme.spec: Spec file is generated, it's not in
+	  package
+
+2004-10-02 15:28  olivier
+
+	* ChangeLog, configure, configure.ac: Update all files for 4.2 beta
+	  1
+
 2004-09-30 19:58  edscott
 
 	* mime/Rodent.mime.xml: tweak
