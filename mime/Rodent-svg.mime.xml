@@ -216,13 +216,13 @@
   <mime-type type="xffm/find_result_icon" icon="gnome-searchtool.svg"/>
   <mime-type type="xffm/floppy_icon" icon="gnome-dev-floppy.svg"/>
   <mime-type type="xffm/info_icon" icon="gtk-dialog-info"/>
-  <mime-type type="xffm/ipc_icon" icon="wksp.svg"/>
+  <mime-type type="xffm/ipc_icon" icon="f-memory.svg"/>
   <mime-type type="xffm/link_icon" icon="stock_go-forward.svg"/>
   <mime-type type="xffm/netws_icon" icon="root_terminal.svg"/>
   <mime-type type="xffm/nfs_icon" icon="gnome-fs-nfs.svg"/>
   <mime-type type="xffm/no-access" icon="stock_dialog_error.svg"/>
   <mime-type type="xffm/open_folder_icon" icon="gnome-fs-directory-accept.svg"/>
-  <mime-type type="xffm/process_icon" icon="wksp.svg"/>
+  <mime-type type="xffm/process_icon" icon="f-memory.svg"/>
   <mime-type type="xffm/question_icon" icon="stock_dialog_question.svg"/>
   <mime-type type="xffm/share_icon" icon="gnome-fs-network.png"/>
   <mime-type type="xffm/share_open_icon" icon="gnome-fs-network.png"/>

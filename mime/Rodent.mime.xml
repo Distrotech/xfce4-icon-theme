@@ -239,7 +239,7 @@
   <mime-type type="xfce/go-start" icon="go-start.png"/>
   <mime-type type="xfce/go-up" icon="go-up.png"/>
   <mime-type type="xfce/info" icon="xfce-system-info.png"/>
-  <mime-type type="xfce/ipc" icon="wksp.png"/>
+  <mime-type type="xfce/ipc" icon="f-memory.png"/>
   <mime-type type="xfce/link" icon="go-forward.png"/>
   <mime-type type="xfce/netws" icon="root_terminal.png"/>
   <mime-type type="xfce/nfs" icon="gnome-fs-nfs.png"/>
@@ -261,7 +261,7 @@
   <mime-type type="xfce/p-sound" icon="p-sound.xpm"/>
   <mime-type type="xfce/p-terminal" icon="p-terminal.png"/>
   <mime-type type="xfce/p-unknown" icon="p-unknown.xpm"/>
-  <mime-type type="xfce/process" icon="wksp.png"/>
+  <mime-type type="xfce/process" icon="f-memory.png"/>
   <mime-type type="xfce/question" icon="emblem-symbolic-link.png"/>
   <mime-type type="xfce/share" icon="gnome-fs-network.png"/>
   <mime-type type="xfce/share_open" icon="gnome-fs-network.png"/>
