@@ -43,3 +43,7 @@ dist-bz2: dist
 distcheck-bz2: distcheck
 	zcat $(PACKAGE)-$(VERSION).tar.gz | \
 	 bzip2 --best -c > $(PACKAGE)-$(VERSION).tar.bz2
+
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = xfce4-icon-theme-1.0.pc
+

@@ -10,7 +10,7 @@ dnl Version information
 m4_define([xit_version_major], [4])
 m4_define([xit_version_minor], [3])
 m4_define([xit_version_micro], [0])
-m4_define([xit_version_tag], [cvs])
+m4_define([xit_version_tag], [1])
 m4_define([xit_version], [xit_version_major().xit_version_minor().xit_version_micro()xit_version_tag()])
 
 
@@ -48,6 +48,7 @@ xfce4-icon-theme.spec
 Makefile
 mime/Makefile
 po/Makefile.in
+xfce4-icon-theme-1.0.pc
 Rodent/Makefile
 Rodent/48x48/Makefile
 Rodent/48x48/apps/Makefile
