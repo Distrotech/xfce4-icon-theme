@@ -1,6 +1,6 @@
 Summary: 	Icons for Xfce
-Name: 		xfce4-icon-theme
-Version: 	@VERSION@
+Name: 		@PACKAGE_TARNAME@
+Version: 	@PACKAGE_VERSION@
 Release: 	1
 License:	GPL
 URL: 		http://www.xfce.org/

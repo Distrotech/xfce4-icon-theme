@@ -1,4 +1,9 @@
-SUBDIRS = Rodent mime
+@SET_MAKE@
+
+SUBDIRS =								\
+	Rodent								\
+	mime								\
+	po
 
 distclean-local:
 	rm -rf xfce4-icon-theme.spec *.cache *~
@@ -19,15 +24,22 @@ EXTRA_DIST =								\
 	ChangeLog							\
 	INSTALL								\
 	NEWS								\
-	NOTES								\
 	README								\
 	TODO								\
-	xfce4-icon-theme.spec 
+	intltool-extract.in						\
+	intltool-merge.in						\
+	intltool-update.in
 
-
+DISTCLEANFILES =							\
+	intltool-extract						\
+	intltool-merge							\
+	intltool-update							\
+	xfce4-icon-theme.spec
 
 dist-bz2: dist
-	zcat $(PACKAGE)-$(VERSION).tar.gz | bzip2 --best -c > $(PACKAGE)-$(VERSION).tar.bz2
+	zcat $(PACKAGE)-$(VERSION).tar.gz | \
+	 bzip2 --best -c > $(PACKAGE)-$(VERSION).tar.bz2
 
 distcheck-bz2: distcheck
-	zcat $(PACKAGE)-$(VERSION).tar.gz | bzip2 --best -c > $(PACKAGE)-$(VERSION).tar.bz2
+	zcat $(PACKAGE)-$(VERSION).tar.gz | \
+	 bzip2 --best -c > $(PACKAGE)-$(VERSION).tar.bz2
