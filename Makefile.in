@@ -549,7 +549,7 @@ rpm: dist
 install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(datadir)/icons
 	( cd $(DESTDIR)$(datadir)/icons; \
-	  rm -f Rodent-svg; ln -s Rodent Rodent-svg; \
+	  rm -f Rodent-svg; \
 	)
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.

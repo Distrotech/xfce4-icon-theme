@@ -12,6 +12,6 @@ rpm: dist
 install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(datadir)/icons
 	( cd $(DESTDIR)$(datadir)/icons; \
-	  rm -f Rodent-svg; ln -s Rodent Rodent-svg; \
+	  rm -f Rodent-svg; \
 	)
 
