@@ -93,6 +93,7 @@ stock["gtk-zoom-fit"] =	{{ "stock_zoom-fit.svg" }}
 stock["gtk-zoom-in"] = {{ "stock_zoom-in.svg" }}
 stock["gtk-zoom-out"] =	{{ "stock_zoom-out.svg" }}
 
+stock["gnome-stock-about"] = {{ "stock_about.svg" }}
 stock["gnome-stock-attach"] = {{ "stock_attach.svg" }}
 stock["gnome-stock-volume"] = {{ "stock_volume.svg" }}
 stock["gnome-stock-mic"] = {{ "stock_mic.svg" }}
