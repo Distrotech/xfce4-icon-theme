@@ -211,7 +211,7 @@
   <mime-type type="xfce/b-frequent" icon="b-frequent.png"/>
   <mime-type type="xfce/b-fstab" icon="b-fstab.png"/>
   <mime-type type="xfce/b-home" icon="b-home.png"/>
-  <mime-type type="xfce/b-network" icon="b-network.png"/>
+  <mime-type type="xfce/b-network" icon="network_fs.png"/>
   <mime-type type="xfce/b-recent" icon="b-recent.png"/>
   <mime-type type="xfce/b-trash" icon="b-trash.png"/>
   <mime-type type="xfce/b-xffm" icon="b-xffm_icon.png"/>
@@ -263,8 +263,9 @@
   <mime-type type="xfce/p-unknown" icon="p-unknown.xpm"/>
   <mime-type type="xfce/process" icon="f-memory.png"/>
   <mime-type type="xfce/question" icon="emblem-symbolic-link.png"/>
-  <mime-type type="xfce/share" icon="gnome-fs-network.png"/>
-  <mime-type type="xfce/share_open" icon="gnome-fs-network.png"/>
+  <mime-type type="xfce/share" icon="gnome-fs-smb.png"/>
+  <mime-type type="xfce/share_open" icon="gnome-fs-smb.png"/>
+  <mime-type type="xfce/sudo" icon="emblem-cool.png"/>
   <mime-type type="xfce/t-exec" icon="t-exec.png"/>
   <mime-type type="xfce/t-find" icon="t-find.png"/>
   <mime-type type="xfce/t-new-directory" icon="t-new-directory.png"/>
@@ -285,6 +286,4 @@
   <mime-type type="xfce/waste_basket_full" icon="d-waste_basket_full.png"/>
   <mime-type type="xfce/xfdiff" icon="xfdiff.png"/>
   <mime-type type="xfce/xffm" icon="xffm_icon.xpm"/>
-  <mime-type type="xfce/sudo" icon="emblem-cool.png"/>
-
 </mime-info>
