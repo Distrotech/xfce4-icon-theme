@@ -85,7 +85,8 @@ gnome-mime-audio-basic.svg                           gnome-mime-x-font-afm.svg\
 gnome-mime-audio-midi.svg                            gnome-package.svg\
 gnome-mime-audio.svg                                 stock_run.svg\
 gnome-mime-audio-x-aiff.svg                          x-gdesklets-display.svg\
-gnome-mime-audio-x-it.svg
+gnome-mime-audio-x-it.svg			     gnome-mime-application-vnd.ms-word.svg\
+gnome-mime-image-svg+xml.svg
 
 install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(icondir)

@@ -33,7 +33,8 @@ stock_clear.svg         stock_go-up.svg                   stock_print-preview.sv
 stock_close.svg         stock_harddisk.svg                stock_print.svg           volume-medium.svg\
 stock_color_picker.svg  stock_help.svg                    stock_properties.svg      volume-min.svg\
 stock_connect.svg       stock_history.svg                 stock_quit.svg            volume-mute.svg\
-stock_convert.svg       stock_home.svg                    stock_redo.svg            volume-zero.svg
+stock_convert.svg       stock_home.svg                    stock_redo.svg            volume-zero.svg\
+media-shuffle.svg	stock_repeat.svg
 
 EXTRA_DIST =  $(icon_DATA)
 

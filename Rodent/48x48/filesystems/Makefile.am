@@ -10,26 +10,29 @@ gnome-fs-directory.png           gnome-fs-smb.png\
 gnome-fs-directory-visiting.png  gnome-fs-ssh.png\
 gnome-fs-executable.png          gnome-fs-trash-empty.png\
 gnome-fs-file-broken.png         gnome-fs-trash-full.png\
-gnome-fs-ftp.png                 network_fs.png\
-gnome-fs-home.png                open_folder.png
+blockdevice.png 	 	 chardevice.png\
+core.png			 directory.png\
+mount-point.png	 		 gnome-fs-ftp.png\
+network_fs.png			 gnome-fs-home.png\
+open_folder.png
 
 install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(icondir)
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:blockdevice.png ; \
-	  $(LN_S) gnome-fs-blockdev.png mime-inode:blockdevice.png )
+	  $(LN_S) blockdevice.png mime-inode:blockdevice.png )
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:chardevice.png ; \
-	  $(LN_S) gnome-fs-blockdev.png mime-inode:chardevice.png )
+	  $(LN_S) chardevice.png mime-inode:chardevice.png )
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:directory.png ; \
-	  $(LN_S) gnome-fs-directory.png mime-inode:directory.png )
+	  $(LN_S) directory.png mime-inode:directory.png )
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:mount-point.png ; \
-	  $(LN_S) gnome-fs-directory.png mime-inode:mount-point.png )
+	  $(LN_S) mount-point.png mime-inode:mount-point.png )
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:core.png ; \
-	  $(LN_S) gnome-fs-file-broken.png mime-inode:core.png )
+	  $(LN_S) core.png mime-inode:core.png )
 	
 EXTRA_DIST =  $(icon_DATA)
 

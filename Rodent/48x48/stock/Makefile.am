@@ -33,7 +33,8 @@ stock_connect.png       stock_history.png                 stock_properties.png  
 stock_convert.png       stock_home.png                    stock_quit.png            volume-mute.png\
 stock_copy.png          stock_import.png                  stock_redo.png            volume-zero.png\
 stock_cut.png           stock_indent.png                  stock_refresh.png\
-stock_delete.png        stock_index.png                   stock_remove.png
+stock_delete.png        stock_index.png                   stock_remove.png\
+media-shuffle.png	stock_repeat.png
 
 EXTRA_DIST =  $(icon_DATA)
 

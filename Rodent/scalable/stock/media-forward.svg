@@ -1,33 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
-"http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg1"
    sodipodi:version="0.32"
-   inkscape:version="0.38.1"
+   inkscape:version="0.41"
    width="128.00000pt"
    height="128.00000pt"
-   sodipodi:docbase="/usr/share/icons/Rodent/scalable/stock"
-   sodipodi:docname="media-forward.svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink">
+   sodipodi:docbase="/home/francois/Rodent/scalable/stock"
+   sodipodi:docname="media-forward.svg">
+  <metadata
+     id="metadata36">
+    <rdf:RDF
+       id="RDF38">
+      <cc:Work
+         rdf:about=""
+         id="Work40">
+        <dc:format
+           id="format42">image/svg+xml</dc:format>
+        <dc:type
+           id="type44"
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
   <defs
      id="defs3">
     <linearGradient
-       id="linearGradient852">
+       id="linearGradient2083">
       <stop
          style="stop-color:#46a046;stop-opacity:1.0000000;"
          offset="0.0000000"
-         id="stop853" />
+         id="stop2085" />
       <stop
          style="stop-color:#64a362;stop-opacity:1.0000000;"
          offset="0.50000000"
-         id="stop860" />
+         id="stop2087" />
       <stop
          style="stop-color:#83a67f;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop2089" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient852">
+      <stop
+         style="stop-color:#4b6983;stop-opacity:1.0000000;"
+         offset="0.0000000"
+         id="stop853" />
+      <stop
+         style="stop-color:#7490aa;stop-opacity:1.0000000;"
+         offset="0.32857144"
+         id="stop2091" />
+      <stop
+         style="stop-color:#9db8d2;stop-opacity:1.0000000;"
          offset="1.0000000"
          id="stop856" />
     </linearGradient>
@@ -75,11 +107,13 @@
     <linearGradient
        xlink:href="#linearGradient852"
        id="linearGradient569"
-       x1="0.47213113"
-       y1="0.45595855"
-       x2="0.065573767"
-       y2="0.088082902"
-       spreadMethod="pad" />
+       x1="-67.727890"
+       y1="-104.79800"
+       x2="-19.336637"
+       y2="-28.178509"
+       spreadMethod="pad"
+       gradientTransform="scale(-1.058811,-0.944455)"
+       gradientUnits="userSpaceOnUse" />
     <linearGradient
        xlink:href="#linearGradient566"
        id="linearGradient589"
@@ -158,19 +192,20 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.1640625"
-     inkscape:cx="64.000000"
-     inkscape:cy="64.000000"
+     inkscape:zoom="2.9500000"
+     inkscape:cx="80.000000"
+     inkscape:cy="80.000000"
      inkscape:window-width="752"
-     inkscape:window-height="906"
+     inkscape:window-height="653"
      showgrid="true"
      snaptogrid="true"
      gridspacingx="1.0000000mm"
      gridspacingy="1.0000000mm"
      inkscape:window-x="0"
-     inkscape:window-y="31" />
+     inkscape:window-y="34"
+     inkscape:current-layer="svg1" />
   <path
-     style="fill:url(#linearGradient569);fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-width:10.000000;stroke-linejoin:round;stroke-linecap:butt;fill-opacity:0.75;stroke-dasharray:none;"
-     d="M 8.1562500 16.187500 L 8.1562500 48.062500 L 8.1562500 111.84375 L 8.1562500 143.75000 L 53.156250 114.81250 L 53.156250 143.75000 L 152.37500 79.968750 L 53.156250 16.187500 L 53.156250 45.125000 L 8.1562500 16.187500 z "
+     style="fill:url(#linearGradient569);fill-opacity:1.0;fill-rule:evenodd;stroke:#000000;stroke-width:9.4133863;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1.0000000"
+     d="M 11.896836,19.894196 L 11.896836,49.899365 L 11.896836,109.93913 L 11.896836,139.97371 L 54.257076,112.73373 L 54.257076,139.97371 L 147.65551,79.933955 L 54.257076,19.894196 L 54.257076,47.134185 L 11.896836,19.894196 z "
      id="path857" />
 </svg>

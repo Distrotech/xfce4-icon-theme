@@ -57,7 +57,8 @@ gnome-mime-application-x-gnumeric.png                gnome-mime-image-x-portable
 gnome-mime-application-x-gtktalog.png                gnome-mime-image-x-portable-bitmap.png         gnome-package.png\
 gnome-mime-application-x-gzip.png                    gnome-mime-image-x-portable-greymap.png        stock_run.png\
 gnome-mime-application-x-kde-app-info.png            gnome-mime-image-x-portable-pixmap.png         x-gdesklets-display.png\
-gnome-mime-application-x-killustrator.png            gnome-mime-image-x-psd.png
+gnome-mime-application-x-killustrator.png            gnome-mime-image-x-psd.png			    gnome-mime-application-vnd.ms-word.png\
+gnome-mime-image-svg+xml.png
 
 install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(icondir)

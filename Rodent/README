@@ -1,16 +1,13 @@
 Rodent vector icon theme
-(c) François Le Clainche <fleclainche at wanadoo.fr> - 2004
+(c) François Le Clainche <fleclainche at wanadoo.fr> - 2004 - 2005
 
 This icon theme is released under the terms of the GNU GPL v2 or later.
 
 NOTES
 
-This is my first icon theme. It's still a work in progress.
+The goal of this theme is to be clean and obvious.
 
-Icons do not show nice 3D effects. But I think they are clean and 
-obvious, and that was my main goal.
-
-I did my best to follow the Gnome Human Interface Guidelines :
+I did my best to follow the Gnome Human Interface Guidelines:
 http://developer.gnome.org/projects/gup/hig/
 
 Are included:
