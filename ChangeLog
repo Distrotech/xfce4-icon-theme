@@ -1,3 +1,8 @@
+2004-10-22 22:38  olivier
+
+	* ChangeLog, configure, configure.ac: Updated versions and change
+	  logs
+
 2004-10-17 21:11  edscott
 
 	* Rodent/index.theme: specify size for sizeless icons to avoid
