@@ -130,7 +130,17 @@ sharedstatedir = @sharedstatedir@
 sysconfdir = @sysconfdir@
 target_alias = @target_alias@
 SUBDIRS = Rodent mime
-EXTRA_DIST = xfce4-icon-theme.spec 
+EXTRA_DIST = \
+	AUTHORS								\
+	COPYING								\
+	ChangeLog							\
+	INSTALL								\
+	NEWS								\
+	NOTES								\
+	README								\
+	TODO								\
+	xfce4-icon-theme.spec 
+
 all: config.h
 	$(MAKE) $(AM_MAKEFLAGS) all-recursive
 

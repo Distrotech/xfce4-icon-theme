@@ -1,7 +1,5 @@
 SUBDIRS = Rodent mime
 
-EXTRA_DIST = xfce4-icon-theme.spec 
-
 distclean-local:
 	rm -rf xfce4-icon-theme.spec *.cache *~
 
@@ -14,4 +12,16 @@ install-data-local:
 	( cd $(DESTDIR)$(datadir)/icons; \
 	  rm -f Rodent-svg; \
 	)
+
+EXTRA_DIST =								\
+	AUTHORS								\
+	COPYING								\
+	ChangeLog							\
+	INSTALL								\
+	NEWS								\
+	NOTES								\
+	README								\
+	TODO								\
+	xfce4-icon-theme.spec 
+
 
