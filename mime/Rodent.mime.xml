@@ -269,7 +269,7 @@
   <mime-type type="xfce/t-find" icon="t-find.png"/>
   <mime-type type="xfce/t-new-directory" icon="t-new-directory.png"/>
   <mime-type type="xfce/t-new-file" icon="t-new-file.png"/>
-  <mime-type type="xfce/t-preferences" icon="emblem-distinguished.png"/>
+  <mime-type type="xfce/t-preferences" icon="settings.png"/>
   <mime-type type="xfce/t-quit" icon="t-quit.png"/>
   <mime-type type="xfce/t-reload" icon="t-reload.png"/>
   <mime-type type="xfce/t-terminal" icon="t-terminal.png"/>
