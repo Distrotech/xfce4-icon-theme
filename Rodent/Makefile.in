@@ -13,6 +13,7 @@
 # PARTICULAR PURPOSE.
 
 @SET_MAKE@
+
 srcdir = @srcdir@
 top_srcdir = @top_srcdir@
 VPATH = @srcdir@
@@ -51,6 +52,9 @@ RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \
 	install-recursive installcheck-recursive installdirs-recursive \
 	pdf-recursive ps-recursive uninstall-info-recursive \
 	uninstall-recursive
+am__installdirs = "$(DESTDIR)$(indexdir)"
+indexDATA_INSTALL = $(INSTALL_DATA)
+DATA = $(index_DATA)
 ETAGS = etags
 CTAGS = ctags
 DIST_SUBDIRS = $(SUBDIRS)
@@ -110,7 +114,10 @@ sbindir = @sbindir@
 sharedstatedir = @sharedstatedir@
 sysconfdir = @sysconfdir@
 target_alias = @target_alias@
+indexdir = $(datadir)/icons/Rodent
 SUBDIRS = 48x48 scalable
+index_DATA = index.theme
+EXTRA_DIST = $(index_DATA)
 all: all-recursive
 
 .SUFFIXES:
@@ -144,6 +151,23 @@ $(top_srcdir)/configure: @MAINTAINER_MODE_TRUE@ $(am__configure_deps)
 $(ACLOCAL_M4): @MAINTAINER_MODE_TRUE@ $(am__aclocal_m4_deps)
 	cd $(top_builddir) && $(MAKE) $(AM_MAKEFLAGS) am--refresh
 uninstall-info-am:
+install-indexDATA: $(index_DATA)
+	@$(NORMAL_INSTALL)
+	test -z "$(indexdir)" || $(mkdir_p) "$(DESTDIR)$(indexdir)"
+	@list='$(index_DATA)'; for p in $$list; do \
+	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+	  f="`echo $$p | sed -e 's|^.*/||'`"; \
+	  echo " $(indexDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(indexdir)/$$f'"; \
+	  $(indexDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(indexdir)/$$f"; \
+	done
+
+uninstall-indexDATA:
+	@$(NORMAL_UNINSTALL)
+	@list='$(index_DATA)'; for p in $$list; do \
+	  f="`echo $$p | sed -e 's|^.*/||'`"; \
+	  echo " rm -f '$(DESTDIR)$(indexdir)/$$f'"; \
+	  rm -f "$(DESTDIR)$(indexdir)/$$f"; \
+	done
 
 # This directory's subdirectories are mostly independent; you can cd
 # into them and run `make' without going through this Makefile.
@@ -303,9 +327,12 @@ distdir: $(DISTFILES)
 	done
 check-am: all-am
 check: check-recursive
-all-am: Makefile
+all-am: Makefile $(DATA)
 installdirs: installdirs-recursive
 installdirs-am:
+	for dir in "$(DESTDIR)$(indexdir)"; do \
+	  test -z "$$dir" || $(mkdir_p) "$$dir"; \
+	done
 install: install-recursive
 install-exec: install-exec-recursive
 install-data: install-data-recursive
@@ -348,7 +375,7 @@ info: info-recursive
 
 info-am:
 
-install-data-am:
+install-data-am: install-indexDATA
 
 install-exec-am:
 
@@ -374,7 +401,7 @@ ps: ps-recursive
 
 ps-am:
 
-uninstall-am: uninstall-info-am
+uninstall-am: uninstall-indexDATA uninstall-info-am
 
 uninstall-info: uninstall-info-recursive
 
@@ -383,12 +410,13 @@ uninstall-info: uninstall-info-recursive
 	distclean distclean-generic distclean-recursive distclean-tags \
 	distdir dvi dvi-am html html-am info info-am install \
 	install-am install-data install-data-am install-exec \
-	install-exec-am install-info install-info-am install-man \
-	install-strip installcheck installcheck-am installdirs \
-	installdirs-am maintainer-clean maintainer-clean-generic \
-	maintainer-clean-recursive mostlyclean mostlyclean-generic \
-	mostlyclean-recursive pdf pdf-am ps ps-am tags tags-recursive \
-	uninstall uninstall-am uninstall-info-am
+	install-exec-am install-indexDATA install-info install-info-am \
+	install-man install-strip installcheck installcheck-am \
+	installdirs installdirs-am maintainer-clean \
+	maintainer-clean-generic maintainer-clean-recursive \
+	mostlyclean mostlyclean-generic mostlyclean-recursive pdf \
+	pdf-am ps ps-am tags tags-recursive uninstall uninstall-am \
+	uninstall-indexDATA uninstall-info-am
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
