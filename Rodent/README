@@ -3,26 +3,34 @@ Rodent vector icon theme
 
 This icon theme is released under the terms of the GNU GPL v2 or later.
 
+
 NOTES
 
 The goal of this theme is to be clean and obvious.
 
-I did my best to follow the Gnome Human Interface Guidelines:
-http://developer.gnome.org/projects/gup/hig/
+I did my best to follow the relevant icon section of the Gnome 
+Human Interface Guidelines, in particular regarding the colors:
+http://developer.gnome.org/projects/gup/images/ximian-palette
 
 Are included:
-- about 500 icons in SVG format
+- approximately 500 icons in SVG format
 - all the corresponding copies in PNG format
 - almost all icons for a unified Xfce4/Gtk2 interface
 
+
 STOCK ICONS
 
-If you wanna use the "stock" icons of this theme:
-- copy the iconrc (or the iconrc-png if you don't have svg support) 
-  file provided with this theme from the current directory to your 
-  $DATADIR/themes/favorite_theme/gtk-2.0/iconrc
-- if necessary, change the path to the stock icons at the begining of 
-  the iconrc file
-- add a 'include "iconrc"' line at the begining of your
-  /usr/share/themes/favorite_theme/gtk-2.0/gtkrc file
-- select your favorite theme
+If you want to use the "stock" icons of this theme, you 
+must add the path to the Rodent iconrc file to your 
+$DATADIR/themes/favorite_theme/gtk-2.0/gtkrc file.
+
+To achieve this, add one of the following lines at the top 
+of your gtkrc:
+
+include "$DATADIR/icons/Rodent/iconrc"
+
+or, if your system does not support the SVG format:
+
+include "$DATADIR/icons/Rodent/iconrc-png"
+
+where $DATADIR is usually /usr/share or /usr/local/share.
