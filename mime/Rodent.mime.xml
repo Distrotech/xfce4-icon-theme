@@ -285,4 +285,6 @@
   <mime-type type="xfce/waste_basket_full" icon="d-waste_basket_full.png"/>
   <mime-type type="xfce/xfdiff" icon="xfdiff.png"/>
   <mime-type type="xfce/xffm" icon="xffm_icon.xpm"/>
+  <mime-type type="xfce/sudo" icon="emblem-cool.png"/>
+
 </mime-info>
