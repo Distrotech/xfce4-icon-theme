@@ -106,14 +106,14 @@ sysconfdir = @sysconfdir@
 target_alias = @target_alias@
 icondir = $(datadir)/icons/Rodent/scalable/stock
 icon_DATA = \
-b-recent.svg           stock_cdrom.svg                   stock_harddisk.svg        stock_quit.svg\
-c-gid.svg              stock_clear.svg                   stock_help.svg            stock_redo.svg\
-c-name.svg             stock_close.svg                   stock_history.svg         stock_refresh.svg\
-c-size.svg             stock_color_picker.svg            stock_home.svg            stock_remove.svg\
-c-time.svg             stock_connect.svg                 stock_import.svg          stock_reset.svg\
-c-uid.svg              stock_convert.svg                 stock_indent.svg          stock_revert-to-saved.svg\
-diff.svg               stock_copy.svg                    stock_index.svg           stock_run.svg\
-d-symlink-broken.svg   stock_cut.svg                     stock_insert-image.svg    stock_save-as.svg\
+stock_cdrom.svg                   stock_harddisk.svg        stock_quit.svg\
+stock_clear.svg                   stock_help.svg            stock_redo.svg\
+stock_close.svg                   stock_history.svg         stock_refresh.svg\
+stock_color_picker.svg            stock_home.svg            stock_remove.svg\
+stock_connect.svg                 stock_import.svg          stock_reset.svg\
+stock_convert.svg                 stock_indent.svg          stock_revert-to-saved.svg\
+stock_copy.svg                    stock_index.svg           stock_run.svg\
+stock_cut.svg                     stock_insert-image.svg    stock_save-as.svg\
 media-backward.svg     stock_delete.svg                  stock_insert-object.svg   stock_save.svg\
 media-eject.svg        stock_dialog_authentication.svg   stock_insert-table.svg    stock_screenshot.svg\
 media-forward.svg      stock_dialog_error.svg            stock_internet.svg        stock_search.svg\
@@ -126,7 +126,7 @@ media-stop.svg         stock_dnd.svg                     stock_justify-right.svg
 m-font.svg             stock_download.svg                stock_line-in.svg         stock_strikethrough.svg\
 m-lock.svg             stock_edit.svg                    stock_logout.svg          stock_undelete.svg\
 m-spreadsheet.svg      stock_epiphany-bookmark-page.svg  stock_mailto.svg          stock_underline.svg\
-p-new-directory.svg    stock_execute.svg                 stock_mic.svg             stock_undo.svg\
+stock_execute.svg                 stock_mic.svg             stock_undo.svg\
 rox-show-details.svg   stock_export.svg                  stock_missing-image.svg   stock_unindent.svg\
 rox-show-hidden.svg    stock_find-and-replace.svg        stock_multimedia.svg      stock_unknown.svg\
 stock_about.svg        stock_find.svg                    stock_network.svg         stock_volume.svg\
