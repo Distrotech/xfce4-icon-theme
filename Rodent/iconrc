@@ -15,22 +15,23 @@ style "icon-style" {
   stock["stock_new_tab"] = {{ "stock_new-tab.svg" }}
   stock["epiphany-bookmarks"] = {{ "stock_book.svg" }}
   stock["epiphany-bookmark-page"] = {{ "stock_epiphany-bookmark-page.svg" }}
+  stock["stock_add-bookmark"] = {{ "stock_epiphany-bookmark-page.svg" }}
   stock["epiphany-new-tab"] = {{ "stock_new-tab.svg" }}
   stock["stock-mailto"] = {{ "stock_mailto.svg" }}
+  stock["stock_mail-send"] = {{ "stock_mailto.svg" }}
+  stock["stock_view-html-source"] = {{ "rox-show-details.svg" }}
   stock["stock-download"] = {{ "stock_download.svg" }}
   stock["epiphany-download"] = {{ "stock_download.svg" }}
   stock["epiphany-mailto"] = {{ "stock_mailto.svg" }}
   stock["stock-history"] = {{ "stock_history.svg" }}
   stock["epiphany-history"] = {{ "stock_history.svg" }}
-
   stock["gtk-dialog-info"] =   {{ "stock_dialog_info.svg" }}
   stock["gtk-dialog-question"] = {{ "stock_dialog_question.svg" }}
   stock["gtk-dialog-error"] =  {{ "stock_dialog_error.svg" }}
   stock["gtk-dialog-warning"] =  {{ "stock_dialog_warning.svg" }}
-
+  stock["gtk-stock-dialog-warning"] = {{ "stock_dialog_warning.svg" }}
   stock["gtk-dnd"] = {{ "stock_dnd.svg" }} 
   stock["gtk-dnd-multiple"] = {{ "stock_dnd_multiple.svg" }} 
-  
   stock["gtk-add"] =	       {{ "stock_add.svg" }}
   stock["gtk-bold"] =	       {{ "stock_bold.svg" }} 
   stock["gtk-cancel"] =	       {{ "stock_cancel.svg" }}
@@ -59,7 +60,6 @@ style "icon-style" {
   stock["gtk-italic"] =		{{ "stock_italic.svg" }}
   stock["rox-show-hidden"] =  {{ "rox-show-hidden.svg" }}
   stock["rox-show-details"] =  {{ "rox-show-details.svg" }}
-
   stock["gtk-jump-to"] =	{{ "stock_jump-to.svg" }}
   stock["gtk-justify-center"] =	{{ "stock_justify-center.svg" }}
   stock["gtk-justify-fill"] =	{{ "stock_justify-fill.svg" }}
@@ -69,6 +69,7 @@ style "icon-style" {
   stock["gtk-new"] =	     	{{ "stock_new.svg" }}
   stock["gtk-no"] =		{{ "stock_no.svg" }} 
   stock["gtk-ok"] =		{{ "stock_ok.svg" }}
+  stock["gtk-stock-ok"] =       {{ "stock_ok.svg" }}
   stock["gtk-open"] =		{{ "stock_open.svg" }} 
   stock["gtk-paste"] =		{{ "stock_paste.svg" }}
   stock["gtk-print"] =		{{ "stock_print.svg" }}
@@ -77,6 +78,7 @@ style "icon-style" {
   stock["gtk-properties"] =	{{ "stock_properties.svg" }}
   stock["gtk-quit"] =		{{ "stock_quit.svg" }}
   stock["gtk-redo"] =		{{ "stock_redo.svg" }}
+  stock["gtk-stock-revert"] =   {{ "stock_undo.svg" }}
   stock["gtk-refresh"] =	{{ "stock_refresh.svg" }}
   stock["gtk-remove"] =		{{ "stock_remove.svg" }}
   stock["gtk-revert-to-saved"] ={{ "stock_revert-to-saved.svg" }}
@@ -88,6 +90,7 @@ style "icon-style" {
   stock["gtk-sort-descending"] ={{ "stock_sort-descending.svg" }}
   stock["gtk-spell-check"] =	{{ "stock_spell-check.svg" }}
   stock["gtk-stop"] =		{{ "stock_stop.svg" }}
+  stock["gtk-stock-stop"] =     {{ "stock_stop.svg" }}
   stock["gtk-strikethrough"] =	{{ "stock_strikethrough.svg" }}
   stock["gtk-undelete"] =	{{ "stock_undelete.svg" }}
   stock["gtk-underline"] =	{{ "stock_underline.svg" }}
@@ -97,10 +100,10 @@ style "icon-style" {
   stock["gtk-zoom-fit"] =	{{ "stock_zoom-fit.svg" }}
   stock["gtk-zoom-in"] =	{{ "stock_zoom-in.svg" }}
   stock["gtk-zoom-out"] =	{{ "stock_zoom-out.svg" }}
-
   stock["terminal-edit"] =      {{ "stock_preferences.svg" }}
   stock["session-stock-edit"] = {{ "stock_preferences.svg" }}
-  
+  stock["gtk-stock-apply"] = {{ "stock_apply.svg" }}
+  stock["gtk-apply"] = {{ "stock_apply.svg" }}
   stock["gtk-stock-edit"] =      {{ "stock_edit.svg" }}
   stock["gtk-stock-import"] =      {{ "stock_import.svg" }}
   stock["gtk-stock-export"] =      {{ "stock_export.svg" }}
@@ -137,9 +140,6 @@ style "media-icons"
   stock ["cdplayer-forward"] =      {{"media-forward.svg"}}
   stock ["cdplayer-backward"] =      {{"media-backward.svg"}}
   stock ["cdplayer-record"] =       {{"media-record.svg"}}
-
-
-
   stock ["volume-mute"] =      	{{"volume-mute.svg"}}
   stock ["volume-zero"] =      	{{"volume-zero.svg"}}
   stock ["volume-min"] =      	{{"volume-min.svg"}}
