@@ -93,8 +93,10 @@ install-data-local:
 	  icons="$(icon_DATA)" ; \
 	  for file in $$icons; do \
 	    if echo $$file | grep '^gnome-mime-[^-]*-' > /dev/null; then \
+	      rm -f `echo $$file | sed -e 's/^gnome-mime-\([^-]*\)-/mime-\1:/'` ; \
 	      ln -sf $$file `echo $$file | sed -e 's/^gnome-mime-\([^-]*\)-/mime-\1:/'` ; \
 	    elif echo $$file | grep '^gnome-mime-' > /dev/null; then \
+	      rm -f `echo $$file | sed -e 's/^gnome-//'` ; \
 	      ln -sf $$file `echo $$file | sed -e 's/^gnome-//'` ; \
 	    fi \
 	  done \

@@ -16,12 +16,20 @@ gnome-fs-home.png                open_folder.png
 install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(icondir)
 	( cd $(DESTDIR)$(icondir) ; \
-	  ln -sf gnome-fs-blockdev.png mime-inode:blockdevice.png ; \
-	  ln -sf gnome-fs-blockdev.png mime-inode:chardevice.png ; \
-	  ln -sf gnome-fs-directory.png mime-inode:directory.png ; \
-	  ln -sf gnome-fs-directory.png mime-inode:mount-point.png ; \
-	  ln -sf gnome-fs-file-broken.png mime-inode:core.png \
-	)
+	  rm -f mime-inode:blockdevice.png ; \
+	  ln -s gnome-fs-blockdev.png mime-inode:blockdevice.png )
+	( cd $(DESTDIR)$(icondir) ; \
+	  rm -f mime-inode:chardevice.png ; \
+	  ln -s gnome-fs-blockdev.png mime-inode:chardevice.png )
+	( cd $(DESTDIR)$(icondir) ; \
+	  rm -f mime-inode:directory.png ; \
+	  ln -s gnome-fs-directory.png mime-inode:directory.png )
+	( cd $(DESTDIR)$(icondir) ; \
+	  rm -f mime-inode:mount-point.png ; \
+	  ln -s gnome-fs-directory.png mime-inode:mount-point.png )
+	( cd $(DESTDIR)$(icondir) ; \
+	  rm -f mime-inode:core.png ; \
+	  ln -s gnome-fs-file-broken.png mime-inode:core.png )
 	
 EXTRA_DIST =  $(icon_DATA)
 
