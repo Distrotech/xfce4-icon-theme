@@ -2,6 +2,7 @@
 icondir = $(datadir)/icons/Rodent/48x48/stock
 
 icon_DATA = \
+stock_new-dir.png 	stock_pastelink.png	\
 media-backward.png      stock_dialog_authentication.png   stock_insert-image.png    stock_reset.png\
 media-eject.png         stock_dialog_error.png            stock_insert-object.png   stock_revert-to-saved.png\
 media-forward.png       stock_dialog_info.png             stock_insert-table.png    stock_run.png\
