@@ -2,7 +2,6 @@ AC_INIT()
 AM_INIT_AUTOMAKE([xfce4-icon-theme], [4.2.2])
 
 
-AC_CONFIG_HEADER([config.h])
 AM_MAINTAINER_MODE
 
 AC_PROG_INSTALL
