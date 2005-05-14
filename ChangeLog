@@ -1,69 +1,55 @@
+2005-05-13 21:19  olivier
+
+	* configure.ac: Prepare 4.2.2
+
+2005-05-04 21:01  olivier
+
+	* ChangeLog: Update ChangeLog
+
 2005-04-12 14:58  jasper
 
-	* xfce4-icon-theme/branches/xfce_4_2/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/apps/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/devices/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/emblems/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/filesystems/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/mimetypes/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/misc/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/stock/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/apps/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/devices/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/emblems/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/filesystems/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/mimetypes/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/misc/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/stock/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/aclocal.m4,
-	  xfce4-icon-theme/branches/xfce_4_2/autogen.sh,
-	  xfce4-icon-theme/branches/xfce_4_2/compile,
-	  xfce4-icon-theme/branches/xfce_4_2/config.guess,
-	  xfce4-icon-theme/branches/xfce_4_2/config.h.in,
-	  xfce4-icon-theme/branches/xfce_4_2/config.rpath,
-	  xfce4-icon-theme/branches/xfce_4_2/config.sub,
-	  xfce4-icon-theme/branches/xfce_4_2/configure,
-	  xfce4-icon-theme/branches/xfce_4_2/depcomp,
-	  xfce4-icon-theme/branches/xfce_4_2/install-sh,
-	  xfce4-icon-theme/branches/xfce_4_2/libtool,
-	  xfce4-icon-theme/branches/xfce_4_2/ltmain.sh,
-	  xfce4-icon-theme/branches/xfce_4_2/mime/Makefile.in,
-	  xfce4-icon-theme/branches/xfce_4_2/missing,
-	  xfce4-icon-theme/branches/xfce_4_2/mkinstalldirs: Make xfce_4_2
-	  branch use dev tools and remove generated files
+	* Makefile.in, Rodent/48x48/Makefile.in,
+	  Rodent/48x48/apps/Makefile.in, Rodent/48x48/devices/Makefile.in,
+	  Rodent/48x48/emblems/Makefile.in,
+	  Rodent/48x48/filesystems/Makefile.in,
+	  Rodent/48x48/mimetypes/Makefile.in, Rodent/48x48/misc/Makefile.in,
+	  Rodent/48x48/stock/Makefile.in, Rodent/Makefile.in,
+	  Rodent/scalable/Makefile.in, Rodent/scalable/apps/Makefile.in,
+	  Rodent/scalable/devices/Makefile.in,
+	  Rodent/scalable/emblems/Makefile.in,
+	  Rodent/scalable/filesystems/Makefile.in,
+	  Rodent/scalable/mimetypes/Makefile.in,
+	  Rodent/scalable/misc/Makefile.in,
+	  Rodent/scalable/stock/Makefile.in, aclocal.m4, autogen.sh,
+	  compile, config.guess, config.h.in, config.rpath, config.sub,
+	  configure, depcomp, install-sh, libtool, ltmain.sh,
+	  mime/Makefile.in, missing, mkinstalldirs: Make xfce_4_2 branch use
+	  dev tools and remove generated files
 
 2005-03-12 14:53  olivier
 
-	* xfce4-icon-theme/branches/xfce_4_2/ChangeLog: Update ChangeLog
+	* ChangeLog: Update ChangeLog
 
 2005-03-12 14:19  olivier
 
-	* xfce4-icon-theme/branches/xfce_4_2/configure,
-	  xfce4-icon-theme/branches/xfce_4_2/configure.ac: Mass update for
-	  4.2.1
+	* configure, configure.ac: Mass update for 4.2.1
 
 2005-02-18 17:16  edscott
 
-	* xfce4-icon-theme/branches/xfce_4_2/mime/Rodent.mime.xml: change
-	  share icon to proper icon from theme.
+	* mime/Rodent.mime.xml: change share icon to proper icon from theme.
 
 2005-01-10 18:07  benny
 
-	* xfce4-icon-theme/branches/xfce_4_2/ChangeLog,
-	  xfce4-icon-theme/branches/xfce_4_2/NEWS: Final touch before the
-	  tag
+	* ChangeLog, NEWS: Final touch before the tag
 
 2005-01-05 22:16  benny
 
-	* xfce4-icon-theme/branches/xfce_4_2/ChangeLog: Final updates
+	* ChangeLog: Final updates
 
 2005-01-02 12:51  
 
-	* xfce4-icon-theme/branches/xfce_4_2: This commit was manufactured
-	  by cvs2svn to create branch 'xfce_4_2'.
+	* .: This commit was manufactured by cvs2svn to create branch
+	  'xfce_4_2'.
 
 2005-01-02 12:51  olivier
 
