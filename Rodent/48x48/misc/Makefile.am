@@ -2,9 +2,12 @@
 icondir = $(datadir)/icons/Rodent/48x48/misc
 
 icon_DATA = \
-calc.png      f-memory.png  news.png           usb_key.png\
-debian.png    fs-win.png    notes.png          webcam.png\
-firewall.png  money.png     root_terminal.png  taskmanager.png
+calc.png      news.png           sound.png        webcam.png \
+debian.png    notes.png          tabwin.png       wksp.png \
+firewall.png  root_terminal.png  taskbar.png      wm.png \
+f-memory.png  run.png            taskmanager.png  xfce4-appfinder.png \
+fs-win.png    settings.png       ui.png \
+money.png     sm.png             usb_key.png 
 
 EXTRA_DIST =  $(icon_DATA)
 
