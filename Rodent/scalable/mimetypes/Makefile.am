@@ -22,8 +22,8 @@ gnome-mime-application-vnd.ms-powerpoint.svg         gnome-mime-image-png.svg\
 gnome-mime-application-vnd.rn-realmedia.svg          gnome-mime-image.svg\
 gnome-mime-application-vnd.stardivision.calc.svg     gnome-mime-image-svg.svg\
 gnome-mime-application-vnd.stardivision.chart.svg    gnome-mime-image-tiff.svg\
-gnome-mime-application-vnd.stardivision.impress.svg  gnome-mime-image-x-3ds.svg\
-gnome-mime-application-vnd.stardivision.writer.svg   gnome-mime-image-x-applix-graphic.svg\
+gnome-mime-application-vnd.sd.impress.svg  gnome-mime-image-x-3ds.svg\
+gnome-mime-application-vnd.sd.writer.svg   gnome-mime-image-x-applix-graphic.svg\
 gnome-mime-application-vnd.sun.xml.calc.svg          gnome-mime-image-x-cmu-raster.svg\
 gnome-mime-application-vnd.sun.xml.chart.svg         gnome-mime-image-x-portable-anymap.svg\
 gnome-mime-application-vnd.sun.xml.draw.svg          gnome-mime-image-x-portable-bitmap.svg\
@@ -91,6 +91,8 @@ gnome-mime-image-svg+xml.svg
 install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(icondir)
 	( cd $(DESTDIR)$(icondir) ; \
+	  ln -s gnome-mime-application-vnd.sd.impress.svg gnome-mime-application-vnd.stardivision.impress.svg ; \
+	  ln -s gnome-mime-application-vnd.sd.writer.svg gnome-mime-application-vnd.stardivision.writer.svg ; \
 	  icons="$(icon_DATA)" ; \
 	  for file in $$icons; do \
 	    if echo $$file | grep '^gnome-mime-[^-]*-' > /dev/null; then \

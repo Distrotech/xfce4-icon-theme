@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfce4-icon-theme 4.3.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-03-07 17:56+0100\n"
+"POT-Creation-Date: 2005-05-30 07:45-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Benedikt Meurer <benny@xfce.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,10 +15,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../Rodent/index.theme.in.h:1
+#: Rodent/index.theme.in.h:1
 msgid "Default icon for the Xfce Desktop Environment"
 msgstr "Standard Icon-Thema der Xfce Desktop Umgebung"
 
-#: ../Rodent/index.theme.in.h:2
+#: Rodent/index.theme.in.h:2
 msgid "Rodent"
 msgstr "Rodent"

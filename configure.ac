@@ -11,7 +11,7 @@ m4_define([xit_version_major], [4])
 m4_define([xit_version_minor], [3])
 m4_define([xit_version_micro], [0])
 m4_define([xit_version_tag], [2])
-m4_define([xit_version], [xit_version_major().xit_version_minor().xit_version_micro()xit_version_tag()])
+m4_define([xit_version], [xit_version_major().xit_version_minor().xit_version_micro().xit_version_tag()])
 
 
 dnl # DO NOT MODIFY ANYTHING BELOW THIS LINE, UNLESS YOU KNOW WHAT
