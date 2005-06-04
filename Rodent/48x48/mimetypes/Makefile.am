@@ -2,76 +2,72 @@
 icondir = $(datadir)/icons/Rodent/48x48/mimetypes
 
 icon_DATA = \
-gnome-library.png                                    gnome-mime-application-x-kpresenter.png        gnome-mime-image-x-rgb.png\
-gnome-mime-application-msword.png                    gnome-mime-application-x-kspread.png           gnome-mime-image-x-tga.png\
-gnome-mime-application-octet-stream.png              gnome-mime-application-x-kword.png             gnome-mime-image-x-xbitmap.png\
-gnome-mime-application-ogg.png                       gnome-mime-application-x-lha.png               gnome-mime-image-x-xcf.png\
-gnome-mime-application-pdf.png                       gnome-mime-application-x-object.png            gnome-mime-image-x-xfig.png\
-gnome-mime-application-pgp-encrypted.png             gnome-mime-application-x-perl.png              gnome-mime-image-x-xpixmap.png\
-gnome-mime-application-pgp-keys.png                  gnome-mime-application-x-php.png               gnome-mime-image-x-xwindowdum.png\
-gnome-mime-application-pgp.png                       gnome-mime-application-x-python-bytecode.png   gnome-mime-text-css.png\
-gnome-mime-application.png                           gnome-mime-application-x-python.png            gnome-mime-text-html.png\
-gnome-mime-application-postscript.png                gnome-mime-application-x-qw.png                gnome-mime-text.png\
-gnome-mime-application-qif.png                       gnome-mime-application-x-rar.png               gnome-mime-text-sgml.png\
-gnome-mime-application-rhythmbox-effect.png          gnome-mime-application-x-reject.png            gnome-mime-text-x-authors.png\
-gnome-mime-application-rhythmbox-playlist.png        gnome-mime-application-x-rpm.png               gnome-mime-text-x-chdr.png\
-gnome-mime-application-rtf.png                       gnome-mime-application-x-sharedlib.png         gnome-mime-text-x-c-header.png\
-gnome-mime-application-smil.png                      gnome-mime-application-x-share-library-la.png  gnome-mime-text-x-copying.png\
-gnome-mime-application-vnd.ms-excel.png              gnome-mime-application-x-shellscript.png       gnome-mime-text-x-c.png\
-gnome-mime-application-vnd.ms-powerpoint.png         gnome-mime-application-x-shockwave-flash.png   gnome-mime-text-x-c++.png\
-gnome-mime-application-vnd.rn-realmedia.png          gnome-mime-application-x-smil.png              gnome-mime-text-x-credits.png\
-gnome-mime-application-vnd.stardivision.calc.png     gnome-mime-application-x-tar.png               gnome-mime-text-x-csharp.png\
-gnome-mime-application-vnd.stardivision.chart.png    gnome-mime-application-x-tex.png               gnome-mime-text-x-csh.png\
-gnome-mime-application-vnd.stardivision.impress.png  gnome-mime-application-x-trash.png             gnome-mime-text-x-c++src.png\
-gnome-mime-application-vnd.stardivision.writer.png   gnome-mime-application-zip.png                 gnome-mime-text-x-csrc.png\
-gnome-mime-application-vnd.sun.xml.calc.png          gnome-mime-audio-ac3.png                       gnome-mime-text-x-gettext-translation.png\
-gnome-mime-application-vnd.sun.xml.chart.png         gnome-mime-audio-basic.png                     gnome-mime-text-x-haskell.png\
-gnome-mime-application-vnd.sun.xml.draw.png          gnome-mime-audio-midi.png                      gnome-mime-text-x-install.png\
-gnome-mime-application-vnd.sun.xml.impress.png       gnome-mime-audio.png                           gnome-mime-text-x-java.png\
-gnome-mime-application-vnd.sun.xml.writer.png        gnome-mime-audio-x-aiff.png                    gnome-mime-text-x-literate-haskell.png\
-gnome-mime-application-x-abiword.png                 gnome-mime-audio-x-it.png                      gnome-mime-text-x-log.png\
-gnome-mime-application-x-archive.png                 gnome-mime-audio-x-midi.png                    gnome-mime-text-x-lyx.png\
-gnome-mime-application-x-arj.png                     gnome-mime-audio-x-mod.png                     gnome-mime-text-x-makefile.png\
-gnome-mime-application-x-blender.png                 gnome-mime-audio-x-mp3.png                     gnome-mime-text-xml.png\
-gnome-mime-application-x-bzip-compressed-tar.png     gnome-mime-audio-x-mpegurl.png                 gnome-mime-text-x-patch.png\
-gnome-mime-application-x-bzip.png                    gnome-mime-audio-x-pn-realaudio.png            gnome-mime-text-x-readme.png\
-gnome-mime-application-x-cd-image.png                gnome-mime-audio-x-s3m.png                     gnome-mime-text-x-scheme.png\
-gnome-mime-application-x-compressed-tar.png          gnome-mime-audio-x-stm.png                     gnome-mime-text-x-sh.png\
-gnome-mime-application-x-compress.png                gnome-mime-audio-x-ulaw.png                    gnome-mime-text-x-tex.png\
-gnome-mime-application-x-cpio-compressed.png         gnome-mime-audio-x-voc.png                     gnome-mime-text-x-troff-man.png\
-gnome-mime-application-x-cpio.png                    gnome-mime-audio-x-wav.png                     gnome-mime-text-x-vcalendar.png\
-gnome-mime-application-x-deb.png                     gnome-mime-audio-x-xi.png                      gnome-mime-text-x-vcard.png\
-gnome-mime-application-x-desktop.png                 gnome-mime-audio-x-xm.png                      gnome-mime-text-x-xslt.png\
-gnome-mime-application-x-dia-diagram.png             gnome-mime-image-bmp.png                       gnome-mime-text-x-zsh.png\
-gnome-mime-application-x-dvi.png                     gnome-mime-image-gif.png                       gnome-mime-video-mpeg.png\
-gnome-mime-application-x-executable.png              gnome-mime-image-ief.png                       gnome-mime-video.png\
-gnome-mime-application-x-font-asm.png                gnome-mime-image-jpeg.png                      gnome-mime-video-quicktime.png\
-gnome-mime-application-x-font-bdf.png                gnome-mime-image.png                           gnome-mime-video-x-ms-asf.png\
-gnome-mime-application-x-font-linux-psf.png          gnome-mime-image-png.png                       gnome-mime-video-x-msvideo.png\
-gnome-mime-application-x-font-pcf.png                gnome-mime-image-svg.png                       gnome-mime-video-x-ms-wmv.png\
-gnome-mime-application-x-font-ttf.png                gnome-mime-image-tiff.png                      gnome-mime-x-directory-nfs-server.png\
-gnome-mime-application-x-gettext-translation.png     gnome-mime-image-x-3ds.png                     gnome-mime-x-directory-smb-server.png\
-gnome-mime-application-x-glade.png                   gnome-mime-image-x-applix-graphic.png          gnome-mime-x-directory-smb-share.png\
-gnome-mime-application-x-gnucash.png                 gnome-mime-image-x-cmu-raster.png              gnome-mime-x-directory-smb-workgroup.png\
-gnome-mime-application-x-gnumeric.png                gnome-mime-image-x-portable-anymap.png         gnome-mime-x-font-afm.png\
-gnome-mime-application-x-gtktalog.png                gnome-mime-image-x-portable-bitmap.png         gnome-package.png\
-gnome-mime-application-x-gzip.png                    gnome-mime-image-x-portable-greymap.png        stock_run.png\
-gnome-mime-application-x-kde-app-info.png            gnome-mime-image-x-portable-pixmap.png         x-gdesklets-display.png\
-gnome-mime-application-x-killustrator.png            gnome-mime-image-x-psd.png			    gnome-mime-application-vnd.ms-word.png\
-gnome-mime-image-svg+xml.png
+application-msword.png                    application-x-kpresenter.png        image-x-psd.png\
+application-octet-stream.png              application-x-kspread.png           image-x-rgb.png\
+application-ogg.png                       application-x-kword.png             image-x-tga.png\
+application-pdf.png                       application-x-lha.png               image-x-xbitmap.png\
+application-pgp-encrypted.png             application-x-object.png            image-x-xcf.png\
+application-pgp-keys.png                  application-x-perl.png              image-x-xfig.png\
+application-pgp.png                       application-x-php.png               image-x-xpixmap.png\
+application.png                           application-x-python-bytecode.png   image-x-xwindowdum.png\
+application-postscript.png                application-x-python.png            text-css.png\
+application-qif.png                       application-x-qw.png                text-html.png\
+application-rhythmbox-effect.png          application-x-rar.png               text.png\
+application-rhythmbox-playlist.png        application-x-reject.png            text-sgml.png\
+application-rtf.png                       application-x-rpm.png               text-x-authors.png\
+application-smil.png                      application-x-sharedlib.png         text-x-chdr.png\
+application-vnd.ms-excel.png              application-x-share-library-la.png  text-x-c-header.png\
+application-vnd.ms-powerpoint.png         application-x-shellscript.png       text-x-copying.png\
+application-vnd.ms-word.png               application-x-shockwave-flash.png   text-x-c.png\
+application-vnd.rn-realmedia.png          application-x-smil.png              text-x-c++.png\
+application-vnd.stardivision.calc.png     application-x-tar.png               text-x-credits.png\
+application-vnd.stardivision.chart.png    application-x-tex.png               text-x-csharp.png\
+application-vnd.stardivision.impress.png  application-x-trash.png             text-x-csh.png\
+application-vnd.stardivision.writer.png   application-zip.png                 text-x-c++src.png\
+application-vnd.sun.xml.calc.png          audio-ac3.png                       text-x-csrc.png\
+application-vnd.sun.xml.chart.png         audio-basic.png                     text-x-gettext-translation.png\
+application-vnd.sun.xml.draw.png          audio-midi.png                      text-x-haskell.png\
+application-vnd.sun.xml.impress.png       audio.png                           text-x-install.png\
+application-vnd.sun.xml.writer.png        audio-x-aiff.png                    text-x-java.png\
+application-x-abiword.png                 audio-x-it.png                      text-x-literate-haskell.png\
+application-x-archive.png                 audio-x-midi.png                    text-x-log.png\
+application-x-arj.png                     audio-x-mod.png                     text-x-lyx.png\
+application-x-blender.png                 audio-x-mp3.png                     text-x-makefile.png\
+application-x-bzip-compressed-tar.png     audio-x-mpegurl.png                 text-xml.png\
+application-x-bzip.png                    audio-x-pn-realaudio.png            text-x-patch.png\
+application-x-cd-image.png                audio-x-s3m.png                     text-x-readme.png\
+application-x-compressed-tar.png          audio-x-stm.png                     text-x-scheme.png\
+application-x-compress.png                audio-x-ulaw.png                    text-x-sh.png\
+application-x-cpio-compressed.png         audio-x-voc.png                     text-x-tex.png\
+application-x-cpio.png                    audio-x-wav.png                     text-x-troff-man.png\
+application-x-deb.png                     audio-x-xi.png                      text-x-vcalendar.png\
+application-x-desktop.png                 audio-x-xm.png                      text-x-vcard.png\
+application-x-dia-diagram.png             image-bmp.png                       text-x-xslt.png\
+application-x-dvi.png                     image-gif.png                       text-x-zsh.png\
+application-x-executable.png              image-ief.png                       video-mpeg.png\
+application-x-font-asm.png                image-jpeg.png                      video.png\
+application-x-font-bdf.png                image.png                           video-quicktime.png\
+application-x-font-linux-psf.png          image-png.png                       video-x-ms-asf.png\
+application-x-font-pcf.png                image-svg.png                       video-x-msvideo.png\
+application-x-font-ttf.png                image-svg+xml.png                   video-x-ms-wmv.png\
+application-x-gettext-translation.png     image-tiff.png                      x-directory-nfs-server.png\
+application-x-glade.png                   image-x-3ds.png                     x-directory-smb-server.png\
+application-x-gnucash.png                 image-x-applix-graphic.png          x-directory-smb-share.png\
+application-x-gnumeric.png                image-x-cmu-raster.png              x-directory-smb-workgroup.png\
+application-x-gtktalog.png                image-x-portable-anymap.png         x-font-afm.png\
+application-x-gzip.png                    image-x-portable-bitmap.png         x-gdesklets-display.png\
+application-x-kde-app-info.png            image-x-portable-greymap.png\
+application-x-killustrator.png            image-x-portable-pixmap.png
 
 install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(icondir)
 	( cd $(DESTDIR)$(icondir) ; \
 	  icons="$(icon_DATA)" ; \
 	  for file in $$icons; do \
-	    if echo $$file | grep '^gnome-mime-[^-]*-' > /dev/null; then \
-	      rm -f `echo $$file | sed -e 's/^gnome-mime-\([^-]*\)-/mime-\1:/'` ; \
-	      $(LN_S) $$file `echo $$file | sed -e 's/^gnome-mime-\([^-]*\)-/mime-\1:/'` ; \
-	    elif echo $$file | grep '^gnome-mime-' > /dev/null; then \
-	      rm -f `echo $$file | sed -e 's/^gnome-//'` ; \
-	      $(LN_S) $$file `echo $$file | sed -e 's/^gnome-//'` ; \
-	    fi \
+	      rm -f gnome-mime-$$file ; \
+	      rm -f `echo mime-$$file | sed -e 's/mime-\([^-]*\)-/mime-\1:/'` ; \
+	      $(LN_S) $$file  gnome-mime-$$file ; \
+	      $(LN_S) $$file  `echo mime-$$file | sed -e 's/mime-\([^-]*\)-/mime-\1:/'` ; \
 	  done \
 	)
 
