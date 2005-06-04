@@ -11,6 +11,7 @@ file-manager.png             gnome-terminal.png    xfce-mail.png\
 file-roller.png              gnome-util.png        xfce-man.png\
 gftp.png                     gqview.png            xfce-multimedia.png\
 gimp.png                     im-aim.png            xfce-newmail.png\
+gnome-package.png\
 gnome-applications.png       keyboard.png          xfce-nomail.png\
 gnome-audio.png              ooo_calc.png          xfce-oldmail.png\
 gnome-calculator.png         ooo_chart.png         xfce-printer.png\
