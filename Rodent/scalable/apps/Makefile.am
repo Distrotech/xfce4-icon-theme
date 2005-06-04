@@ -12,6 +12,7 @@ file-roller.svg              gnome-util.svg        xfce-man.svg\
 gftp.svg                     gqview.svg            xfce-multimedia.svg\
 gimp.svg                     im-aim.svg            xfce-newmail.svg\
 gnome-applications.svg       keyboard.svg          xfce-nomail.svg\
+gnome-package.svg	     gnome-library.svg\
 gnome-audio.svg              ooo_calc.svg          xfce-oldmail.svg\
 gnome-calculator.svg         ooo_chart.svg         xfce-printer.svg\
 gnome-cdplayer-icon.svg      ooo_draw.svg          xfce-schedule.svg\
