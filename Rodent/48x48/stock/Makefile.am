@@ -35,7 +35,9 @@ stock_convert.png       stock_home.png                    stock_quit.png        
 stock_copy.png          stock_import.png                  stock_redo.png            volume-zero.png\
 stock_cut.png           stock_indent.png                  stock_refresh.png\
 stock_delete.png        stock_index.png                   stock_remove.png\
-media-shuffle.png	stock_repeat.png
+media-shuffle.png	stock_repeat.png		  stock_folder-properties.png\
+stock_file-properties.png	stock_folder-copy.png	stock_folder-move.png\
+stock_folder.png
 
 EXTRA_DIST =  $(icon_DATA)
 
