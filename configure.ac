@@ -33,7 +33,7 @@ AM_MAINTAINER_MODE()
 
 dnl Check for required programs
 AC_PROG_INSTALL()
-AC_PROG_INTLTOOL()
+AC_PROG_INTLTOOL([0.31], [no-xml])
 AC_PROG_LN_S()
 
 dnl I18n support
