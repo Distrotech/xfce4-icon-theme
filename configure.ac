@@ -1,5 +1,5 @@
 AC_INIT()
-AM_INIT_AUTOMAKE([xfce4-icon-theme], [4.2.2])
+AM_INIT_AUTOMAKE([xfce4-icon-theme], [4.2.3])
 
 
 AM_MAINTAINER_MODE
