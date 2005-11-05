@@ -1,55 +1,86 @@
+2005-05-14 19:54  olivier
+
+	* xfce4-icon-theme/branches/xfce_4_2/ChangeLog: Update ChangeLog
+
+2005-05-14 14:11  olivier
+
+	* xfce4-icon-theme/branches/xfce_4_2/configure.ac: Fix "make
+	  distcheck"
+
 2005-05-13 21:19  olivier
 
-	* configure.ac: Prepare 4.2.2
+	* xfce4-icon-theme/branches/xfce_4_2/configure.ac: Prepare 4.2.2
 
 2005-05-04 21:01  olivier
 
-	* ChangeLog: Update ChangeLog
+	* xfce4-icon-theme/branches/xfce_4_2/ChangeLog: Update ChangeLog
 
 2005-04-12 14:58  jasper
 
-	* Makefile.in, Rodent/48x48/Makefile.in,
-	  Rodent/48x48/apps/Makefile.in, Rodent/48x48/devices/Makefile.in,
-	  Rodent/48x48/emblems/Makefile.in,
-	  Rodent/48x48/filesystems/Makefile.in,
-	  Rodent/48x48/mimetypes/Makefile.in, Rodent/48x48/misc/Makefile.in,
-	  Rodent/48x48/stock/Makefile.in, Rodent/Makefile.in,
-	  Rodent/scalable/Makefile.in, Rodent/scalable/apps/Makefile.in,
-	  Rodent/scalable/devices/Makefile.in,
-	  Rodent/scalable/emblems/Makefile.in,
-	  Rodent/scalable/filesystems/Makefile.in,
-	  Rodent/scalable/mimetypes/Makefile.in,
-	  Rodent/scalable/misc/Makefile.in,
-	  Rodent/scalable/stock/Makefile.in, aclocal.m4, autogen.sh,
-	  compile, config.guess, config.h.in, config.rpath, config.sub,
-	  configure, depcomp, install-sh, libtool, ltmain.sh,
-	  mime/Makefile.in, missing, mkinstalldirs: Make xfce_4_2 branch use
-	  dev tools and remove generated files
+	* xfce4-icon-theme/branches/xfce_4_2/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/apps/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/devices/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/emblems/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/filesystems/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/mimetypes/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/misc/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/stock/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/apps/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/devices/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/emblems/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/filesystems/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/mimetypes/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/misc/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/stock/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/aclocal.m4,
+	  xfce4-icon-theme/branches/xfce_4_2/autogen.sh,
+	  xfce4-icon-theme/branches/xfce_4_2/compile,
+	  xfce4-icon-theme/branches/xfce_4_2/config.guess,
+	  xfce4-icon-theme/branches/xfce_4_2/config.h.in,
+	  xfce4-icon-theme/branches/xfce_4_2/config.rpath,
+	  xfce4-icon-theme/branches/xfce_4_2/config.sub,
+	  xfce4-icon-theme/branches/xfce_4_2/configure,
+	  xfce4-icon-theme/branches/xfce_4_2/depcomp,
+	  xfce4-icon-theme/branches/xfce_4_2/install-sh,
+	  xfce4-icon-theme/branches/xfce_4_2/libtool,
+	  xfce4-icon-theme/branches/xfce_4_2/ltmain.sh,
+	  xfce4-icon-theme/branches/xfce_4_2/mime/Makefile.in,
+	  xfce4-icon-theme/branches/xfce_4_2/missing,
+	  xfce4-icon-theme/branches/xfce_4_2/mkinstalldirs: Make xfce_4_2
+	  branch use dev tools and remove generated files
 
 2005-03-12 14:53  olivier
 
-	* ChangeLog: Update ChangeLog
+	* xfce4-icon-theme/branches/xfce_4_2/ChangeLog: Update ChangeLog
 
 2005-03-12 14:19  olivier
 
-	* configure, configure.ac: Mass update for 4.2.1
+	* xfce4-icon-theme/branches/xfce_4_2/configure,
+	  xfce4-icon-theme/branches/xfce_4_2/configure.ac: Mass update for
+	  4.2.1
 
 2005-02-18 17:16  edscott
 
-	* mime/Rodent.mime.xml: change share icon to proper icon from theme.
+	* xfce4-icon-theme/branches/xfce_4_2/mime/Rodent.mime.xml: change
+	  share icon to proper icon from theme.
 
 2005-01-10 18:07  benny
 
-	* ChangeLog, NEWS: Final touch before the tag
+	* xfce4-icon-theme/branches/xfce_4_2/ChangeLog,
+	  xfce4-icon-theme/branches/xfce_4_2/NEWS: Final touch before the
+	  tag
 
 2005-01-05 22:16  benny
 
-	* ChangeLog: Final updates
+	* xfce4-icon-theme/branches/xfce_4_2/ChangeLog: Final updates
 
 2005-01-02 12:51  
 
-	* .: This commit was manufactured by cvs2svn to create branch
-	  'xfce_4_2'.
+	* xfce4-icon-theme/branches/xfce_4_2: This commit was manufactured
+	  by cvs2svn to create branch 'xfce_4_2'.
 
 2005-01-02 12:51  olivier
 
@@ -64,8 +95,8 @@
 
 2004-12-24 00:03  kelnos
 
-	* xfce4-icon-theme/trunk/Makefile.am: add dist-bz2 and distcheck-bz2
-	  targets
+	* xfce4-icon-theme/trunk/Makefile.am: add dist-bz2 and
+	  distcheck-bz2 targets
 
 2004-12-23 21:12  olivier
 
@@ -80,14 +111,15 @@
 	  xfce4-icon-theme/trunk/Makefile.am,
 	  xfce4-icon-theme/trunk/Makefile.in,
 	  xfce4-icon-theme/trunk/Rodent/Makefile.am,
-	  xfce4-icon-theme/trunk/Rodent/Makefile.in: Update ChangeLog. Fix a
-	  glitch in the Rodent/Makefile.am.
+	  xfce4-icon-theme/trunk/Rodent/Makefile.in: Update ChangeLog. Fix
+	  a glitch in the Rodent/Makefile.am.
 
 2004-12-20 21:00  jasper
 
 	* xfce4-icon-theme/trunk/ChangeLog,
 	  xfce4-icon-theme/trunk/configure,
-	  xfce4-icon-theme/trunk/configure.ac: Update versions and ChangeLog
+	  xfce4-icon-theme/trunk/configure.ac: Update versions and
+	  ChangeLog
 
 2004-12-04 17:05  benny
 
@@ -149,8 +181,8 @@
 	  xfce4-icon-theme/trunk/configure.ac,
 	  xfce4-icon-theme/trunk/install-sh,
 	  xfce4-icon-theme/trunk/mime/Makefile.in,
-	  xfce4-icon-theme/trunk/missing: Use $(LN_S) instead of calling ln
-	  -s directly.
+	  xfce4-icon-theme/trunk/missing: Use $(LN_S) instead of calling
+	  ln -s directly.
 
 2004-12-01 17:57  benny
 
@@ -307,8 +339,8 @@
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_question.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_warning.png:
 	  Fix #509 Please can someone run his autotools for me? Thanks -
-	  Rename icons for consistency between png and svg names instead of
-	  just fixing the iconrc.png - Updated Makefile.am
+	  Rename icons for consistency between png and svg names instead
+	  of just fixing the iconrc.png - Updated Makefile.am
 
 2004-11-13 18:01  olivier
 
@@ -317,21 +349,21 @@
 2004-11-07 21:10  fleclainche
 
 	* xfce4-icon-theme/trunk/Rodent/48x48/apps/xfce-mail.png,
-	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-mail.svg: Update
-	  *red* mail icon :P
+	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-mail.svg:
+	  Update *red* mail icon :P
 
 2004-11-07 08:26  jasper
 
 	* xfce4-icon-theme/trunk/Rodent/48x48/stock/Makefile.in,
-	  xfce4-icon-theme/trunk/Rodent/scalable/stock/Makefile.in: autogen
-	  for francois
+	  xfce4-icon-theme/trunk/Rodent/scalable/stock/Makefile.in:
+	  autogen for francois
 
 2004-11-07 08:16  fleclainche
 
 	* xfce4-icon-theme/trunk/Rodent/48x48/stock/rox-select.png,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/rox-select.svg: Add
-	  rox-select icon. Could someone please run his brand new autotools
-	  for me? Thanks. Should be the last time O:)
+	  rox-select icon. Could someone please run his brand new
+	  autotools for me? Thanks. Should be the last time O:)
 
 2004-11-07 08:12  fleclainche
 
@@ -403,8 +435,8 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-x-directory-smb-workgroup.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_network.svg:
 	  Finally committing file-manager related icons. They fit better
-	  with what users expect. Moreover, I think they look way better. If
-	  you disagree, I'll reverse the changes.
+	  with what users expect. Moreover, I think they look way better.
+	  If you disagree, I'll reverse the changes.
 
 2004-11-06 18:22  fleclainche
 
@@ -421,9 +453,6 @@
 	  xfce4-icon-theme/trunk/Rodent/48x48/apps/xfce-unknown.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/apps/xfce4-mixer.png:
 	  Committing several improved icons.
-
-2004-11-06 18:22  fleclainche
-
 	* xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-audio.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-lockscreen.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-multimedia.svg,
@@ -527,9 +556,9 @@
 	* xfce4-icon-theme/trunk/Rodent/48x48/apps/Makefile.am,
 	  xfce4-icon-theme/trunk/Rodent/48x48/apps/xfce4-mixer.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/apps/xfce4-panel.png,
-	  xfce4-icon-theme/trunk/Rodent/48x48/apps/xfce4-splash.png: Adding
-	  svg (plus png) icons only for mcs plugins which do not provide a
-	  svg version
+	  xfce4-icon-theme/trunk/Rodent/48x48/apps/xfce4-splash.png:
+	  Adding svg (plus png) icons only for mcs plugins which do not
+	  provide a svg version
 
 2004-11-04 22:55  fleclainche
 
@@ -562,8 +591,8 @@
 	  xfce4-icon-theme/trunk/Rodent/48x48/misc/keyboard.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/misc/menueditor.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/misc/mouse.png,
-	  xfce4-icon-theme/trunk/Rodent/48x48/misc/panel.png: Remove several
-	  useless misc/ icons, fix debian icon
+	  xfce4-icon-theme/trunk/Rodent/48x48/misc/panel.png: Remove
+	  several useless misc/ icons, fix debian icon
 
 2004-10-30 19:03  olivier
 
@@ -578,14 +607,14 @@
 
 	* xfce4-icon-theme/trunk/Rodent/README,
 	  xfce4-icon-theme/trunk/Rodent/iconrc: Finally found the time to
-	  check the iconrc file against the Gtk documentation official list
-	  of stock icons. Updated README.
+	  check the iconrc file against the Gtk documentation official
+	  list of stock icons. Updated README.
 
 2004-10-28 21:59  fleclainche
 
-	* xfce4-icon-theme/trunk/Rodent/iconrc: Fixing some stock icon names
-	  for sure. Trying to fix some others. Gtk apps icon management is a
-	  pain. Or my brain is unsuitable.
+	* xfce4-icon-theme/trunk/Rodent/iconrc: Fixing some stock icon
+	  names for sure. Trying to fix some others. Gtk apps icon
+	  management is a pain. Or my brain is unsuitable.
 
 2004-10-24 17:45  olivier
 
@@ -602,10 +631,10 @@
 2004-10-24 17:16  fleclainche
 
 	* xfce4-icon-theme/trunk/Rodent/scalable/apps/Makefile.am,
-	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-info.svg: Adding
-	  gnome-info icon which was missing. Updated Makefile.am. btw, I
-	  wonder if there is a clean way to avoid doubles. Could someone
-	  please run autotools for me? TIA.
+	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-info.svg:
+	  Adding gnome-info icon which was missing. Updated Makefile.am.
+	  btw, I wonder if there is a clean way to avoid doubles. Could
+	  someone please run autotools for me? TIA.
 
 2004-10-24 17:14  fleclainche
 
@@ -637,8 +666,8 @@
 2004-10-02 23:39  olivier
 
 	* xfce4-icon-theme/trunk/xfce4-icon-theme.spec.in: Wrong path in
-	  spec file Wrong package depedency No need for running ldconfig in
-	  post and postun Fix Xfce spelling
+	  spec file Wrong package depedency No need for running ldconfig
+	  in post and postun Fix Xfce spelling
 
 2004-10-02 16:09  olivier
 
@@ -649,8 +678,8 @@
 
 	* xfce4-icon-theme/trunk/ChangeLog,
 	  xfce4-icon-theme/trunk/configure,
-	  xfce4-icon-theme/trunk/configure.ac: Update all files for 4.2 beta
-	  1
+	  xfce4-icon-theme/trunk/configure.ac: Update all files for 4.2
+	  beta 1
 
 2004-09-30 17:58  edscott
 
@@ -683,8 +712,8 @@
 	  xfce4-icon-theme/trunk/mime/Makefile.in,
 	  xfce4-icon-theme/trunk/mime/Rodent-svg.mime.xml,
 	  xfce4-icon-theme/trunk/mime/Rodent.mime.xml,
-	  xfce4-icon-theme/trunk/missing: removed Rodent.svg.mime.xml since
-	  it is no longer used (file extension is determined by
+	  xfce4-icon-theme/trunk/missing: removed Rodent.svg.mime.xml
+	  since it is no longer used (file extension is determined by
 	  xfce4-icontheme )
 
 2004-09-21 20:22  perldude
@@ -731,9 +760,6 @@
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-chdr.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-csrc.png:
 	  Colored C* headers and src mime icons, png.
-
-2004-09-21 20:04  fleclainche
-
 	* xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-c++.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-c++src.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-c-header.svg,
@@ -797,9 +823,6 @@
 2004-09-18 18:36  fleclainche
 
 	* xfce4-icon-theme/trunk/Rodent/README: Updated README
-
-2004-09-18 18:36  fleclainche
-
 	* xfce4-icon-theme/trunk/Rodent/scalable/misc/Makefile.am,
 	  xfce4-icon-theme/trunk/Rodent/scalable/misc/f-memory.svg: New
 	  icon.
@@ -815,8 +838,8 @@
 	* xfce4-icon-theme/trunk/Rodent/scalable/apps/Makefile.am,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/bluefish-icon.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gftp.svg,
-	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gqview.svg: New ones,
-	  svg version.
+	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gqview.svg: New
+	  ones, svg version.
 
 2004-09-18 18:33  fleclainche
 
@@ -833,8 +856,8 @@
 
 2004-09-14 20:43  fleclainche
 
-	* xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-util.svg: Let's
-	  completely get rid of this ugly drill :P
+	* xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-util.svg:
+	  Let's completely get rid of this ugly drill :P
 
 2004-09-14 20:25  fleclainche
 
@@ -1072,7 +1095,8 @@
 
 	* xfce4-icon-theme/trunk/AUTHORS,
 	  xfce4-icon-theme/trunk/Makefile.am,
-	  xfce4-icon-theme/trunk/Makefile.in, xfce4-icon-theme/trunk/README,
+	  xfce4-icon-theme/trunk/Makefile.in,
+	  xfce4-icon-theme/trunk/README,
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c++.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c++src.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c-header.png,
@@ -1149,7 +1173,8 @@
 2004-08-23 05:14  edscott
 
 	* xfce4-icon-theme/trunk/AUTHORS, xfce4-icon-theme/trunk/COPYING,
-	  xfce4-icon-theme/trunk/ChangeLog, xfce4-icon-theme/trunk/INSTALL,
+	  xfce4-icon-theme/trunk/ChangeLog,
+	  xfce4-icon-theme/trunk/INSTALL,
 	  xfce4-icon-theme/trunk/Makefile.am,
 	  xfce4-icon-theme/trunk/Makefile.in, xfce4-icon-theme/trunk/NEWS,
 	  xfce4-icon-theme/trunk/NOTES, xfce4-icon-theme/trunk/README,
@@ -2262,16 +2287,18 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/volume-mute.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/volume-zero.svg,
 	  xfce4-icon-theme/trunk/TODO, xfce4-icon-theme/trunk/aclocal.m4,
-	  xfce4-icon-theme/trunk/autogen.sh, xfce4-icon-theme/trunk/compile,
+	  xfce4-icon-theme/trunk/autogen.sh,
+	  xfce4-icon-theme/trunk/compile,
 	  xfce4-icon-theme/trunk/config.guess,
 	  xfce4-icon-theme/trunk/config.h.in,
 	  xfce4-icon-theme/trunk/config.rpath,
 	  xfce4-icon-theme/trunk/config.sub,
 	  xfce4-icon-theme/trunk/configure,
 	  xfce4-icon-theme/trunk/configure.ac,
-	  xfce4-icon-theme/trunk/depcomp, xfce4-icon-theme/trunk/install-sh,
-	  xfce4-icon-theme/trunk/libtool, xfce4-icon-theme/trunk/ltmain.sh,
-	  xfce4-icon-theme/trunk/mime,
+	  xfce4-icon-theme/trunk/depcomp,
+	  xfce4-icon-theme/trunk/install-sh,
+	  xfce4-icon-theme/trunk/libtool,
+	  xfce4-icon-theme/trunk/ltmain.sh, xfce4-icon-theme/trunk/mime,
 	  xfce4-icon-theme/trunk/mime/Makefile.am,
 	  xfce4-icon-theme/trunk/mime/Makefile.in,
 	  xfce4-icon-theme/trunk/mime/Rodent-svg.mime.xml,
