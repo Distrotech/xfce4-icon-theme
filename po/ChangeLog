@@ -1,3 +1,21 @@
+2006-01-13 05:53  Daichi Kawahata <daichi@xfce.org>
+
+	* pl.po: Added Polish translations by Piotr Malinski
+	  <riklaunim@gmail.com>.
+
+2006-01-07 09:40  Daichi Kawahata <daichi@xfce.org>
+
+	* de.po, fi.po, ja.po, ko.po: Updated copyright information.
+
+2005-11-21 17:14  Daichi Kawahata <daichi@xfce.org>
+
+	* ChangeLog, de.po, fi.po, ja.po, ko.po, xfce4-icon-theme.pot:
+	  Updated.
+
+2005-11-05 14:38  Daichi Kawahata <daichi@xfce.org>
+
+	* ChangeLog: Trimmed and updated.
+
 2005-11-03 13:45  Daichi Kawahata <daichi@xfce.org>
 
 	* ko.po: Added Korean translations by ByungHyun Choi
