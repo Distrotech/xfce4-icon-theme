@@ -28,8 +28,7 @@ gnome-logout.png             xfce4-mixer.png       xfce-unknown.png\
 gnome-media-player-icon.png  xfce4-panel.png       xfce-utils.png\
 gnome-multimedia.png         xfce4-splash.png      xsane.png\
 gnome-other.png              xfce-edit.png\
-gnome-pdf.png                xfce-filemanager.png\
-xfmime-edit.png		     xfdiff.png
+gnome-pdf.png                xfce-filemanager.png
 
 EXTRA_DIST =  $(icon_DATA)
 
