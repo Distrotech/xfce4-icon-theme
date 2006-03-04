@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: xfce 4-icon-theme\n"
+"Project-Id-Version: xfce4-icon-theme 4.3.0.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-11-22 00:16+0900\n"
 "PO-Revision-Date: 2006-02-22 22:07+0200\n"
@@ -23,4 +23,3 @@ msgstr "Προκαθορισμένο θέμα εικονιδίων για το �
 #: ../Rodent/index.theme.in.h:2
 msgid "Rodent"
 msgstr "Τρωκτικό"
-
