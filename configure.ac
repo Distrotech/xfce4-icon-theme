@@ -37,7 +37,7 @@ AC_PROG_INTLTOOL([0.31], [no-xml])
 AC_PROG_LN_S()
 
 dnl I18n support
-XDT_I18N([de et fi he ja ko pl sk zh_CN])
+XDT_I18N([de et fi he ja ko pl ru sk zh_CN])
 
 dnl Don't install translations
 USE_NLS="no"
