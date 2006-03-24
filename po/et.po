@@ -13,7 +13,7 @@ msgstr ""
 "Language-Team: Estonian <et@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: ../Rodent/index.theme.in.h:1
 msgid "Default icon for the Xfce Desktop Environment"
