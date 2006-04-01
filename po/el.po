@@ -1,15 +1,16 @@
-# Greek translations for xfce package.
+# Greek translations for xfce4-icon-theme package.
 # Copyright (C) 2004-2006 The Xfce development team.
 # This file is distributed under the same license as the xfce package.
 # Stavros Giannouris <stavrosg2002@freemail.gr>, 2006.
+# Stathis Kamperis <ekamperi@auth.gr>, 2006.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: xfce4-icon-theme 4.3.0.4\n"
+"Project-Id-Version: xfce4-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-11-22 00:16+0900\n"
-"PO-Revision-Date: 2006-02-22 22:07+0200\n"
-"Last-Translator: Stavros Giannouris <stavrosg2002@freemail.gr>\n"
+"POT-Creation-Date: 2006-04-01 06:26+0300\n"
+"PO-Revision-Date: 2006-03-30 14:17+0300\n"
+"Last-Translator: Stathis Kamperis <ekamperi@auth.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,7 +19,7 @@ msgstr ""
 
 #: ../Rodent/index.theme.in.h:1
 msgid "Default icon for the Xfce Desktop Environment"
-msgstr "Προκαθορισμένο θέμα εικονιδίων για το Περιβάλλον Εργασίας Xfce"
+msgstr "Προκαθορισμένο θέμα εικονιδίων για το περιβάλλον εργασίας Xfce"
 
 #: ../Rodent/index.theme.in.h:2
 msgid "Rodent"
