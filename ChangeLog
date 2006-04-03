@@ -1,3 +1,12 @@
+2005-11-05 15:38  olivier
+
+	* xfce4-icon-theme/branches/xfce_4_2/ChangeLog: Update ChangeLog
+
+2005-11-05 15:37  olivier
+
+	* xfce4-icon-theme/branches/xfce_4_2/configure.ac: Update
+	  configure version
+
 2005-11-05 14:20  olivier
 
 	* xfce4-icon-theme/branches/xfce_4_2/ChangeLog: Update ChangeLog
@@ -24,20 +33,32 @@
 	* xfce4-icon-theme/branches/xfce_4_2/Makefile.in,
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/Makefile.in,
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/apps/Makefile.in,
+	  
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/devices/Makefile.in,
+	  
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/emblems/Makefile.in,
+	  
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/filesystems/Makefile.in,
+	  
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/mimetypes/Makefile.in,
+	  
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/misc/Makefile.in,
+	  
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/48x48/stock/Makefile.in,
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/Makefile.in,
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/Makefile.in,
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/apps/Makefile.in,
+	  
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/devices/Makefile.in,
+	  
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/emblems/Makefile.in,
+	  
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/filesystems/Makefile.in,
+	  
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/mimetypes/Makefile.in,
+	  
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/misc/Makefile.in,
+	  
 	  xfce4-icon-theme/branches/xfce_4_2/Rodent/scalable/stock/Makefile.in,
 	  xfce4-icon-theme/branches/xfce_4_2/aclocal.m4,
 	  xfce4-icon-theme/branches/xfce_4_2/autogen.sh,
@@ -255,8 +276,10 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/Makefile.am,
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/Makefile.in:
 	  There you go Francois; added some shell magic to fix the Rodent
-	  icon theme installation with regard to the standard icon naming
-	  scheme (mostly used by ROX currently).
+	  icon theme
+	  installation with regard to the standard icon naming scheme
+	  (mostly used
+	  by ROX currently).
 
 2004-11-19 22:28  olivier
 
@@ -331,20 +354,34 @@
 
 	* xfce4-icon-theme/trunk/Rodent/48x48/stock/Makefile.am,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_color-picker.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_color_picker.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog-authentication.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog-error.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog-info.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog-question.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog-warning.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_authentication.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_error.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_info.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_question.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_warning.png:
-	  Fix #509 Please can someone run his autotools for me? Thanks -
-	  Rename icons for consistency between png and svg names instead
-	  of just fixing the iconrc.png - Updated Makefile.am
+	  Fix #509
+	  
+	  Please can someone run his autotools for me? Thanks
+	  
+	  - Rename icons for consistency between png and svg names instead
+	  of just fixing
+	  the iconrc.png
+	  - Updated Makefile.am
 
 2004-11-13 18:01  olivier
 
@@ -366,8 +403,10 @@
 
 	* xfce4-icon-theme/trunk/Rodent/48x48/stock/rox-select.png,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/rox-select.svg: Add
-	  rox-select icon. Could someone please run his brand new
-	  autotools for me? Thanks. Should be the last time O:)
+	  rox-select icon.
+	  
+	  Could someone please run his brand new autotools for me? Thanks.
+	  Should be the last time O:)
 
 2004-11-07 08:12  fleclainche
 
@@ -384,6 +423,7 @@
 	* xfce4-icon-theme/trunk/Rodent/48x48/apps/gnome-multimedia.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/apps/xfce-multimedia.png,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-multimedia.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-multimedia.svg:
 	  hm... simple, better multimedia icon
 
@@ -392,55 +432,92 @@
 	* xfce4-icon-theme/trunk/Rodent/48x48/apps/file-manager.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/apps/xfce-filemanager.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-keyboard.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-mouse-ball.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-mouse-optical.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-network.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-symlink.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/network_fs.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-blockdev.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-directory-accept.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-directory-visiting.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-directory.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-ftp.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-home.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-network.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-nfs.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-share.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-smb.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-ssh.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/network_fs.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-x-directory-nfs-server.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-x-directory-smb-server.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-x-directory-smb-share.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-x-directory-smb-workgroup.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_network.png,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/file-manager.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-filemanager.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-keyboard.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-mouse-ball.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-mouse-optical.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-network.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-symlink.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/network_fs.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-blockdev.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-directory-accept.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-directory-visiting.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-directory.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-ftp.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-home.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-network.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-nfs.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-share.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-smb.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-ssh.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-x-directory-nfs-server.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-x-directory-smb-server.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-x-directory-smb-share.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-x-directory-smb-workgroup.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_network.svg:
 	  Finally committing file-manager related icons. They fit better
-	  with what users expect. Moreover, I think they look way better.
-	  If you disagree, I'll reverse the changes.
+	  with what users expect.
+	  Moreover, I think they look way better. If you disagree, I'll
+	  reverse the changes.
 
 2004-11-06 18:22  fleclainche
 
@@ -459,6 +536,7 @@
 	  Committing several improved icons.
 	* xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-audio.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-lockscreen.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-multimedia.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-shutdown.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-terminal.svg,
@@ -509,8 +587,9 @@
 	  xfce4-icon-theme/trunk/mime/Makefile.in,
 	  xfce4-icon-theme/trunk/missing: Update
 	  automake/autoconf/libtool/gettext versions to generate the
-	  configure scripts and Makefiles, Update versions of all packages
-	  to 4.1.99.1 (ie 4.2 RC1), Update ChangeLogs.
+	  configure scripts and Makefiles,
+	  Update versions of all packages to 4.1.99.1 (ie 4.2 RC1),
+	  Update ChangeLogs.
 
 2004-11-04 23:43  kelnos
 
@@ -539,10 +618,14 @@
 2004-11-04 23:16  fleclainche
 
 	* xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-deb.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-deb.svg:
 	  Fixing Debian package mimetype svg icon, re-export png version.
-	  Could someone please run his autotools for me ? Thanks ! About
-	  mimetypes icons, I'd like to add benny's fix in order to follow
+	  
+	  Could someone please run his autotools for me ? Thanks !
+	  
+	  About mimetypes icons, I'd like to add benny's fix in order to
+	  follow
 	  freedesktop icons names spec, but I have no idea about how to do
 	  that...
 
@@ -611,14 +694,15 @@
 
 	* xfce4-icon-theme/trunk/Rodent/README,
 	  xfce4-icon-theme/trunk/Rodent/iconrc: Finally found the time to
-	  check the iconrc file against the Gtk documentation official
-	  list of stock icons. Updated README.
+	  check the iconrc file against the Gtk documentation
+	  official list of stock icons. Updated README.
 
 2004-10-28 21:59  fleclainche
 
 	* xfce4-icon-theme/trunk/Rodent/iconrc: Fixing some stock icon
-	  names for sure. Trying to fix some others. Gtk apps icon
-	  management is a pain. Or my brain is unsuitable.
+	  names for sure.
+	  Trying to fix some others.
+	  Gtk apps icon management is a pain. Or my brain is unsuitable.
 
 2004-10-24 17:45  olivier
 
@@ -629,16 +713,17 @@
 2004-10-24 17:17  fleclainche
 
 	* xfce4-icon-theme/trunk/Rodent/iconrc: Updated iconrc, so
-	  rox-show-hidden and rox-show-details icons are used without the
-	  need of user modification.
+	  rox-show-hidden and rox-show-details icons are
+	  used without the need of user modification.
 
 2004-10-24 17:16  fleclainche
 
 	* xfce4-icon-theme/trunk/Rodent/scalable/apps/Makefile.am,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-info.svg:
 	  Adding gnome-info icon which was missing. Updated Makefile.am.
-	  btw, I wonder if there is a clean way to avoid doubles. Could
-	  someone please run autotools for me? TIA.
+	  btw, I wonder if there is a clean way to avoid doubles.
+	  
+	  Could someone please run autotools for me? TIA.
 
 2004-10-24 17:14  fleclainche
 
@@ -670,8 +755,10 @@
 2004-10-02 23:39  olivier
 
 	* xfce4-icon-theme/trunk/xfce4-icon-theme.spec.in: Wrong path in
-	  spec file Wrong package depedency No need for running ldconfig
-	  in post and postun Fix Xfce spelling
+	  spec file
+	  Wrong package depedency
+	  No need for running ldconfig in post and postun
+	  Fix Xfce spelling
 
 2004-10-02 16:09  olivier
 
@@ -717,8 +804,9 @@
 	  xfce4-icon-theme/trunk/mime/Rodent-svg.mime.xml,
 	  xfce4-icon-theme/trunk/mime/Rodent.mime.xml,
 	  xfce4-icon-theme/trunk/missing: removed Rodent.svg.mime.xml
-	  since it is no longer used (file extension is determined by
-	  xfce4-icontheme )
+	  since it is no longer used (file extension is
+	  determined by xfce4-icontheme
+	  )
 
 2004-09-21 20:22  perldude
 
@@ -758,17 +846,27 @@
 2004-09-21 20:04  fleclainche
 
 	* xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c++.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c++src.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c-header.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-chdr.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-csrc.png:
 	  Colored C* headers and src mime icons, png.
 	* xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-c++.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-c++src.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-c-header.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-c.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-chdr.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-csrc.svg:
 	  Colored C* headers and src icons, svg.
 
@@ -894,6 +992,7 @@
 2004-09-08 21:05  fleclainche
 
 	* xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-system-exit.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-system-lock.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-utils.svg:
 	  Updated xfce icons, svg ones.
@@ -903,8 +1002,8 @@
 	* xfce4-icon-theme/trunk/Rodent/48x48/apps/xfce-system-exit.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/apps/xfce-system-lock.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/apps/xfce-utils.png: First
-	  commit ever. I'm shivering, I'm transpiring. Updated xfce icons:
-	  lock, exit and utils, png ones.
+	  commit ever. I'm shivering, I'm transpiring.
+	  Updated xfce icons: lock, exit and utils, png ones.
 
 2004-08-30 01:23  edscott
 
@@ -998,6 +1097,7 @@
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/d-txt.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/d-video.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/d-waste_basket_empty.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/d-waste_basket_full.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/d-xfce.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/diff.png,
@@ -1102,27 +1202,43 @@
 	  xfce4-icon-theme/trunk/Makefile.in,
 	  xfce4-icon-theme/trunk/README,
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c++.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c++src.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c-header.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-chdr.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-csrc.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/Makefile.am,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/Makefile.in,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/b-xffm.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_color-picker.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_color_picker.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog-authentication.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog-error.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog-info.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog-question.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog-warning.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_authentication.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_error.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_info.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_question.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_warning.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dnd-multiple.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dnd_multiple.png,
 	  xfce4-icon-theme/trunk/Rodent/README,
 	  xfce4-icon-theme/trunk/Rodent/iconrc: details
@@ -1200,6 +1316,7 @@
 	  xfce4-icon-theme/trunk/Rodent/48x48/apps/gnome-audio.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/apps/gnome-calculator.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/apps/gnome-cdplayer-icon.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/apps/gnome-desktop-config.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/apps/gnome-devel.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/apps/gnome-globe.png,
@@ -1262,19 +1379,31 @@
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/Makefile.am,
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/Makefile.in,
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-cdrom-audio.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-cdrom.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-dvd.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-floppy.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-harddisk.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-jazdisk.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-keyboard.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-mouse-ball.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-mouse-optical.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-network.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-printer.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-removable.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-scanner.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-symlink.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/gnome-dev-zipdisk.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/devices/network_fs.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/emblems,
@@ -1285,10 +1414,12 @@
 	  xfce4-icon-theme/trunk/Rodent/48x48/emblems/emblem-danger.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/emblems/emblem-desktop.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/emblems/emblem-distinguished.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/emblems/emblem-documents.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/emblems/emblem-fun.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/emblems/emblem-generic.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/emblems/emblem-important.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/emblems/emblem-multimedia.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/emblems/emblem-noread.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/emblems/emblem-nowrite.png,
@@ -1305,22 +1436,39 @@
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/Makefile.am,
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/Makefile.in,
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-blockdev.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-client.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-desktop.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-directory-accept.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-directory-visiting.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-directory.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-executable.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-file-broken.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-ftp.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-home.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-network.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-nfs.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-regular.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-share.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-smb.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-ssh.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-trash-empty.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/gnome-fs-trash-full.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/network_fs.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/filesystems/open_folder.png,
@@ -1329,168 +1477,331 @@
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/Makefile.in,
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-library.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-msword.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-octet-stream.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-ogg.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-pdf.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-pgp-encrypted.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-pgp-keys.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-pgp.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-postscript.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-qif.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-rhythmbox-effect.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-rhythmbox-playlist.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-rtf.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-smil.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-vnd.ms-excel.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-vnd.ms-powerpoint.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-vnd.rn-realmedia.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-vnd.stardivision.calc.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-vnd.stardivision.chart.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-vnd.stardivision.impress.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-vnd.stardivision.writer.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-vnd.sun.xml.calc.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-vnd.sun.xml.chart.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-vnd.sun.xml.draw.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-vnd.sun.xml.impress.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-vnd.sun.xml.writer.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-abiword.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-archive.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-arj.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-blender.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-bzip-compressed-tar.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-bzip.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-cd-image.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-compress.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-compressed-tar.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-cpio-compressed.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-cpio.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-deb.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-desktop.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-dia-diagram.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-dvi.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-executable.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-font-asm.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-font-bdf.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-font-linux-psf.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-font-pcf.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-font-ttf.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-gettext-translation.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-glade.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-gnucash.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-gnumeric.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-gtktalog.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-gzip.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-kde-app-info.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-killustrator.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-kpresenter.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-kspread.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-kword.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-lha.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-object.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-perl.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-php.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-python-bytecode.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-python.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-qw.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-rar.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-reject.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-rpm.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-share-library-la.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-sharedlib.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-shellscript.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-shockwave-flash.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-smil.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-tar.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-tex.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-x-trash.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application-zip.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-application.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-ac3.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-basic.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-midi.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-x-aiff.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-x-it.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-x-midi.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-x-mod.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-x-mp3.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-x-mpegurl.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-x-pn-realaudio.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-x-s3m.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-x-stm.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-x-ulaw.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-x-voc.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-x-wav.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-x-xi.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio-x-xm.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-audio.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-bmp.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-gif.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-ief.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-jpeg.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-png.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-svg.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-tiff.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-3ds.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-applix-graphic.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-cmu-raster.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-portable-anymap.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-portable-bitmap.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-portable-greymap.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-portable-pixmap.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-psd.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-rgb.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-tga.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-xbitmap.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-xcf.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-xfig.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-xpixmap.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image-x-xwindowdum.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-image.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-css.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-html.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-sgml.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-authors.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c++.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c++src.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c-header.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-c.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-chdr.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-copying.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-credits.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-csh.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-csharp.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-csrc.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-gettext-translation.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-haskell.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-install.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-java.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-literate-haskell.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-log.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-lyx.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-makefile.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-patch.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-readme.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-scheme.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-sh.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-tex.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-troff-man.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-vcalendar.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-vcard.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-xslt.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-x-zsh.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text-xml.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-text.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-video-mpeg.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-video-quicktime.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-video-x-ms-asf.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-video-x-ms-wmv.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-video-x-msvideo.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-video.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-x-directory-nfs-server.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-x-directory-smb-server.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-x-directory-smb-share.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-x-directory-smb-workgroup.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-mime-x-font-afm.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/gnome-package.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/stock_run.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/mimetypes/x-gdesklets-display.png,
@@ -1565,6 +1876,7 @@
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/d-txt.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/d-video.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/d-waste_basket_empty.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/d-waste_basket_full.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/d-xfce.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/diff.png,
@@ -1691,9 +2003,12 @@
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_cut.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_delete.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_authentication.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_error.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_info.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_question.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dialog_warning.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_disconnect.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_dnd.png,
@@ -1723,14 +2038,19 @@
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_indent.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_index.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_insert-image.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_insert-object.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_insert-table.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_internet.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_italic.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_jump-to.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_justify-center.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_justify-fill.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_justify-left.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_justify-right.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_line-in.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_logout.png,
@@ -1761,9 +2081,12 @@
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_screenshot.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_search.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_select-color.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_select-font.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_sort-ascending.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_sort-descending.png,
+	  
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_spell-check.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_stop.png,
 	  xfce4-icon-theme/trunk/Rodent/48x48/stock/stock_strikethrough.png,
@@ -1819,7 +2142,9 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-applications.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-audio.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-calculator.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-cdplayer-icon.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-desktop-config.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-devel.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-globe.svg,
@@ -1829,6 +2154,7 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-lockscreen.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-logout.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-media-player-icon.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-multimedia.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-other.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/gnome-pdf.svg,
@@ -1869,11 +2195,15 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-schedule.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-sound.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-system-exit.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-system-info.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-system-lock.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-system-settings.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-terminal.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-trash_empty.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-trash_full.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-unknown.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/apps/xfce-utils.svg,
@@ -1882,19 +2212,33 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/Makefile.am,
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/Makefile.in,
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-cdrom-audio.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-cdrom.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-dvd.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-floppy.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-harddisk.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-jazdisk.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-keyboard.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-mouse-ball.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-mouse-optical.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-network.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-printer.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-removable.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-scanner.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-symlink.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/gnome-dev-zipdisk.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/devices/network_fs.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems,
@@ -1903,21 +2247,31 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-camera.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-cool.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-danger.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-desktop.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-distinguished.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-documents.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-fun.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-generic.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-important.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-multimedia.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-noread.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-nowrite.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-ohno.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-package.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-pictures.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-relax.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-sound.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-symbolic-link.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-urgent.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/emblem-web.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/emblems/gtk-paste.svg,
@@ -1925,192 +2279,375 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/Makefile.am,
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/Makefile.in,
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-blockdev.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-client.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-desktop.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-directory-accept.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-directory-visiting.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-directory.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-executable.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-file-broken.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-ftp.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-home.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-network.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-nfs.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-regular.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-share.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-smb.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-ssh.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-trash-empty.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/gnome-fs-trash-full.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/network_fs.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/filesystems/open_folder.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes,
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/Makefile.am,
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/Makefile.in,
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-library.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-msword.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-octet-stream.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-ogg.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-pdf.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-pgp-encrypted.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-pgp-keys.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-pgp.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-postscript.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-qif.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-rhythmbox-effect.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-rhythmbox-playlist.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-rtf.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-smil.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-vnd.ms-excel.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-vnd.ms-powerpoint.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-vnd.rn-realmedia.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-vnd.stardivision.calc.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-vnd.stardivision.chart.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-vnd.stardivision.impress.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-vnd.stardivision.writer.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-vnd.sun.xml.calc.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-vnd.sun.xml.chart.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-vnd.sun.xml.draw.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-vnd.sun.xml.impress.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-vnd.sun.xml.writer.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-abiword.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-archive.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-arj.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-blender.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-bzip-compressed-tar.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-bzip.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-cd-image.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-compress.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-compressed-tar.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-cpio-compressed.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-cpio.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-deb.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-desktop.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-dia-diagram.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-dvi.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-executable.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-font-asm.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-font-bdf.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-font-linux-psf.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-font-pcf.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-font-ttf.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-gettext-translation.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-glade.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-gnucash.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-gnumeric.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-gtktalog.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-gzip.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-kde-app-info.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-killustrator.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-kpresenter.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-kspread.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-kword.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-lha.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-object.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-perl.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-php.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-python-bytecode.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-python.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-qw.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-rar.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-reject.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-rpm.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-share-library-la.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-sharedlib.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-shellscript.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-shockwave-flash.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-smil.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-tar.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-tex.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-x-trash.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application-zip.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-application.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-ac3.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-basic.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-midi.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-x-aiff.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-x-it.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-x-midi.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-x-mod.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-x-mp3.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-x-mpegurl.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-x-pn-realaudio.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-x-s3m.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-x-stm.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-x-ulaw.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-x-voc.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-x-wav.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-x-xi.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio-x-xm.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-audio.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-bmp.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-gif.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-ief.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-jpeg.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-png.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-svg.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-tiff.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-3ds.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-applix-graphic.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-cmu-raster.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-portable-anymap.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-portable-bitmap.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-portable-greymap.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-portable-pixmap.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-psd.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-rgb.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-tga.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-xbitmap.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-xcf.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-xfig.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-xpixmap.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image-x-xwindowdum.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-image.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-css.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-html.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-sgml.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-authors.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-c++.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-c++src.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-c-header.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-c.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-chdr.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-copying.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-credits.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-csh.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-csharp.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-csrc.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-gettext-translation.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-haskell.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-install.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-java.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-literate-haskell.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-log.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-lyx.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-makefile.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-patch.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-readme.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-scheme.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-sh.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-tex.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-troff-man.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-vcalendar.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-vcard.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-xslt.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-x-zsh.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text-xml.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-text.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-video-mpeg.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-video-quicktime.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-video-x-ms-asf.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-video-x-ms-wmv.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-video-x-msvideo.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-video.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-x-directory-nfs-server.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-x-directory-smb-server.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-x-directory-smb-share.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-x-directory-smb-workgroup.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-mime-x-font-afm.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/gnome-package.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/stock_run.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/mimetypes/x-gdesklets-display.svg,
@@ -2175,7 +2712,9 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/media-record.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/media-stop.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/p-new-directory.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/rox-show-details.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/rox-show-hidden.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_about.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_accessories.svg,
@@ -2198,13 +2737,19 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_cut.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_delete.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_dialog_authentication.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_dialog_error.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_dialog_info.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_dialog_question.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_dialog_warning.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_disconnect.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_dnd.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_dnd_multiple.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_download.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_edit.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_epiphany-bookmark-page.svg,
@@ -2219,8 +2764,11 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_go-forward.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_go-up.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_goto-bottom.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_goto-first.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_goto-last.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_goto-top.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_harddisk.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_help.svg,
@@ -2230,20 +2778,27 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_indent.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_index.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_insert-image.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_insert-object.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_insert-table.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_internet.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_italic.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_jump-to.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_justify-center.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_justify-fill.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_justify-left.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_justify-right.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_line-in.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_logout.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_mailto.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_mic.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_missing-image.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_multimedia.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_network.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_new-tab.svg,
@@ -2253,6 +2808,7 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_open.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_paste.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_preferences.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_print-preview.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_print.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_properties.svg,
@@ -2268,12 +2824,17 @@
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_screenshot.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_search.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_select-color.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_select-font.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_sort-ascending.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_sort-descending.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_spell-check.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_stop.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_strikethrough.svg,
+	  
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_undelete.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_underline.svg,
 	  xfce4-icon-theme/trunk/Rodent/scalable/stock/stock_undo.svg,
