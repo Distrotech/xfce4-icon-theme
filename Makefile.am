@@ -1,9 +1,13 @@
-@SET_MAKE@
+# $Id$
 
 SUBDIRS =								\
 	Rodent								\
 	mime								\
 	po
+
+AUTOMAKE_OPTIONS =							\
+	1.8								\
+	dist-bzip2
 
 distclean-local:
 	rm -rf xfce4-icon-theme.spec *.cache *~
@@ -36,14 +40,7 @@ DISTCLEANFILES =							\
 	intltool-update							\
 	xfce4-icon-theme.spec
 
-dist-bz2: dist
-	zcat $(PACKAGE)-$(VERSION).tar.gz | \
-	 bzip2 --best -c > $(PACKAGE)-$(VERSION).tar.bz2
-
-distcheck-bz2: distcheck
-	zcat $(PACKAGE)-$(VERSION).tar.gz | \
-	 bzip2 --best -c > $(PACKAGE)-$(VERSION).tar.bz2
-
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = xfce4-icon-theme-1.0.pc
 
+# vi:set ts=8 sw=8 noet ai nocindent:

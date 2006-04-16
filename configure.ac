@@ -1,6 +1,6 @@
 dnl $Id$
 dnl
-dnl Copyright (c) 2004-2005
+dnl Copyright (c) 2004-2006
 dnl         The Xfce development team. All rights reserved.
 dnl
 dnl Written for Xfce by François Le Clainche  <fleclainche@wanadoo.fr>.
@@ -9,9 +9,9 @@ dnl
 dnl Version information
 m4_define([xit_version_major], [4])
 m4_define([xit_version_minor], [3])
-m4_define([xit_version_micro], [0])
-m4_define([xit_version_tag], [4])
-m4_define([xit_version], [xit_version_major().xit_version_minor().xit_version_micro().xit_version_tag()])
+m4_define([xit_version_micro], [90])
+m4_define([xit_version_nano], [1])
+m4_define([xit_version], [xit_version_major().xit_version_minor().xit_version_micro().xit_version_nano()])
 
 
 dnl # DO NOT MODIFY ANYTHING BELOW THIS LINE, UNLESS YOU KNOW WHAT
@@ -19,10 +19,10 @@ dnl # YOU ARE DOING.
 
 
 dnl Initialize autoconf
-AC_COPYRIGHT([Copyright (c) 2004-2005
+AC_COPYRIGHT([Copyright (c) 2004-2006
         The Xfce development team. All rights reserved.
 
-Written for Xfce by François Le Clainche  <fleclainche@wanadoo.fr>.])
+Created for Xfce by François Le Clainche  <fleclainche@wanadoo.fr>.])
 AC_INIT([xfce4-icon-theme], [xit_version], [xfce4-dev@xfce.org])
 AC_REVISION([$Id$])
 AC_PROG_MAKE_SET()
