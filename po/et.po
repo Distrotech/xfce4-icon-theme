@@ -5,7 +5,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: xfce4-icon-theme 4.3.90.1\n"
+"Project-Id-Version: xfce4-icon-theme 4.3.90.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-11-22 00:16+0900\n"
 "PO-Revision-Date: 2006-02-28 14:56+0200\n"
