@@ -18,6 +18,7 @@ open_folder.svg
 
 install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(icondir)
+if !HAVE_CYGWIN
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:blockdevice.svg ; \
 	  $(LN_S) blockdevice.svg mime-inode:blockdevice.svg )
@@ -33,6 +34,7 @@ install-data-local:
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:core.svg ; \
 	  $(LN_S) core.svg mime-inode:core.svg )
+endif
 
 EXTRA_DIST =  $(icon_DATA)
 

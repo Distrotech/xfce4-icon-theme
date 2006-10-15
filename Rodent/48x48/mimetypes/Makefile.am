@@ -61,6 +61,7 @@ application-x-killustrator.png            image-x-portable-pixmap.png
 
 install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(icondir)
+if !HAVE_CYGWIN
 	( cd $(DESTDIR)$(icondir) ; \
 	  icons="$(icon_DATA)" ; \
 	  for file in $$icons; do \
@@ -70,6 +71,7 @@ install-data-local:
 	      $(LN_S) $$file  `echo mime-$$file | sed -e 's/mime-\([^-]*\)-/mime-\1:/'` ; \
 	  done \
 	)
+endif
 
 EXTRA_DIST =  $(icon_DATA)
 

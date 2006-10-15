@@ -18,6 +18,7 @@ open_folder.png
 
 install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(icondir)
+if !HAVE_CYGWIN
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:blockdevice.png ; \
 	  $(LN_S) blockdevice.png mime-inode:blockdevice.png )
@@ -32,7 +33,8 @@ install-data-local:
 	  $(LN_S) mount-point.png mime-inode:mount-point.png )
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:core.png ; \
-	  $(LN_S) core.png mime-inode:core.png )
+	  $(LN_S) core.png mime-inode:core.png' )
+endif
 	
 EXTRA_DIST =  $(icon_DATA)
 
