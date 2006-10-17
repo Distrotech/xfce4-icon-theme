@@ -33,7 +33,7 @@ if !HAVE_CYGWIN
 	  $(LN_S) mount-point.png mime-inode:mount-point.png )
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:core.png ; \
-	  $(LN_S) core.png mime-inode:core.png' )
+	  $(LN_S) core.png mime-inode:core.png )
 endif
 	
 EXTRA_DIST =  $(icon_DATA)
