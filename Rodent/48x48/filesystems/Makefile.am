@@ -18,6 +18,9 @@ open_folder.png
 
 install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(icondir)
+	( cd $(DESTDIR)$(icondir) ; \
+	  rm -f user-home.png ; \
+	  $(LN_S) gnome-fs-home.png user-home.png )
 if !HAVE_CYGWIN
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:blockdevice.png ; \

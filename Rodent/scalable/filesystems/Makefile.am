@@ -18,6 +18,9 @@ open_folder.svg
 
 install-data-local:
 	$(mkinstalldirs) $(DESTDIR)$(icondir)
+	( cd $(DESTDIR)$(icondir) ; \
+	  rm -f user-home.svg ; \
+	  $(LN_S) gnome-fs-home.svg user-home.svg )
 if !HAVE_CYGWIN
 	( cd $(DESTDIR)$(icondir) ; \
 	  rm -f mime-inode:blockdevice.svg ; \
