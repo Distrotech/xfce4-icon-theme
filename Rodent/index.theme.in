@@ -5,7 +5,7 @@
 [Icon Theme]
 _Name=Rodent
 _Comment=Default icon for the Xfce Desktop Environment
-Inherits=gnome,Industrial
+Inherits=Tango,gnome,Industrial
 Directories=scalable/apps,scalable/devices,scalable/emblems,scalable/filesystems,scalable/mimetypes,scalable/misc,scalable/stock,48x48/apps,48x48/devices,48x48/emblems,48x48/filesystems,48x48/mimetypes,48x48/misc,48x48/stock
 
 [scalable/apps]
