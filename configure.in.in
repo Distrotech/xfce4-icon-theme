@@ -9,7 +9,7 @@ dnl
 dnl Version information
 m4_define([xit_version_major], [4])
 m4_define([xit_version_minor], [4])
-m4_define([xit_version_micro], [0])
+m4_define([xit_version_micro], [1])
 m4_define([xit_version_nano], [])
 m4_define([xit_version], [xit_version_major().xit_version_minor().xit_version_micro()ifelse(xit_version_nano(), [], [], [.xit_version_nano()])])
 
