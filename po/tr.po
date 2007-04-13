@@ -1,11 +1,11 @@
-# Turkish translation of xfce4-icon-theme.
-# Copyright (C) 2007 THE xfce4-icon-theme'S COPYRIGHT HOLDER
+# Turkish translation of the xfce4-icon-theme package.
+# Copyright (C) 2004-2007 The Xfce development team.
 # This file is distributed under the same license as the xfce4-icon-theme package.
 # Eren Türkay <turkay.eren@gmail.com>, 2007.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: xfce4-icon-theme 4.4\n"
+"Project-Id-Version: xfce4-icon-theme 4.4.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-01-20 18:17+0100\n"
 "PO-Revision-Date: 2007-03-02 21:46+0200\n"

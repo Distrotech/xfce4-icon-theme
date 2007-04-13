@@ -1,5 +1,5 @@
-# Chinese/Simplified translation of xfce4-icon-theme.
-# Copyright (C) 2006 The Xfce Development Team.
+# Simplified Chinese translation of the xfce4-icon-theme package.
+# Copyright (C) 2004-2007 The Xfce development team.
 # This file is distributed under the same license as the xfce4-icon-theme package.
 # Huang Huan <unicon221@gmail.com>, 2006.
 # 
