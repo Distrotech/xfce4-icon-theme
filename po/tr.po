@@ -22,4 +22,3 @@ msgstr "Xfce Masaüstü Ortamı için öntanımlı simge teması"
 #: ../Rodent/index.theme.in.h:2
 msgid "Rodent"
 msgstr "Rodent"
-

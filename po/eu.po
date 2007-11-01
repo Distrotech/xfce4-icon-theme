@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfce4-icon-theme 4.4.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-11-22 00:16+0900\n"
+"POT-Creation-Date: 2007-01-20 18:17+0100\n"
 "PO-Revision-Date: 2006-05-30 15:06+0200\n"
 "Last-Translator: Piarres Beobide <pi@beobide.net>\n"
 "Language-Team: librezale <librezale@librezale.org>\n"
@@ -23,4 +23,3 @@ msgstr "Xfce Mahaigain Ingurunean lehenetsiriko ikono gaia"
 #: ../Rodent/index.theme.in.h:2
 msgid "Rodent"
 msgstr "Rodent"
-
