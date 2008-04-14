@@ -12,7 +12,7 @@ application-pgp.png                       application-x-php.png               im
 application.png                           application-x-python-bytecode.png   image-x-xwindowdum.png\
 application-postscript.png                application-x-python.png            text-css.png\
 application-qif.png                       application-x-qw.png                text-html.png\
-application-rhythmbox-effect.png          application-x-rar.png               text.png\
+application-rhythmbox-effect.png          application-x-rar.png               text-x-generic.png\
 application-rhythmbox-playlist.png        application-x-reject.png            text-sgml.png\
 application-rtf.png                       application-x-rpm.png               text-x-authors.png\
 application-smil.png                      application-x-sharedlib.png         text-x-chdr.png\
@@ -27,7 +27,7 @@ application-vnd.stardivision.writer.png   application-zip.png                 te
 application-vnd.sun.xml.calc.png          audio-ac3.png                       text-x-csrc.png\
 application-vnd.sun.xml.chart.png         audio-basic.png                     text-x-gettext-translation.png\
 application-vnd.sun.xml.draw.png          audio-midi.png                      text-x-haskell.png\
-application-vnd.sun.xml.impress.png       audio.png                           text-x-install.png\
+application-vnd.sun.xml.impress.png       audio-x-generic.png                 text-x-install.png\
 application-vnd.sun.xml.writer.png        audio-x-aiff.png                    text-x-java.png\
 application-x-abiword.png                 audio-x-it.png                      text-x-literate-haskell.png\
 application-x-archive.png                 audio-x-midi.png                    text-x-log.png\
@@ -45,8 +45,8 @@ application-x-desktop.png                 audio-x-xm.png                      te
 application-x-dia-diagram.png             image-bmp.png                       text-x-xslt.png\
 application-x-dvi.png                     image-gif.png                       text-x-zsh.png\
 application-x-executable.png              image-ief.png                       video-mpeg.png\
-application-x-font-asm.png                image-jpeg.png                      video.png\
-application-x-font-bdf.png                image.png                           video-quicktime.png\
+application-x-font-asm.png                image-jpeg.png                      video-x-generic.png\
+application-x-font-bdf.png                image-x-generic.png                 video-quicktime.png\
 application-x-font-linux-psf.png          image-png.png                       video-x-ms-asf.png\
 application-x-font-pcf.png                image-svg.png                       video-x-msvideo.png\
 application-x-font-ttf.png                image-svg+xml.png                   video-x-ms-wmv.png\
