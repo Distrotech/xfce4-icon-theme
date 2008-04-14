@@ -82,12 +82,12 @@ Size=48
 Context=Misc
 Type=Scalable
 
-[48x48/stock]
+[48x48/actions]
 Size=48
 Context=Misc
 Type=Scalable
 
-[scalable/stock]
+[scalable/actions]
 MinSize=1
 Size=128
 MaxSize=128

@@ -20,20 +20,20 @@ stock_accessories.png   stock_find-and-replace.png        stock_mic.png         
 stock_add.png           stock_find.png                    stock_missing-image.png   stock_undelete.png\
 stock_amusements.png    stock_floppy.png                  stock_multimedia.png      stock_underline.png\
 stock_apply.png         stock_fullscreen.png              stock_network.png         stock_undo.png\
-stock_attach.png        stock_go-back.png                 stock_new.png             stock_unindent.png\
-stock_balance.png       stock_go-down.png                 stock_new-tab.png         stock_unknown.png\
-stock_bold.png          stock_go-forward.png              stock_no.png              stock_volume.png\
-stock_book-open.png     stock_goto-bottom.png             stock_ok.png              stock_yes.png\
+stock_attach.png        go-previous.png                   stock_new.png             stock_unindent.png\
+stock_balance.png       go-down.png                       stock_new-tab.png         stock_unknown.png\
+stock_bold.png          go-next.png                       stock_no.png              stock_volume.png\
+stock_book-open.png     go-up.png                         stock_ok.png              stock_yes.png\
 stock_book.png          stock_goto-first.png              stock_open.png            stock_zoom-100.png\
 stock_cancel.png        stock_goto-last.png               stock_paste.png           stock_zoom-fit.png\
 stock_cdrom.png         stock_goto-top.png                stock.png                 stock_zoom-in.png\
-stock_clear.png         stock_go-up.png                   stock_preferences.png     stock_zoom-out.png\
+stock_clear.png         stock_goto-bottom.png             stock_preferences.png     stock_zoom-out.png\
 stock_close.png         stock_harddisk.png                stock_print.png           volume-max.png\
 stock_color_picker.png  stock_help.png                    stock_print-preview.png   volume-medium.png\
 stock_connect.png       stock_history.png                 stock_properties.png      volume-min.png\
 stock_convert.png       stock_home.png                    stock_quit.png            volume-mute.png\
 stock_copy.png          stock_import.png                  stock_redo.png            volume-zero.png\
-stock_cut.png           stock_indent.png                  stock_refresh.png\
+stock_cut.png           stock_indent.png                  view-refresh.png\
 stock_delete.png        stock_index.png                   stock_remove.png\
 media-shuffle.png	stock_repeat.png		  stock_folder-properties.png\
 stock_file-properties.png	stock_folder-copy.png	stock_folder-move.png\
