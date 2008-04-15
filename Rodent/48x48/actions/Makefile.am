@@ -1,5 +1,5 @@
 
-icondir = $(datadir)/icons/Rodent/48x48/stock
+icondir = $(datadir)/icons/Rodent/48x48/actions
 
 icon_DATA = \
 stock_new-dir.png 	stock_pastelink.png	\
@@ -28,10 +28,10 @@ stock_book.png          stock_goto-first.png              stock_open.png        
 stock_cancel.png        stock_goto-last.png               stock_paste.png           stock_zoom-fit.png\
 stock_cdrom.png         stock_goto-top.png                stock.png                 stock_zoom-in.png\
 stock_clear.png         stock_goto-bottom.png             stock_preferences.png     stock_zoom-out.png\
-stock_close.png         stock_harddisk.png                stock_print.png           volume-max.png\
-stock_color_picker.png  stock_help.png                    stock_print-preview.png   volume-medium.png\
-stock_connect.png       stock_history.png                 stock_properties.png      volume-min.png\
-stock_convert.png       stock_home.png                    stock_quit.png            volume-mute.png\
+stock_close.png         stock_harddisk.png                stock_print.png           \
+stock_color_picker.png  stock_help.png                    stock_print-preview.png   \
+stock_connect.png       stock_history.png                 stock_properties.png      \
+stock_convert.png       stock_home.png                    stock_quit.png            \
 stock_copy.png          stock_import.png                  stock_redo.png            volume-zero.png\
 stock_cut.png           stock_indent.png                  view-refresh.png\
 stock_delete.png        stock_index.png                   stock_remove.png\

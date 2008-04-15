@@ -1,2 +1,2 @@
 
-SUBDIRS = apps devices emblems filesystems mimetypes misc actions
+SUBDIRS = actions apps categories devices emblems filesystems mimetypes misc status
