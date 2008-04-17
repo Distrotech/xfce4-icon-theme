@@ -12,6 +12,9 @@ gtk-add.png \
 gtk-apply.png \
 gtk-cancel.png \
 gtk-close.png \
+gtk-copy.png \
+gtk-cut.png \
+gtk-fullscreen.png \
 gtk-help.png \
 gtk-go-down.png \
 gtk-go-up.png \
@@ -21,14 +24,21 @@ gtk-go-forward-ltr.png \
 gtk-go-forward-rtl.png \
 gtk-ok.png \
 gtk-open.png \
+gtk-paste.png \
+gtk-redo.png \
 gtk-refresh.png \
 gtk-remove.png \
+gtk-undo.png \
 gtk-zoom-fit.png \
 gtk-zoom-in.png \
 gtk-zoom-100.png \
 gtk-zoom-out.png
 
 icon_naming_spec_compatible_icons = \
+edit-cut.png \
+edit-paste.png \
+edit-redo.png \
+edit-undo.png \
 go-up.png \
 go-down.png \
 go-previous.png \
