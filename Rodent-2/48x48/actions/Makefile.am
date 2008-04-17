@@ -31,6 +31,9 @@ go-previous.png \
 go-next.png \
 list-add.png \
 list-remove.png \
+dialog-cancel.png \
+dialog-close.png \
+dialog-ok.png \
 document-open.png \
 help-about.png \
 help-contents.png \
