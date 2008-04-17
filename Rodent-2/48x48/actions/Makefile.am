@@ -35,11 +35,15 @@ document-open.png \
 help-about.png \
 help-contents.png \
 view-refresh.png \
-system-shutdown.png \
+system-log-out.png \
+view-fullscreen.png \
 zoom-best-fit.png \
 zoom-in.png \
 zoom-original.png \
 zoom-out.png
+
+additional_icons = \
+system-shutdown.png
 
 icon_DATA = \
 	$(icon_naming_spec_compatible_icons) \
