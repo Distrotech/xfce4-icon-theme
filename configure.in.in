@@ -61,7 +61,6 @@ Rodent/Makefile
 Rodent/48x48/Makefile
 Rodent/48x48/actions/Makefile
 Rodent/48x48/apps/Makefile
-Rodent/48x48/categories/Makefile
 Rodent/48x48/devices/Makefile
 Rodent/48x48/filesystems/Makefile
 Rodent/48x48/emblems/Makefile
