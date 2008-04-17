@@ -1,7 +1,7 @@
 [Icon Theme]
 _Name=Rodent-2
 _Comment=Development version of the default icon-theme for the Xfce Desktop Environment
-Directories=48x48/actions,48x48/apps,48x48/places
+Directories=48x48/actions,48x48/apps,48x48/categories,48x48/devices,48x48/emblems,48x48/intl,48x48/mimetypes,48x48/places,48x48/status
 
 [48x48/actions]
 Size=48
@@ -13,7 +13,37 @@ Size=48
 Context=Applications
 Type=Scalable
 
+[48x48/categories]
+Size=48
+Context=Categories
+Type=Scalable
+
+[48x48/devices]
+Size=48
+Context=Devices
+Type=Scalable
+
+[48x48/emblems]
+Size=48
+Context=Emblems
+Type=Scalable
+
+[48x48/intl]
+Size=48
+Context=International
+Type=Scalable
+
+[48x48/mimetypes]
+Size=48
+Context=MimeTypes
+Type=Scalable
+
 [48x48/places]
 Size=48
 Context=Places
+Type=Scalable
+
+[48x48/status]
+Size=48
+Context=Status
 Type=Scalable

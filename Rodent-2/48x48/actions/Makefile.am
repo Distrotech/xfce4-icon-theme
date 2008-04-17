@@ -1,4 +1,6 @@
 
+icondir = $(datadir)/icons/Rodent-2/48x48/actions
+
 kde_compatible_icons = \
 up.png \
 down.png \
@@ -35,3 +37,10 @@ zoom-best-fit.png \
 zoom-in.png \
 zoom-original.png \
 zoom-out.png
+
+icon_DATA = \
+	$(icon_naming_spec_compatible_icons) \
+	$(gtk_compatible_icons) \
+	$(kde_compatible_icons)
+
+EXTRA_DIST =  $(icon_DATA)
