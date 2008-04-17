@@ -1,0 +1,37 @@
+
+kde_compatible_icons = \
+up.png \
+down.png \
+open.png
+
+gtk_compatible_icons = \
+gtk-go-up.png \
+gtk-go-down.png \
+gtk-open.png \
+gtk-go-forward-ltr.png \
+gtk-go-forward-rtl.png \
+gtk-go-back-ltr.png \
+gtk-go-back-rtl.png \
+gtk-refresh.png \
+gtk-add.png \
+gtk-remove.png \
+gtk-zoom-fit.png \
+gtk-zoom-in.png \
+gtk-zoom-100.png \
+gtk-zoom-out.png
+
+icon_naming_spec_compatible_icons = \
+go-up.png \
+go-down.png \
+go-previous.png \
+go-next.png \
+list-add.png \
+list-remove.png \
+document-open.png \
+help-about.png \
+view-refresh.png \
+system-shutdown.png \
+zoom-best-fit.png \
+zoom-in.png \
+zoom-original.png \
+zoom-out.png
