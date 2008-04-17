@@ -9,14 +9,18 @@ open.png
 gtk_compatible_icons = \
 gtk-about.png \
 gtk-add.png \
-gtk-go-up.png \
-gtk-go-down.png \
+gtk-apply.png \
+gtk-cancel.png \
+gtk-close.png \
 gtk-help.png \
-gtk-open.png \
-gtk-go-forward-ltr.png \
-gtk-go-forward-rtl.png \
+gtk-go-down.png \
+gtk-go-up.png \
 gtk-go-back-ltr.png \
 gtk-go-back-rtl.png \
+gtk-go-forward-ltr.png \
+gtk-go-forward-rtl.png \
+gtk-ok.png \
+gtk-open.png \
 gtk-refresh.png \
 gtk-remove.png \
 gtk-zoom-fit.png \
