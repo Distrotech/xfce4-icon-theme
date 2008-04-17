@@ -7,15 +7,17 @@ down.png \
 open.png
 
 gtk_compatible_icons = \
+gtk-about.png \
+gtk-add.png \
 gtk-go-up.png \
 gtk-go-down.png \
+gtk-help.png \
 gtk-open.png \
 gtk-go-forward-ltr.png \
 gtk-go-forward-rtl.png \
 gtk-go-back-ltr.png \
 gtk-go-back-rtl.png \
 gtk-refresh.png \
-gtk-add.png \
 gtk-remove.png \
 gtk-zoom-fit.png \
 gtk-zoom-in.png \
@@ -31,6 +33,7 @@ list-add.png \
 list-remove.png \
 document-open.png \
 help-about.png \
+help-contents.png \
 view-refresh.png \
 system-shutdown.png \
 zoom-best-fit.png \
