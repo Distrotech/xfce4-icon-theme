@@ -1,7 +1,11 @@
 
 icondir = $(datadir)/icons/Rodent/48x48/actions
 
+backwards_compatible_icons = \
+stock_up.png			stock_down.png			stock_left.png			stock_right.png
+
 icon_DATA = \
+$(backwards_compatible_icons) \
 stock_new-dir.png 	stock_pastelink.png	\
 media-backward.png      stock_dialog_authentication.png   stock_insert-image.png    stock_reset.png\
 media-eject.png         stock_dialog_error.png            stock_insert-object.png   stock_revert-to-saved.png\
