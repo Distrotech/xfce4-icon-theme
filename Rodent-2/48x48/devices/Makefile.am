@@ -11,9 +11,4 @@ icon_naming_spec_compatible_icons = \
 drive-harddisk.png \
 drive-optical.png
 
-icon_DATA = \
-	$(icon_naming_spec_compatible_icons) \
-	$(gtk_compatible_icons) \
-	$(kde_compatible_icons)
-
-EXTRA_DIST =  $(icon_DATA)
+include $(top_srcdir)/Rodent-2/Makefile.inc
