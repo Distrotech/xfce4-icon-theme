@@ -60,6 +60,7 @@ zoom-original.png \
 zoom-out.png
 
 additional_icons = \
-system-shutdown.png
+system-shutdown.png \
+system-reboot.png
 
 include $(top_srcdir)/Rodent-2/Makefile.inc
