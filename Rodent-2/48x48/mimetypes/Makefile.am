@@ -1,6 +1,8 @@
 
 icondir = $(datadir)/icons/Rodent-2/48x48/mimetypes
 
+# Icon-naming-spec compliant #
+# ########################## #
 generic_mimetype_icons = \
 application-x-executable.png \
 audio-x-generic.png \
