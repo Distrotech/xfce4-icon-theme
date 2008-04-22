@@ -5,6 +5,7 @@ icondir = $(datadir)/icons/Rodent-2/48x48/apps
 generic_application_icons = \
 accessories-calculator.png \
 accessories-text-editor.png \
+help-browser.png \
 multimedia-volume-control.png \
 system-file-manager.png \
 utilities-terminal.png

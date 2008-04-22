@@ -3,6 +3,10 @@ icondir = $(datadir)/icons/Rodent-2/48x48/status
 kde_compatible_icons =
 
 gtk_compatible_icons = \
+gtk-dialog-error.png \
+gtk-dialog-information.png \
+gtk-dialog-question.png \
+gtk-dialog-warning.png \
 gnome-fs-trash-full.png
 
 icon_naming_spec_compatible_icons = \

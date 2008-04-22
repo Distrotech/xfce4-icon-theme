@@ -22,6 +22,10 @@ gtk-go-back-ltr.png \
 gtk-go-back-rtl.png \
 gtk-go-forward-ltr.png \
 gtk-go-forward-rtl.png \
+gtk-goto-top.png \
+gtk-goto-bottom.png \
+gtk-goto-first.png \
+gtk-goto-last.png \
 gtk-ok.png \
 gtk-open.png \
 gtk-paste.png \
@@ -52,7 +56,9 @@ document-open.png \
 help-about.png \
 help-contents.png \
 view-refresh.png \
+system-lock-screen.png \
 system-log-out.png \
+tools-check-spelling.png \
 view-fullscreen.png \
 zoom-best-fit.png \
 zoom-in.png \
