@@ -4,7 +4,7 @@ kde_compatible_icons =
 
 gtk_compatible_icons = \
 gtk-dialog-error.png \
-gtk-dialog-information.png \
+gtk-dialog-info.png \
 gtk-dialog-question.png \
 gtk-dialog-warning.png \
 gnome-fs-trash-full.png

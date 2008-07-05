@@ -60,6 +60,8 @@ system-lock-screen.png \
 system-log-out.png \
 tools-check-spelling.png \
 view-fullscreen.png \
+view-sort-ascending.png \
+view-sort-descending.png \
 zoom-best-fit.png \
 zoom-in.png \
 zoom-original.png \
