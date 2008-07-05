@@ -11,7 +11,8 @@ system-file-manager.png \
 utilities-terminal.png
 
 additional_application_icons = \
-web-browser.png
+web-browser.png \
+file-manager.png
 
 icon_DATA = \
 	$(generic_application_icons) \
