@@ -47,6 +47,7 @@ go-up.png \
 go-down.png \
 go-previous.png \
 go-next.png \
+go-home.png \
 list-add.png \
 list-remove.png \
 dialog-cancel.png \
