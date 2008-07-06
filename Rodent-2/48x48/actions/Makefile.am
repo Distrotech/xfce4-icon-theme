@@ -16,6 +16,7 @@ gtk-copy.png \
 gtk-cut.png \
 gtk-fullscreen.png \
 gtk-help.png \
+gtk-home.png \
 gtk-go-down.png \
 gtk-go-up.png \
 gtk-go-back-ltr.png \
