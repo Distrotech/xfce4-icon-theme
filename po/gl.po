@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-01-20 18:17+0100\n"
-"PO-Revision-Date: 2008-06-01 15:33+0100\n"
+"PO-Revision-Date: 2008-06-28 13:16+0100\n"
 "Last-Translator: Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "MIME-Version: 1.0\n"
@@ -22,9 +22,9 @@ msgstr ""
 
 #: ../Rodent/index.theme.in.h:1
 msgid "Default icon for the Xfce Desktop Environment"
-msgstr "Icona predeterminada para o Contorno de Escritorio Xfce"
+msgstr "Icona predeterminada para o Ambiente de Escritorio Xfce"
 
 #: ../Rodent/index.theme.in.h:2
 msgid "Rodent"
-msgstr ""
+msgstr "Rodent"
 
