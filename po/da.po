@@ -5,7 +5,7 @@
 # Per Kongstad <p_kongstad@op.pl>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: xfce 4-icon-theme 4.4.0\n"
+"Project-Id-Version: xfce 4-icon-theme 4.4.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-01-20 18:17+0100\n"
 "PO-Revision-Date: 2008-09-25 10:48+0100\n"
@@ -21,9 +21,8 @@ msgstr ""
 
 #: ../Rodent/index.theme.in.h:1
 msgid "Default icon for the Xfce Desktop Environment"
-msgstr "Standardikon for Xfce skrivebordsmiljøet"
+msgstr "Standardikon for Xfce-skrivebordsmiljøet"
 
 #: ../Rodent/index.theme.in.h:2
 msgid "Rodent"
 msgstr "Gnaver"
-
