@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: xfce4-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-01-20 18:17+0100\n"
-"PO-Revision-Date: 2008-09-29 21:44+0100\n"
+"PO-Revision-Date: 2008-11-02 13:34+0100\n"
 "Last-Translator: Abel Martín <abel.martin.ruiz@gmail.com>\n"
 "Language-Team: Spanish/ES\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: ../Rodent/index.theme.in.h:1
 msgid "Default icon for the Xfce Desktop Environment"
-msgstr "Icono por defecto para el Entorno de Escritorio Xfce"
+msgstr "Icono predeterminado para el entorno de escritorio Xfce"
 
 #: ../Rodent/index.theme.in.h:2
 msgid "Rodent"
