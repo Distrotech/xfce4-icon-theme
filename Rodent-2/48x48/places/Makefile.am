@@ -10,6 +10,7 @@ gnome-fs-trash-empty.png
 
 icon_naming_spec_compatible_icons = \
 folder.png \
+folder-remote.png \
 user-home.png \
 user-desktop.png \
 user-trash.png
