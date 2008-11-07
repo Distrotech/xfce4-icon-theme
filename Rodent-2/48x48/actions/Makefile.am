@@ -85,7 +85,7 @@ media-seek-forward.png \
 media-skip-backward.png \
 media-skip-forward.png \
 media-playback-pause.png \
-media-playback-play.png \
+media-playback-start.png \
 media-playback-stop.png \
 system-lock-screen.png \
 system-log-out.png \
