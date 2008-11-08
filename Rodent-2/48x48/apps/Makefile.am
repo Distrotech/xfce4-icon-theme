@@ -10,6 +10,7 @@ multimedia-volume-control.png \
 preferences-desktop-multimedia.png \
 preferences-desktop-keyboard.png \
 preferences-desktop-theme.png \
+preferences-desktop-wallpaper.png \
 system-file-manager.png \
 utilities-terminal.png
 

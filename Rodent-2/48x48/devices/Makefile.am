@@ -9,6 +9,10 @@ gnome-dev-cdrom.png
 
 icon_naming_spec_compatible_icons = \
 drive-harddisk.png \
-drive-optical.png
+drive-optical.png \
+input-keyboard.png \
+input-mouse.png \
+printer.png \
+scanner.png
 
 include $(top_srcdir)/Rodent-2/Makefile.inc
