@@ -7,6 +7,9 @@ accessories-calculator.png \
 accessories-text-editor.png \
 help-browser.png \
 multimedia-volume-control.png \
+preferences-desktop-multimedia.png \
+preferences-desktop-keyboard.png \
+preferences-desktop-theme.png \
 system-file-manager.png \
 utilities-terminal.png
 
