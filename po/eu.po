@@ -23,4 +23,3 @@ msgstr "Xfce Mahaigain Ingurunean lehenetsiriko ikono gaia"
 #: ../Rodent/index.theme.in.h:2
 msgid "Rodent"
 msgstr "Rodent"
-
