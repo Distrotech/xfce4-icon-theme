@@ -1,7 +1,7 @@
 # Spanish/ES translation of xfce4-icon-theme.
 # Copyright (C) 2007 THE xfce4-icon-theme'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the xfce4-icon-theme package.
-# Abel Martín <abel.martin.ruiz@gmail.com>, 2008.
+# Abel Martín <abel.martin.ruiz@gmail.com>, 2008-2009.
 #
 #
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: xfce4-icon-theme\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-01-20 18:17+0100\n"
-"PO-Revision-Date: 2008-11-02 13:34+0100\n"
+"PO-Revision-Date: 2009-02-24 13:39+0100\n"
 "Last-Translator: Abel Martín <abel.martin.ruiz@gmail.com>\n"
 "Language-Team: Spanish/ES <xfce-i18n@xfce.org>\n"
 "MIME-Version: 1.0\n"
