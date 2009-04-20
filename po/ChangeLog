@@ -1,3 +1,8 @@
+2009-04-21  Mișu Moldovan  <dumol@xfce.org>
+
+	* LINGUAS: 'ro' for Romanian
+	* ro.po: Added Romanian translation
+
 2009-04-16  Mike Massonnet <mmassonnet@xfce.org>
 
 	* gl.po: Galician translation update (Leandro Regueiro)
